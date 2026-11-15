@@ -1,0 +1,161 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [],
+    "note": "Model trả lời không có citation hợp lệ 2 lần, hệ thống chuyển sang từ chối. Text vẫn chứa câu trả lời (kiến thức ngoài).",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      true
+    ],
+    "note": "Nói \"giá trị trong miền xác định\"; chunk p171 chỉ là ví dụ, không nêu quy tắc chung.",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [
+      false
+    ],
+    "note": "Đáp án đúng nhưng từ kiến thức ngoài; chunk p178 nói về dạng K/0.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [
+      false
+    ],
+    "note": "Lập luận đúng nhưng chunk p175-02 là ví dụ khác.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [
+      false
+    ],
+    "note": "Chunk chỉ có đề bài, không có kết luận.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [
+      true
+    ],
+    "note": "Chunk p182 chỉ dùng ngầm giới hạn = 1 trong phép tính.",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "note": "Chunk p188-00 có điều kiện iii, thiếu i và ii.",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [
+      false
+    ],
+    "note": "Sai: trả lời removable, đúng là jump.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [
+      false,
+      false
+    ],
+    "note": "Ý gần đúng nhưng chunk IVT không nêu định nghĩa.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; thêm chi tiết về tan nhưng ý chính có trong chunk.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [
+      true
+    ],
+    "note": "y = 6x − 9 tự tính; chunk p226-01 chỉ có đề Example 3.2.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q21",
+    "citation_support": [
+      true
+    ],
+    "note": "Không đưa ra quyết định; chunk chỉ có đề.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q22",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; p244-01 nêu rõ ý (evidence thay thế hợp lệ, metric không bắt).",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q24",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; p250 có a(t) = v′(t).",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q25",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; p192-02 có định nghĩa 3 loại.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "u01",
+    "citation_support": [],
+    "note": "Từ chối, chỉ nói thiếu thông tin.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u02",
+    "citation_support": [],
+    "note": "Status abstain nhưng text giải thích chain rule từ kiến thức ngoài.",
+    "abstention_correct": false
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "note": "Status abstain nhưng text nêu định nghĩa epsilon-delta từ kiến thức ngoài.",
+    "abstention_correct": false
+  }
+]

@@ -1,0 +1,2180 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "What is the limit of a constant c as x approaches a?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The limit of a constant c as x approaches a is the constant c itself. In other words, lim x → a c = c [openstax-calc1-p168-struct-02].",
+    "citations": [
+      "openstax-calc1-p168-struct-02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit of a constant c as x approaches a",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.57316
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p168-struct-02",
+            "page": 168,
+            "section": "2.3",
+            "score": 0.57063
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p179-struct-01",
+            "page": 179,
+            "section": "2.3",
+            "score": 0.56385
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p178-struct-00",
+          "openstax-calc1-p168-struct-02",
+          "openstax-calc1-p179-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1712
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The limit of a constant c as x approaches a is simply the constant c itself. In other words, \\( \\lim_{x \\to a} c = c \\).",
+        "citations": [
+          "openstax-calc1-p168-struct-02"
+        ],
+        "bad": [
+          "openstax-calc1-p168-struct-02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p178-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 178 | section 2.3]\nleft, the numerator approaches −1; and the denominator approaches 0. Consequently, the magnitude ofx − 3x(x − 2)\nbecomes infinite. To get a better idea of what the limit is, we need to factor the denominator:\nlim\nx → 2−\nx − 3\nx2 − 2x = limx → 2− x − 3x(x − 2).\nStep 2. Since x − 2 is the only part of the denominator that is zero when 2 is substituted, we then separate\n1/(x − 2) from the rest of the function:\n= lim\nx → 2−\nx − 3x · 1x − 2.\nStep 3. lim\nx → 2−\nx − 3x = − 12 and limx → 2− 1x − 2= −∞. Therefore, the product of(x − 3)/x and 1/(x − 2) has\na limit of +∞:\nlim\nx → 2−\nx − 3\nx2 − 2x = +∞.\nEvaluate limx → 1 x + 2(x − 1)2.\n\n[openstax-calc1-p168-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 168 | section 2.3]\nExample 2.13\nEvaluating a Basic Limit\nEvaluate each of the following limits using Basic Limit Results.\na. limx → 2x\nb. lim\nx → 2\n5\nSolution\na. The limit of x as x approaches a is a: limx → 2x = 2.\nb. The limit of a constant is that constant: lim\nx → 2\n5 = 5.\nWe now take a look at the limit laws, the individual properties of limits. The proofs that these laws hold are omitted here.\n\n[openstax-calc1-p179-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 179 | section 2.3]\nExample 2.24\nApplying the Squeeze Theorem\nApply the squeeze theorem to evaluate limx → 0xcosx.\nSolution\nBecause −1 ≤ cosx ≤ 1 for allx, we have− |x| ≤ xcosx ≤ |x| . Since limx → 0( − |x|) = 0 = limx → 0|x|, from the\nsqueeze theorem, we obtainlimx → 0xcosx = 0. The graphs off (x) = − |x|, g(x) = xcosx, and h(x) = |x| are\nshown in Figure 2.28.",
+    "final_context_ids": [
+      "openstax-calc1-p178-struct-00",
+      "openstax-calc1-p168-struct-02",
+      "openstax-calc1-p179-struct-01"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 2556,
+      "output_tokens": 160,
+      "llm_ms": 3126.9,
+      "search_ms": 5.6,
+      "llm_cost_usd": 0.001278
+    },
+    "elapsed_ms": 3132.6,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which limit law only works when the limit of the denominator is not zero?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit law denominator not zero",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p175-struct-02",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.51951
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.51689
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.50348
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p175-struct-02",
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p178-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1350
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit law denominator not zero",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p175-struct-02",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.51951
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.51689
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.50348
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p175-struct-02",
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p178-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1350
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit law denominator not zero",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p175-struct-02",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.51951
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.51689
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.50348
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p175-struct-02",
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p178-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1350
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The limit law that only works when the limit of the denominator is not zero is the Quotient Law. This law requires that the limit of the denominator is not zero to be applicable.",
+        "citations": [
+          "openstax-calc1-p177-struct-01"
+        ],
+        "bad": [
+          "openstax-calc1-p177-struct-01"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The Quotient Law for limits only works when the limit of the denominator is not zero, as dividing by zero is undefined and the law requires a nonzero denominator limit to apply. This is implied in the discussion of limits involving denominators approaching zero in the examples provided.",
+        "citations": [
+          "openstax-calc1-p177-struct-01"
+        ],
+        "bad": [
+          "openstax-calc1-p177-struct-01"
+        ]
+      }
+    ],
+    "final_context": "[openstax-calc1-p175-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 175 | section 2.3]\nExample 2.21\nEvaluating a One-Sided Limit Using the Limit Laws\nEvaluate each of the following limits, if possible.\na. lim\nx → 3− x − 3\n\n[openstax-calc1-p177-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 177 | section 2.3]\nExample 2.23\nEvaluating a Limit of the Form K/0, K ≠0 Using the Limit Laws\nEvaluate lim\nx → 2−\nx − 3\nx2 − 2x.\nSolution\nStep 1. After substituting inx = 2, we see that this limit has the form−1/0. That is, asx approaches 2 from the\n\n[openstax-calc1-p178-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 178 | section 2.3]\nleft, the numerator approaches −1; and the denominator approaches 0. Consequently, the magnitude ofx − 3x(x − 2)\nbecomes infinite. To get a better idea of what the limit is, we need to factor the denominator:\nlim\nx → 2−\nx − 3\nx2 − 2x = limx → 2− x − 3x(x − 2).\nStep 2. Since x − 2 is the only part of the denominator that is zero when 2 is substituted, we then separate\n1/(x − 2) from the rest of the function:\n= lim\nx → 2−\nx − 3x · 1x − 2.\nStep 3. lim\nx → 2−\nx − 3x = − 12 and limx → 2− 1x − 2= −∞. Therefore, the product of(x − 3)/x and 1/(x − 2) has\na limit of +∞:\nlim\nx → 2−\nx − 3\nx2 − 2x = +∞.\nEvaluate limx → 1 x + 2(x − 1)2.",
+    "final_context_ids": [
+      "openstax-calc1-p175-struct-02",
+      "openstax-calc1-p177-struct-01",
+      "openstax-calc1-p178-struct-00"
+    ],
+    "searches": 3,
+    "usage": {
+      "llm_calls": 5,
+      "input_tokens": 4221,
+      "output_tokens": 202,
+      "llm_ms": 5949.2,
+      "search_ms": 16.1,
+      "llm_cost_usd": 0.002012
+    },
+    "elapsed_ms": 5965.6,
+    "post_hoc": {
+      "context_evidence": false
+    }
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "For which values of a can the limit of a rational function be found by direct substitution?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The limit of a rational function can be found by direct substitution for all values of a for which the rational function is defined. This means if a is in the domain of the rational function, then \\( \\lim_{x \\to a} f(x) = f(a) \\). If the function is not defined at a, other techniques may be needed to evaluate the limit. [openstax-calc1-p170-struct-01][openstax-calc1-p171-struct-00]",
+    "citations": [
+      "openstax-calc1-p170-struct-01",
+      "openstax-calc1-p171-struct-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit of a rational function direct substitution values of a",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p171-struct-00",
+            "page": 171,
+            "section": "2.3",
+            "score": 0.6415
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p170-struct-01",
+            "page": 170,
+            "section": "2.3",
+            "score": 0.60128
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p171-struct-01",
+            "page": 171,
+            "section": "2.3",
+            "score": 0.58808
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p171-struct-00",
+          "openstax-calc1-p170-struct-01",
+          "openstax-calc1-p171-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1764
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p171-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 171 | section 2.3]\nExample 2.16\nEvaluating a Limit of a Rational Function\nEvaluate the limx → 32x2 − 3x + 15x + 4 .\nSolution\nSince 3 is in the domain of the rational functionf (x) = 2x2 − 3x + 15x + 4 , we can calculate the limit by substituting\n3 for x into the function. Thus,\nlimx → 32x2 − 3x + 15x + 4 = 1019.\nEvaluate limx → −23x3 − 2x + 7.\n\n[openstax-calc1-p170-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 170 | section 2.3]\nLimits of Polynomial and Rational Functions\nBy now you have probably noticed that, in each of the previous examples, it has been the case thatlimx → af (x) = f (a). This\nis not always true, but it does hold for all polynomials for any choice ofa and for all rational functions at all values ofa for\nwhich the rational function is defined.\n\n[openstax-calc1-p171-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 171 | section 2.3]\nAdditional Limit Evaluation Techniques\nAs we have seen, we may evaluate easily the limits of polynomials and limits of some (but not all) rational functions by\ndirect substitution. However, as we saw in the introductory section on limits, it is certainly possible forlimx → af (x) to exist\nwhen f (a) is undefined. The following observation allows us to evaluate many limits of this type:\nIf for all x ≠ a, f (x) = g(x) over some open interval containing a, then limx → af (x) = limx → ag(x).\nTo understand this idea better, consider the limit limx → 1x2 − 1x − 1.\nThe function\nf (x) = x2 − 1x − 1\n= (x − 1)(x + 1)x − 1\nand the functiong(x) = x + 1 are identical for all values ofx ≠ 1. The graphs of these two functions are shown inFigure\n2.24.",
+    "final_context_ids": [
+      "openstax-calc1-p171-struct-00",
+      "openstax-calc1-p170-struct-01",
+      "openstax-calc1-p171-struct-01"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1314,
+      "output_tokens": 166,
+      "llm_ms": 2170.6,
+      "search_ms": 5.1,
+      "llm_cost_usd": 0.000791
+    },
+    "elapsed_ms": 2175.8,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "A 0/0 limit has a square root difference in the numerator. What algebra trick should I try?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "When you have a 0/0 limit with a square root difference in the numerator, you should try multiplying the numerator and denominator by the conjugate of the numerator. This algebraic trick helps to simplify the expression and often allows cancellation of terms to resolve the limit. For example, if the numerator is \\( \\sqrt{x+2} - 1 \\), multiply by \\( \\sqrt{x+2} + 1 \\) over itself to simplify [openstax-calc1-p173-struct-02].",
+    "citations": [
+      "openstax-calc1-p173-struct-02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit 0/0 square root difference numerator algebra trick",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.47681
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p174-struct-01",
+            "page": 174,
+            "section": "2.3",
+            "score": 0.46525
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p173-struct-02",
+            "page": 173,
+            "section": "2.3",
+            "score": 0.45813
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p178-struct-00",
+          "openstax-calc1-p174-struct-01",
+          "openstax-calc1-p173-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2117
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p178-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 178 | section 2.3]\nleft, the numerator approaches −1; and the denominator approaches 0. Consequently, the magnitude ofx − 3x(x − 2)\nbecomes infinite. To get a better idea of what the limit is, we need to factor the denominator:\nlim\nx → 2−\nx − 3\nx2 − 2x = limx → 2− x − 3x(x − 2).\nStep 2. Since x − 2 is the only part of the denominator that is zero when 2 is substituted, we then separate\n1/(x − 2) from the rest of the function:\n= lim\nx → 2−\nx − 3x · 1x − 2.\nStep 3. lim\nx → 2−\nx − 3x = − 12 and limx → 2− 1x − 2= −∞. Therefore, the product of(x − 3)/x and 1/(x − 2) has\na limit of +∞:\nlim\nx → 2−\nx − 3\nx2 − 2x = +∞.\nEvaluate limx → 1 x + 2(x − 1)2.\n\n[openstax-calc1-p174-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 174 | section 2.3]\nSolution\nStep 1.\n1\nx + 1− 12\nx − 1 has the form 0/0 at 1. We simplify the algebraic fraction by multiplying by\n2(x + 1)/2(x + 1) :\nlimx → 1\n1\nx + 1− 12\nx − 1 = limx → 1\n1\nx + 1− 12\nx − 1 · 2(x + 1)2(x + 1).\nStep 2. Next, we multiply through the numerators. Do not multiply the denominators because we want to be able\nto cancel the factor (x − 1):\n= limx → 1 2 −(x + 1)2(x − 1)(x + 1).\nStep 3. Then, we simplify the numerator:\n= lim\nx → 1\n−x + 1\n2(x − 1)(x + 1).\nStep 4. Now we factor out −1 from the numerator:\n= lim\nx → 1\n−(x − 1)\n2(x − 1)(x + 1).\nStep 5. Then, we cancel the common factors of (x − 1):\n= lim\nx → 1\n−1\n2(x + 1).\nStep 6. Last, we evaluate using the limit laws:\nlim\nx → 1\n−1\n2(x + 1)= − 14.\n\n[openstax-calc1-p173-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 173 | section 2.3]\nSolution\nStep 1. x + 2− 1x + 1 has the form0/0 at −1. Let’s begin by multiplying byx + 2+ 1, the conjugate of\nx + 2− 1, on the numerator and denominator:\nlim\nx → −1\nx + 2− 1\nx + 1 = limx → −1 x + 2− 1x + 1 · x + 2+ 1x + 2+ 1.\nStep 2. We then multiply out the numerator. We don’t multiply out the denominator because we are hoping that\nthe (x + 1) in the denominator cancels out in the end:\n= lim\nx → −1\nx + 1\n(x + 1) x + 2+ 1.",
+    "final_context_ids": [
+      "openstax-calc1-p178-struct-00",
+      "openstax-calc1-p174-struct-01",
+      "openstax-calc1-p173-struct-02"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1653,
+      "output_tokens": 151,
+      "llm_ms": 2339.3,
+      "search_ms": 5.0,
+      "llm_cost_usd": 0.000903
+    },
+    "elapsed_ms": 2344.4,
+    "post_hoc": {
+      "context_evidence": false
+    }
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "Why can the sum law not be used for the limit of 1/x + 5/(x(x−5)) as x goes to 0?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The sum law for limits cannot be used for the limit of 1/x + 5/(x(x−5)) as x approaches 0 because neither 1/x nor 5/(x(x−5)) has a limit at zero. Since the individual limits do not exist, the sum law does not apply, and a different strategy must be used, such as combining the terms first and then finding the limit of the resulting expression. In this case, the combined expression simplifies to 1/(x−5), which does have a limit at zero [openstax-calc1-p175-struct-01].",
+    "citations": [
+      "openstax-calc1-p175-struct-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit sum law 1/x + 5/(x(x-5)) as x goes to 0",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p175-struct-01",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.68015
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.57974
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p170-struct-00",
+            "page": 170,
+            "section": "2.3",
+            "score": 0.57886
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p175-struct-01",
+          "openstax-calc1-p178-struct-00",
+          "openstax-calc1-p170-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2606
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p175-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 175 | section 2.3]\nSolution\nBoth 1/x and 5/x(x − 5) fail to have a limit at zero. Since neither of the two functions has a limit at zero, we\ncannot apply the sum law for limits; we must use a different strategy. In this case, we find the limit by performing\naddition and then applying one of our previous strategies. Observe that\n1x + 5x(x − 5) = x − 5 + 5x(x − 5)\n= xx(x − 5).\nThus,\nlimx → 01x + 5x(x − 5) = limx → 0 xx(x − 5)\n= limx → 0 1x − 5\n= − 15.\nEvaluate limx → 3 1x − 3− 4x2 − 2x − 3.\nLet’s now revisit one-sided limits. Simple modifications in the limit laws allow us to apply them to one-sided limits. For\nexample, to apply the limit laws to a limit of the formlim\nx → a−h(x), we require the functionh(x) to be defined over an\nopen interval of the form(b, a); for a limit of the formlim\nx → a+h(x), we require the functionh(x) to be defined over an\nopen interval of the form (a, c). Example 2.21 illustrates this point.\n\n[openstax-calc1-p178-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 178 | section 2.3]\nleft, the numerator approaches −1; and the denominator approaches 0. Consequently, the magnitude ofx − 3x(x − 2)\nbecomes infinite. To get a better idea of what the limit is, we need to factor the denominator:\nlim\nx → 2−\nx − 3\nx2 − 2x = limx → 2− x − 3x(x − 2).\nStep 2. Since x − 2 is the only part of the denominator that is zero when 2 is substituted, we then separate\n1/(x − 2) from the rest of the function:\n= lim\nx → 2−\nx − 3x · 1x − 2.\nStep 3. lim\nx → 2−\nx − 3x = − 12 and limx → 2− 1x − 2= −∞. Therefore, the product of(x − 3)/x and 1/(x − 2) has\na limit of +∞:\nlim\nx → 2−\nx − 3\nx2 − 2x = +∞.\nEvaluate limx → 1 x + 2(x − 1)2.\n\n[openstax-calc1-p170-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 170 | section 2.3]\nTo find this limit, we need to apply the limit laws several times. Again, we need to keep in mind that as we rewrite\nthe limit in terms of other limits, each new limit must exist for the limit law to be applied.\nlimx → 22x2 − 3x + 1x3 + 4 = limx → 22x2 − 3x + 1limx → 2x3 + 4 Apply the quotient law, making sure that. (2)3 + 4 ≠ 0\n=\n2 · limx → 2x2 − 3 · limx → 2x + limx → 21\nlimx → 2x3 + limx → 24 Apply the sum law and constant multiple law.\n=\n2 · limx → 2x2 − 3 · limx → 2x + limx → 21\nlimx → 2x3 + limx → 24 Apply the power law.\n= 2(4) − 3(2) + 1\n(2)3 + 4 = 14. Apply the basic limit laws and simplify.\nUse the limit laws to evaluate lim\nx → 6\n(2x − 1) x + 4. In each step, indicate the limit law applied.",
+    "final_context_ids": [
+      "openstax-calc1-p175-struct-01",
+      "openstax-calc1-p178-struct-00",
+      "openstax-calc1-p170-struct-00"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1763,
+      "output_tokens": 185,
+      "llm_ms": 2616.0,
+      "search_ms": 378.7,
+      "llm_cost_usd": 0.001001
+    },
+    "elapsed_ms": 2994.8,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "Can the limit laws be used for the left-hand limit of the square root of (x − 3) at x = 3?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The limit laws can only be applied if the limits involved exist. For the left-hand limit of \\( \\sqrt{x - 3} \\) at \\( x = 3 \\), since \\( x - 3 \\) is negative for \\( x < 3 \\), the square root is not defined for those values, so the left-hand limit does not exist. Therefore, the limit laws cannot be used for the left-hand limit of \\( \\sqrt{x - 3} \\) at \\( x = 3 \\) [openstax-calc1-p170-struct-00].",
+    "citations": [
+      "openstax-calc1-p170-struct-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit laws left-hand limit square root of (x - 3) at x = 3",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p175-struct-02",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.61238
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.58547
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p170-struct-00",
+            "page": 170,
+            "section": "2.3",
+            "score": 0.57968
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p175-struct-02",
+          "openstax-calc1-p178-struct-00",
+          "openstax-calc1-p170-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1829
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit laws left-hand limit square root",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p170-struct-00",
+            "page": 170,
+            "section": "2.3",
+            "score": 0.53001
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p175-struct-02",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.52734
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p169-struct-01",
+            "page": 169,
+            "section": "2.3",
+            "score": 0.52232
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p175-struct-02",
+          "openstax-calc1-p170-struct-00",
+          "openstax-calc1-p178-struct-00",
+          "openstax-calc1-p169-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2587
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit laws left-hand limit square root (x - 3) at x = 3",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p175-struct-02",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.60685
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p178-struct-00",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.58803
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p170-struct-00",
+            "page": 170,
+            "section": "2.3",
+            "score": 0.57966
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p175-struct-02",
+          "openstax-calc1-p170-struct-00",
+          "openstax-calc1-p178-struct-00",
+          "openstax-calc1-p169-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2587
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The limit laws require that the limits involved exist for the laws to be applied. For the left-hand limit of \\( \\sqrt{x - 3} \\) at \\( x = 3 \\), the expression inside the square root, \\( x - 3 \\), is negative for values of \\( x \\) less than 3, making the function undefined for those values. Therefore, the left-hand limit does not exist, and the limit laws cannot be used for the left-hand limit of \\( \\sqrt{x - 3} \\) at \\( x = 3 \\).",
+        "citations": [
+          "openstax-calc1-p170-struct-00",
+          "openstax-calc1-p169-struct-01"
+        ],
+        "bad": [
+          "openstax-calc1-p170-struct-00",
+          "openstax-calc1-p169-struct-01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p175-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 175 | section 2.3]\nExample 2.21\nEvaluating a One-Sided Limit Using the Limit Laws\nEvaluate each of the following limits, if possible.\na. lim\nx → 3− x − 3\n\n[openstax-calc1-p170-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 170 | section 2.3]\nTo find this limit, we need to apply the limit laws several times. Again, we need to keep in mind that as we rewrite\nthe limit in terms of other limits, each new limit must exist for the limit law to be applied.\nlimx → 22x2 − 3x + 1x3 + 4 = limx → 22x2 − 3x + 1limx → 2x3 + 4 Apply the quotient law, making sure that. (2)3 + 4 ≠ 0\n=\n2 · limx → 2x2 − 3 · limx → 2x + limx → 21\nlimx → 2x3 + limx → 24 Apply the sum law and constant multiple law.\n=\n2 · limx → 2x2 − 3 · limx → 2x + limx → 21\nlimx → 2x3 + limx → 24 Apply the power law.\n= 2(4) − 3(2) + 1\n(2)3 + 4 = 14. Apply the basic limit laws and simplify.\nUse the limit laws to evaluate lim\nx → 6\n(2x − 1) x + 4. In each step, indicate the limit law applied.\n\n[openstax-calc1-p178-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 178 | section 2.3]\nleft, the numerator approaches −1; and the denominator approaches 0. Consequently, the magnitude ofx − 3x(x − 2)\nbecomes infinite. To get a better idea of what the limit is, we need to factor the denominator:\nlim\nx → 2−\nx − 3\nx2 − 2x = limx → 2− x − 3x(x − 2).\nStep 2. Since x − 2 is the only part of the denominator that is zero when 2 is substituted, we then separate\n1/(x − 2) from the rest of the function:\n= lim\nx → 2−\nx − 3x · 1x − 2.\nStep 3. lim\nx → 2−\nx − 3x = − 12 and limx → 2− 1x − 2= −∞. Therefore, the product of(x − 3)/x and 1/(x − 2) has\na limit of +∞:\nlim\nx → 2−\nx − 3\nx2 − 2x = +∞.\nEvaluate limx → 1 x + 2(x − 1)2.\n\n[openstax-calc1-p169-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 169 | section 2.3]\nExample 2.14\nEvaluating a Limit Using Limit Laws\nUse the limit laws to evaluate limx → −3(4x + 2).\nSolution\nLet’s apply the limit laws one step at a time to be sure we understand how they work. We need to keep in mind\nthe requirement that, at each application of a limit law, the new limits must exist for the limit law to be applied.\nlimx → −3(4x + 2) = limx → −34x + limx → −32 Apply the sum law.\n= 4 · limx → −3x + limx → −32 Apply the constant multiple law.\n= 4 ·(−3) + 2 = −10. Apply the basic limit results and simplify.\nExample 2.15\nUsing Limit Laws Repeatedly\nUse the limit laws to evaluate lim\nx → 2\n2x2 − 3x + 1\nx3 + 4 .\nSolution",
+    "final_context_ids": [
+      "openstax-calc1-p175-struct-02",
+      "openstax-calc1-p170-struct-00",
+      "openstax-calc1-p178-struct-00",
+      "openstax-calc1-p169-struct-01"
+    ],
+    "searches": 3,
+    "usage": {
+      "llm_calls": 5,
+      "input_tokens": 6003,
+      "output_tokens": 404,
+      "llm_ms": 6400.0,
+      "search_ms": 242.7,
+      "llm_cost_usd": 0.003048
+    },
+    "elapsed_ms": 6643.0,
+    "post_hoc": {
+      "context_evidence": false
+    }
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "What inequality between f, g and h does the squeeze theorem require?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The squeeze theorem requires the inequality f(x) ≤ g(x) ≤ h(x) for all x ≠ a in an open interval containing a, where f, g, and h are functions defined on that interval. Additionally, the limits of f(x) and h(x) as x approaches a must be equal to the same real number L, which then implies that the limit of g(x) as x approaches a is also L. This is stated as: If f(x) ≤ g(x) ≤ h(x) and lim x→a f(x) = lim x→a h(x) = L, then lim x→a g(x) = L [openstax-calc1-p179-struct-00].",
+    "citations": [
+      "openstax-calc1-p179-struct-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "squeeze theorem inequality f g h",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p179-struct-00",
+            "page": 179,
+            "section": "2.3",
+            "score": 0.59328
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p178-struct-01",
+            "page": 178,
+            "section": "2.3",
+            "score": 0.50149
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p179-struct-02",
+            "page": 179,
+            "section": "2.3",
+            "score": 0.48611
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p179-struct-00",
+          "openstax-calc1-p178-struct-01",
+          "openstax-calc1-p179-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1943
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p179-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 179 | section 2.3]\nTheorem 2.7: The Squeeze Theorem\nLet f (x), g(x), and h(x) be defined for all x ≠ a over an open interval containing a. If\nf (x) ≤ g(x) ≤ h(x)\nfor all x ≠ a in an open interval containing a and\nlimx → af (x) = L = limx → ah(x)\nwhere L is a real number, then limx → ag(x) = L.\n\n[openstax-calc1-p178-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 178 | section 2.3]\nThe Squeeze Theorem\nThe techniques we have developed thus far work very well for algebraic functions, but we are still unable to evaluate limits\nof very basic trigonometric functions. The next theorem, called thesqueeze theorem, proves very useful for establishing\nbasic trigonometric limits. This theorem allows us to calculate limits by “squeezing” a function, with a limit at a pointa that\nis unknown, between two functions having a common known limit at a. Figure 2.27 illustrates this idea.\nFigure 2.27 The Squeeze Theorem applies when\nf (x) ≤ g(x) ≤ h(x) and limx → af (x) = limx → ah(x).\n\n[openstax-calc1-p179-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 179 | section 2.3]\nFigure 2.28 The graphs of f (x), g(x), and h(x) are shown\naround the point x = 0.\nUse the squeeze theorem to evaluate lim\nx → 0\nx2 sin1x.\nWe now use the squeeze theorem to tackle several very important limits. Although this discussion is somewhat lengthy,\nthese limits prove invaluable for the development of the material in both the next section and the next chapter. The first of\nthese limits islim\nθ → 0\nsinθ. Consider the unit circle shown inFigure 2.29. In the figure, we see thatsinθ isthe y-coordinate\non the unit circle and it corresponds to the line segment shown in blue. The radian measure of angleθ is the length of the\narc it subtends on the unit circle. Therefore, we see that for 0 <θ < π2, 0 < sinθ < θ.",
+    "final_context_ids": [
+      "openstax-calc1-p179-struct-00",
+      "openstax-calc1-p178-struct-01",
+      "openstax-calc1-p179-struct-02"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1319,
+      "output_tokens": 194,
+      "llm_ms": 2574.0,
+      "search_ms": 4.9,
+      "llm_cost_usd": 0.000838
+    },
+    "elapsed_ms": 2579.0,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "What is the limit of sin θ divided by θ as θ approaches 0?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The limit of \\( \\frac{\\sin \\theta}{\\theta} \\) as \\( \\theta \\) approaches 0 is 1. This is shown using the squeeze theorem and inequalities involving sine and tangent functions on the unit circle, concluding that \\( \\lim_{\\theta \\to 0} \\frac{\\sin \\theta}{\\theta} = 1 \\) [openstax-calc1-p181-struct-00].",
+    "citations": [
+      "openstax-calc1-p181-struct-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "limit of sin theta divided by theta as theta approaches 0",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p182-struct-00",
+            "page": 182,
+            "section": "2.3",
+            "score": 0.61276
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p180-struct-00",
+            "page": 180,
+            "section": "2.3",
+            "score": 0.59287
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p181-struct-00",
+            "page": 181,
+            "section": "2.3",
+            "score": 0.59185
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p182-struct-00",
+          "openstax-calc1-p180-struct-00",
+          "openstax-calc1-p181-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2154
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The limit of \\( \\frac{\\sin \\theta}{\\theta} \\) as \\( \\theta \\) approaches 0 is 1. This is shown using the squeeze theorem and inequalities involving sine and tangent functions on the unit circle, concluding that \\( \\lim_{\\theta \\to 0} \\frac{\\sin \\theta}{\\theta} = 1 \\).",
+        "citations": [
+          "openstax-calc1-p181-struct-00"
+        ],
+        "bad": [
+          "openstax-calc1-p181-struct-00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p182-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 182 | section 2.3]\n(2.19)\nlim\nθ → 0\n1 − cosθ\nθ = limθ → 01 − cosθθ · 1 + cosθ1 + cosθ\n= lim\nθ → 0\n1 − cos2θ\nθ(1 + cosθ)\n= lim\nθ → 0\nsin2θ\nθ(1 + cosθ)\n= lim\nθ → 0\nsinθ\nθ · sinθ1 + cosθ\n= 1 ·02 = 0.\nTherefore,\nlim\nθ → 0\n1 − cosθ\nθ = 0.\nEvaluate lim\nθ → 0\n1 − cosθ\nsinθ .\n\n[openstax-calc1-p180-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 180 | section 2.3]\nFigure 2.29 The sine function is shown as a line on the unit\ncircle.\nBecause lim\nθ → 0+ 0 = 0and limθ → 0+θ = 0, by using the squeeze theorem we conclude that\nlim\nθ → 0+ sinθ = 0.\nTo see that lim\nθ → 0− sinθ = 0 as well, observe that for −π2 < θ < 0, 0 < −θ < π2 and hence, 0 < sin(−θ) < −θ.\nConsequently, 0 < − sinθ < −θ. It follows that0 > sinθ > θ. An application of the squeeze theorem produces the\ndesired limit. Thus, since lim\nθ → 0+ sinθ = 0 and limθ → 0− sinθ = 0,\n(2.16)lim\nθ → 0\nsinθ = 0.\nNext, using the identity cosθ = 1 − sin2θ for −π2 < θ < π2, we see that\n(2.17)lim\nθ → 0\ncosθ = lim\nθ → 0\n1 − sin2θ = 1.\nWe now take a look at a limit that plays an important role in later chapters—namely,lim\nθ → 0\nsinθ\nθ . To evaluate this limit,\nwe use the unit circle inFigure 2.30. Notice that this figure adds one additional triangle toFigure 2.30. We see that the\nlength of the side opposite angle θ in this new triangle is tanθ. Thus, we see that for 0 <θ < π2, sinθ < θ < tanθ.\n\n[openstax-calc1-p181-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 181 | section 2.3]\nFigure 2.30 The sine and tangent functions are shown as lines\non the unit circle.\nBy dividing by sinθ in all parts of the inequality, we obtain\n1 < θsinθ < 1cosθ.\nEquivalently, we have\n1 > sinθθ > cosθ.\nSince lim\nθ → 0+ 1 = 1 = limθ → 0+ cosθ, we conclude that limθ → 0+ sinθθ = 1. By applying a manipulation similar to that used\nin demonstrating that lim\nθ → 0− sinθ = 0, we can show that limθ → 0− sinθθ = 1. Thus,\n(2.18)lim\nθ → 0\nsinθ\nθ = 1.\nIn Example 2.25 we use this limit to establish lim\nθ → 0\n1 − cosθ\nθ = 0. This limit also proves useful in later chapters.",
+    "final_context_ids": [
+      "openstax-calc1-p182-struct-00",
+      "openstax-calc1-p180-struct-00",
+      "openstax-calc1-p181-struct-00"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 3002,
+      "output_tokens": 262,
+      "llm_ms": 3358.1,
+      "search_ms": 369.6,
+      "llm_cost_usd": 0.00162
+    },
+    "elapsed_ms": 3727.9,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "What three conditions must hold for a function to be continuous at a point a?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng trong tài liệu để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "conditions for continuity at a point a",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p188-struct-00",
+            "page": 188,
+            "section": "2.4",
+            "score": 0.66086
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p187-struct-01",
+            "page": 187,
+            "section": "2.4",
+            "score": 0.64613
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p189-struct-00",
+            "page": 189,
+            "section": "2.4",
+            "score": 0.63937
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p188-struct-00",
+          "openstax-calc1-p187-struct-01",
+          "openstax-calc1-p189-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2781
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The three conditions for a function to be continuous at a point a are: (i) f(a) is defined, (ii) the limit of f(x) as x approaches a exists, and (iii) the limit of f(x) as x approaches a equals f(a). These conditions ensure there is no hole, gap, or jump at the point a in the function's graph. [openstax-calc1-p187-struct-01, openstax-calc1-p188-struct-00, openstax-calc1-p189-struct-00]",
+        "citations": [
+          "openstax-calc1-p187-struct-01",
+          "openstax-calc1-p188-struct-00",
+          "openstax-calc1-p189-struct-00"
+        ],
+        "bad": [
+          "openstax-calc1-p187-struct-01",
+          "openstax-calc1-p188-struct-00",
+          "openstax-calc1-p189-struct-00"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The three conditions for a function to be continuous at a point a are: (i) f(a) is defined, (ii) the limit of f(x) as x approaches a exists, and (iii) the limit of f(x) as x approaches a equals f(a). These conditions ensure there is no hole, gap, or jump at the point a in the function's graph. [openstax-calc1-p187-struct-01, openstax-calc1-p188-struct-00, openstax-calc1-p189-struct-00]",
+        "citations": [
+          "openstax-calc1-p187-struct-01",
+          "openstax-calc1-p188-struct-00",
+          "openstax-calc1-p189-struct-00"
+        ],
+        "bad": [
+          "openstax-calc1-p187-struct-01",
+          "openstax-calc1-p188-struct-00",
+          "openstax-calc1-p189-struct-00"
+        ]
+      }
+    ],
+    "final_context": "[openstax-calc1-p188-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 188 | section 2.4]\nFigure 2.33 The function f (x) is not continuous at a\nbecause limx → af (x) does not exist.\nHowever, as we see inFigure 2.34, these two conditions by themselves do not guarantee continuity at a point. The function\nin this figure satisfies both of our first two conditions, but is still not continuous ata. We must add a third condition to our\nlist:\niii. limx → af (x) = f (a).\nFigure 2.34 The function f (x) is not continuous at a\nbecause limx → af (x) ≠ f (a).\nNow we put our list of conditions together and form a definition of continuity at a point.\n\n[openstax-calc1-p187-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 187 | section 2.4]\nContinuity at a Point\nBefore we look at a formal definition of what it means for a function to be continuous at a point, let’s consider various\nfunctions that fail to meet our intuitive notion of what it means to be continuous at a point. We then create a list of conditions\nthat prevent such failures.\nOur first function of interest is shown inFigure 2.32. We see that the graph off (x) has a hole ata. In fact,f (a) is\nundefined. At the very least, for f (x) to be continuous at a, we need the following condition:\ni. f (a) is defined\nFigure 2.32 The function f (x) is not continuous at a\nbecause f (a) is undefined.\nHowever, as we see inFigure 2.33, this condition alone is insufficient to guarantee continuity at the pointa. Although\nf (a) is defined, the function has a gap ata. In this example, the gap exists becauselimx → af (x) does not exist. We must add\nanother condition for continuity at a—namely,\nii. limx → af (x) exists.\n\n[openstax-calc1-p189-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 189 | section 2.4]\nProblem-Solving Strategy: Determining Continuity at a Point\n1. Check to see iff (a) is defined. Iff (a) is undefined, we need go no further. The function is not continuous\nat a. If f (a) is defined, continue to step 2.\n2. Compute limx → af (x). In some cases, we may need to do this by first computinglimx → a− f (x) and limx → a+ f (x).\nIf limx → af (x) does not exist (that is, it is not a real number), then the function is not continuous ata and the\nproblem is solved. If limx → af (x) exists, then continue to step 3.\n3. Compare f (a) and limx → af (x). If limx → af (x) ≠ f (a), then the function is not continuous at a. If\nlimx → af (x) = f (a), then the function is continuous at a.\nThe next three examples demonstrate how to apply this definition to determine whether a function is continuous at a given\npoint. These examples illustrate situations in which each of the conditions for continuity in the definition succeed or fail.",
+    "final_context_ids": [
+      "openstax-calc1-p188-struct-00",
+      "openstax-calc1-p187-struct-01",
+      "openstax-calc1-p189-struct-00"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 2968,
+      "output_tokens": 371,
+      "llm_ms": 3923.0,
+      "search_ms": 6.1,
+      "llm_cost_usd": 0.001781
+    },
+    "elapsed_ms": 3929.3,
+    "post_hoc": {
+      "context_evidence": false
+    }
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "What do we call a discontinuity where the pieces of the graph do not meet up but nothing goes to infinity?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "A discontinuity where the pieces of the graph do not meet up but nothing goes to infinity is called a jump discontinuity. This occurs when the left-hand and right-hand limits exist but are not equal, and neither limit goes to infinity. In contrast, a removable discontinuity is where the limit exists and the graph has a hole, and an infinite discontinuity involves limits going to infinity. [openstax-calc1-p192-struct-01]",
+    "citations": [
+      "openstax-calc1-p192-struct-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "removable discontinuity",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p192-struct-01",
+            "page": 192,
+            "section": "2.4",
+            "score": 0.61941
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p193-struct-00",
+            "page": 193,
+            "section": "2.4",
+            "score": 0.58284
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p192-struct-02",
+            "page": 192,
+            "section": "2.4",
+            "score": 0.56773
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p193-struct-00",
+          "openstax-calc1-p192-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2325
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "A discontinuity where the pieces of the graph do not meet up but nothing goes to infinity is called a jump discontinuity. This occurs when the left-hand and right-hand limits exist but are not equal, and neither limit goes to infinity. In contrast, a removable discontinuity is where the limit exists and the graph has a hole, and an infinite discontinuity involves limits going to infinity. [openstax-calc1-p192-struct-01, openstax-calc1-p192-struct-02]",
+        "citations": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p192-struct-02"
+        ],
+        "bad": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p192-struct-02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p192-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 192 | section 2.4]\nTypes of Discontinuities\nAs we have seen inExample 2.26 and Example 2.27, discontinuities take on several different appearances. We\nclassify the types of discontinuities we have seen thus far as removable discontinuities, infinite discontinuities, or jump\ndiscontinuities. Intuitively, aremovable discontinuity is a discontinuity for which there is a hole in the graph, ajump\ndiscontinuity is a noninfinite discontinuity for which the sections of the function do not meet up, and aninfinite\ndiscontinuity is a discontinuity located at a vertical asymptote.Figure 2.37illustrates the differences in these types of\ndiscontinuities. Although these terms provide a handy way of describing three common types of discontinuities, keep in\nmind that not all discontinuities fit neatly into these categories.\nFigure 2.37 Discontinuities are classified as (a) removable, (b) jump, or (c) infinite.\nThese three discontinuities are formally defined as follows:\n\n[openstax-calc1-p193-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 193 | section 2.4]\nExample 2.30\nClassifying a Discontinuity\nIn Example 2.26, we showed thatf (x) = x2 − 4x − 2 is discontinuous atx = 2. Classify this discontinuity as\nremovable, jump, or infinite.\nSolution\nTo classify the discontinuity at 2 we must evaluate limx → 2f (x):\nlimx → 2f (x) = limx → 2x2 − 4x − 2\n= limx → 2(x − 2)(x + 2)x − 2\n= limx → 2(x + 2)\n= 4.\nSince f is discontinuous at 2 and limx → 2f (x) exists, f has a removable discontinuity at x = 2.\n\n[openstax-calc1-p192-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 192 | section 2.4]\nDefinition\nIf f (x) is discontinuous at a, then\n1. f has aremovable discontinuity at a if limx → af (x) exists. (Note: When we state thatlimx → af (x) exists, we\nmean that limx → af (x) = L, where L is a real number.)\n2. f has ajump discontinuity at a if lim\nx → a− f (x) and limx → a+ f (x) both exist, but limx → a− f (x) ≠ limx → a+ f (x).\n(Note: When we state thatlim\nx → a− f (x) and limx → a+ f (x) both exist, we mean that both are real-valued and that\nneither take on the values ±∞.)\n3. f has an infinite discontinuity at a if lim\nx → a− f (x) = ±∞ or limx → a+ f (x) = ±∞.",
+    "final_context_ids": [
+      "openstax-calc1-p192-struct-01",
+      "openstax-calc1-p193-struct-00",
+      "openstax-calc1-p192-struct-02"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 2846,
+      "output_tokens": 288,
+      "llm_ms": 3535.9,
+      "search_ms": 5.7,
+      "llm_cost_usd": 0.001599
+    },
+    "elapsed_ms": 3541.8,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "When is a function continuous over a closed interval [a, b]?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "A function is continuous over a closed interval [a, b] if it is continuous on the interval and can be traced between any two points in the interval without lifting the pencil from the paper. This includes being continuous from the right at a and continuous from the left at b, ensuring no breaks or jumps in the function over [a, b]. [openstax-calc1-p194-struct-01]",
+    "citations": [
+      "openstax-calc1-p194-struct-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "continuous over a closed interval [a, b]",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p196-struct-03",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.61849
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p196-struct-02",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.61022
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p194-struct-01",
+            "page": 194,
+            "section": "2.4",
+            "score": 0.57703
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p196-struct-03",
+          "openstax-calc1-p196-struct-02",
+          "openstax-calc1-p194-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1535
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "continuous over a closed interval [a, b] definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p196-struct-03",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.6065
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p194-struct-01",
+            "page": 194,
+            "section": "2.4",
+            "score": 0.60605
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p196-struct-02",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.59999
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p196-struct-03",
+          "openstax-calc1-p196-struct-02",
+          "openstax-calc1-p194-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1535
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "continuous over a closed interval [a, b] definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p196-struct-03",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.6065
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p194-struct-01",
+            "page": 194,
+            "section": "2.4",
+            "score": 0.60605
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p196-struct-02",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.59999
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p196-struct-03",
+          "openstax-calc1-p196-struct-02",
+          "openstax-calc1-p194-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1535
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "A function is continuous over a closed interval [a, b] if it is continuous on the interval and can be traced between any two points in the interval without lifting the pencil from the paper. This includes being continuous from the right at a and continuous from the left at b, ensuring no breaks or jumps in the function over [a, b].",
+        "citations": [
+          "openstax-calc1-p194-struct-01"
+        ],
+        "bad": [
+          "openstax-calc1-p194-struct-01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p196-struct-03 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 196 | section 2.4]\nTheorem 2.11: The Intermediate Value Theorem\nLet f be continuous over a closed, bounded interval\na, b\n. If z is any real number betweenf (a) and f (b), then there\nis a number c in\na, b\nsatisfying f (c) = z in Figure 2.38.\n\n[openstax-calc1-p196-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 196 | section 2.4]\nThe Intermediate Value Theorem\nFunctions that are continuous over intervals of the form\na, b\n, where a and b are real numbers, exhibit many useful\nproperties. Throughout our study of calculus, we will encounter many powerful theorems concerning such functions. The\nfirst of these theorems is the Intermediate Value Theorem.\n\n[openstax-calc1-p194-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 194 | section 2.4]\nContinuity over an Interval\nNow that we have explored the concept of continuity at a point, we extend that idea tocontinuity over an interval . As\nwe develop this idea for different types of intervals, it may be useful to keep in mind the intuitive idea that a function is\ncontinuous over an interval if we can use a pencil to trace the function between any two points in the interval without lifting\nthe pencil from the paper. In preparation for defining continuity on an interval, we begin by looking at the definition of what\nit means for a function to be continuous from the right at a point and continuous from the left at a point.",
+    "final_context_ids": [
+      "openstax-calc1-p196-struct-03",
+      "openstax-calc1-p196-struct-02",
+      "openstax-calc1-p194-struct-01"
+    ],
+    "searches": 3,
+    "usage": {
+      "llm_calls": 5,
+      "input_tokens": 3834,
+      "output_tokens": 278,
+      "llm_ms": 5087.1,
+      "search_ms": 419.8,
+      "llm_cost_usd": 0.001978
+    },
+    "elapsed_ms": 5507.1,
+    "post_hoc": {
+      "context_evidence": false
+    }
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "Over what set are the trigonometric functions continuous?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "Trigonometric functions are continuous over their entire domains. This is established by showing that sine and cosine functions are continuous at every real number, and since other trigonometric functions can be expressed in terms of sine and cosine, their continuity follows from the quotient limit law. Thus, all trigonometric functions are continuous wherever they are defined. [openstax-calc1-p196-struct-01]",
+    "citations": [
+      "openstax-calc1-p196-struct-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "continuity of trigonometric functions",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p196-struct-01",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.73778
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p196-struct-00",
+            "page": 196,
+            "section": "2.4",
+            "score": 0.64219
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p195-struct-00",
+            "page": 195,
+            "section": "2.4",
+            "score": 0.58969
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p196-struct-01",
+          "openstax-calc1-p196-struct-00",
+          "openstax-calc1-p195-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2504
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p196-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 196 | section 2.4]\nTheorem 2.10: Continuity of Trigonometric Functions\nTrigonometric functions are continuous over their entire domains.\nProof\nWe begin by demonstrating thatcosx iscontinuousateveryrealnumber.Todothis,wemustshowthat limx → acosx = cosa\nfor all values of a.\nlimx → acosx = limx → acos((x −a) +a) rewritex = x −a +a\n= limx → a\ncos(x −a)cosa − sin(x −a)sina\napply the identity for the cosine of the sum of two angles\n= cos limx → a(x −a)cosa − sin limx → a(x −a)sina limx → a(x −a) = 0, and sinx and cosx are continuous at 0\n= cos(0)cosa − sin(0)sina evaluate cos(0) and sin(0) and simplify\n= 1 · cosa − 0 · sina = cosa.\nThe proof thatsinx is continuous at every real number is analogous. Because the remaining trigonometric functions may\nbe expressed in terms of sinx and cosx, their continuity follows from the quotient limit law.\n□\nAs you can see, the composite function theorem is invaluable in demonstrating the continuity of trigonometric functions.\nAs we continue our study of calculus, we revisit this theorem many times.\n\n[openstax-calc1-p196-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 196 | section 2.4]\nThe given function is a composite ofcosx and x − π2. Since limx → π/2x − π2 = 0 and cosx is continuous at 0,\nwe may apply the composite function theorem. Thus,\nlimx → π/2cosx − π2 = cos limx → π/2x − π2 = cos(0) = 1.\nEvaluate limx → πsin(x −π).\nThe proof of the next theorem uses the composite function theorem as well as the continuity off (x) = sinx and\ng(x) = cosx at the point 0 to show that trigonometric functions are continuous over their entire domains.\n\n[openstax-calc1-p195-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 195 | section 2.4]\n(−∞, −2), (−2, 0), and (0, +∞).\nExample 2.34\nContinuity over an Interval\nState the interval(s) over which the function f (x) = 4 −x2 is continuous.\nSolution\nFrom the limit laws, we know thatlimx → a 4 −x2 = 4 − a2 for all values ofa in (−2, 2). We also know that\nlim\nx → −2+ 4 −x2 = 0 exists and limx → 2− 4 −x2 = 0 exists. Therefore, f (x) is continuous over the interval\n[−2, 2].\nState the interval(s) over which the function f (x) = x + 3 is continuous.\nThe Composite Function Theoremallows us to expand our ability to compute limits. In particular, this theorem\nultimately allows us to demonstrate that trigonometric functions are continuous over their domains.",
+    "final_context_ids": [
+      "openstax-calc1-p196-struct-01",
+      "openstax-calc1-p196-struct-00",
+      "openstax-calc1-p195-struct-00"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1513,
+      "output_tokens": 128,
+      "llm_ms": 2192.2,
+      "search_ms": 6.0,
+      "llm_cost_usd": 0.00081
+    },
+    "elapsed_ms": 2198.3,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "answerable": true,
+    "question": "Why does f(−1) < 0 < f(1) not prove that 1/x has a zero on [−1, 1]?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The function f(x) = 1/x does not have a zero on the interval [-1, 1] despite f(-1) < 0 < f(1) because the function is not continuous over that interval. The Intermediate Value Theorem, which guarantees a zero in such cases, requires the function to be continuous on the interval, which 1/x is not on [-1, 1] due to the discontinuity at x = 0 [openstax-calc1-p198-struct-01].",
+    "citations": [
+      "openstax-calc1-p198-struct-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "function 1/x zero on interval [-1,1]",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p198-struct-01",
+            "page": 198,
+            "section": "2.4",
+            "score": 0.53246
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p194-struct-03",
+            "page": 194,
+            "section": "2.4",
+            "score": 0.49295
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p195-struct-00",
+            "page": 195,
+            "section": "2.4",
+            "score": 0.46932
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p198-struct-01",
+          "openstax-calc1-p194-struct-03",
+          "openstax-calc1-p195-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1719
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p198-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 198 | section 2.4]\nExample 2.38\nWhen Can You Apply the Intermediate Value Theorem?\nFor f (x) = 1/x, f (−1) = −1 < 0and f (1) = 1 > 0.Can we conclude thatf (x) has a zero in the interval\n[−1, 1]?\nSolution\nNo. The function is not continuous over [−1, 1]. The Intermediate Value Theorem does not apply here.\nShow that f (x) = x3 −x2 − 3x + 1 has a zero over the interval [0, 1].\n\n[openstax-calc1-p194-struct-03 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 194 | section 2.4]\nExample 2.33\nContinuity on an Interval\nState the interval(s) over which the function f (x) = x − 1\nx2 + 2x is continuous.\nSolution\nSince f (x) = x − 1\nx2 + 2x is a rational function, it is continuous at every point in its domain. The domain of\nf (x) is the set (−∞, −2) ∪ (−2, 0) ∪ (0, +∞). Thus, f (x) is continuous over each of the intervals\n\n[openstax-calc1-p195-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 195 | section 2.4]\n(−∞, −2), (−2, 0), and (0, +∞).\nExample 2.34\nContinuity over an Interval\nState the interval(s) over which the function f (x) = 4 −x2 is continuous.\nSolution\nFrom the limit laws, we know thatlimx → a 4 −x2 = 4 − a2 for all values ofa in (−2, 2). We also know that\nlim\nx → −2+ 4 −x2 = 0 exists and limx → 2− 4 −x2 = 0 exists. Therefore, f (x) is continuous over the interval\n[−2, 2].\nState the interval(s) over which the function f (x) = x + 3 is continuous.\nThe Composite Function Theoremallows us to expand our ability to compute limits. In particular, this theorem\nultimately allows us to demonstrate that trigonometric functions are continuous over their domains.",
+    "final_context_ids": [
+      "openstax-calc1-p198-struct-01",
+      "openstax-calc1-p194-struct-03",
+      "openstax-calc1-p195-struct-00"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1382,
+      "output_tokens": 158,
+      "llm_ms": 2335.5,
+      "search_ms": 4.7,
+      "llm_cost_usd": 0.000806
+    },
+    "elapsed_ms": 2340.2,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "answerable": true,
+    "question": "What is the equation of the tangent line to f(x) = x^2 at x = 3?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The equation of the tangent line to the graph of f(x) = x^2 at x = 3 is found by first calculating the slope of the tangent line using the limit definition, which gives a slope of 6. The tangent line passes through the point (3, 9), so using the point-slope form, the equation is y - 9 = 6(x - 3), which simplifies to y = 6x - 9. [openstax-calc1-p226-struct-00]",
+    "citations": [
+      "openstax-calc1-p226-struct-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "equation of tangent line to f(x) = x^2 at x = 3",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p226-struct-01",
+            "page": 226,
+            "section": "3.1",
+            "score": 0.71816
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p226-struct-00",
+            "page": 226,
+            "section": "3.1",
+            "score": 0.69859
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p227-struct-01",
+            "page": 227,
+            "section": "3.1",
+            "score": 0.6563
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p226-struct-01",
+          "openstax-calc1-p226-struct-00",
+          "openstax-calc1-p227-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2452
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p226-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 226 | section 3.1]\nExample 3.2\nThe Slope of a Tangent Line Revisited\nUse Equation 3.4 to find the slope of the line tangent to the graph of f (x) = x2 at x = 3.\nSolution\nThe steps are very similar to Example 3.1. See Equation 3.4 for the definition.\n\n[openstax-calc1-p226-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 226 | section 3.1]\nExample 3.1\nFinding a Tangent Line\nFind the equation of the line tangent to the graph of f (x) = x2 at x = 3.\nSolution\nFirst find the slope of the tangent line. In this example, use Equation 3.3.\nmtan = limx → 3f (x) − f (3)x − 3 Apply the definition\n= limx → 3x2 − 9x − 3 Substitute f (x) = x2 and f (3) = 9.\n= limx → 3(x − 3)(x + 3)x − 3 = limx → 3(x + 3) = 6 Factor the numerator to evaluate the limit.\nNext, find a point on the tangent line. Since the line is tangent to the graph off (x) at x = 3, it passes through\nthe point\n3, f (3)\n. We have f (3) = 9, so the tangent line passes through the point (3, 9).\nUsing the point-slope equation of the line with the slopem = 6 and the point(3, 9), we obtain the line\ny − 9 = 6(x − 3). Simplifying, we havey = 6x − 9. The graph off (x) = x2 and its tangent line at3 are\nshown in Figure 3.6.\nFigure 3.6 The tangent line to f (x) at x = 3.\n\n[openstax-calc1-p227-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 227 | section 3.1]\nExample 3.3\nFinding the Equation of a Tangent Line\nFind the equation of the line tangent to the graph of f (x) = 1/x at x = 2.\nSolution\nWe can use Equation 3.3, but as we have seen, the results are the same if we use Equation 3.4.\nmtan = limx → 2f (x) − f (2)x − 2 Apply the definition\n= limx → 2\n1x − 12\nx − 2 Substitute f (x) = 1x andf (2) = 12.\n= limx → 2\n1x − 12\nx − 2· 2x2x Multiply numerator and denominator by 2x tosimplify fractions.\n= limx → 2 (2 −x)(x − 2)(2x) Simplify.\n= limx → 2−12x Simplify using 2 −xx − 2= −1, forx ≠ 2.\n= − 14 Evaluate the limit.\nWe now know that the slope of the tangent line is−14. To find the equation of the tangent line, we also need a\npoint on the line. We know thatf (2) = 12. Since the tangent line passes through the point(2, 12) we can use\nthe point-slope equation of a line to find the equation of the tangent line. Thus the tangent line has the equation\ny = − 14x + 1. The graphs of f (x) = 1x and y = − 14x + 1 are shown in Figure 3.7.",
+    "final_context_ids": [
+      "openstax-calc1-p226-struct-01",
+      "openstax-calc1-p226-struct-00",
+      "openstax-calc1-p227-struct-01"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1654,
+      "output_tokens": 165,
+      "llm_ms": 2365.2,
+      "search_ms": 5.5,
+      "llm_cost_usd": 0.000926
+    },
+    "elapsed_ms": 2370.8,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "answerable": true,
+    "question": "Should the toy company raise or cut production when it makes 10,000 gaming systems, and why?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The toy company should increase production when it makes 10,000 gaming systems because the rate of change of profit at 10,000 units, P'(10000), is positive (100), indicating that profit is still increasing at that production level. Therefore, raising production will increase profit. [openstax-calc1-p235-struct-01]",
+    "citations": [
+      "openstax-calc1-p235-struct-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "marginal cost and production decision 10000 units",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p235-struct-00",
+            "page": 235,
+            "section": "3.1",
+            "score": 0.52205
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p235-struct-01",
+            "page": 235,
+            "section": "3.1",
+            "score": 0.51609
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p239-struct-00",
+            "page": 239,
+            "section": "3.1",
+            "score": 0.37363
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p235-struct-00",
+          "openstax-calc1-p235-struct-01",
+          "openstax-calc1-p239-struct-00"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2637
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p235-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 235 | section 3.1]\nExample 3.10\nRate of Change of Profit\nA toy company can sellx electronic gaming systems at a price ofp = −0.01x + 400 dollars per gaming\nsystem. The cost of manufacturingx systemsisgivenby C(x) = 100x + 10,000 dollars. Find the rate of change\nof profit when 10,000 games are produced. Should the toy company increase or decrease production?\n\n[openstax-calc1-p235-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 235 | section 3.1]\nSolution\nThe profitP(x) earned by producingx gaming systems isR(x) −C(x), where R(x) is the revenue obtained\nfrom the sale of x games. Since the company can sell x games at p = −0.01x + 400 per game,\nR(x) = xp = x(−0.01x + 400) = −0.01x2 + 400x.\nConsequently,\nP(x) = −0.01x2 + 300x − 10,000.\nTherefore, evaluating the rate of change of profit gives\nP′ (10000) = limx → 10000P(x) −P(10000)x − 10000\n= limx → 10000−0.01x2 + 300x − 10000 − 1990000x − 10000\n= limx → 10000−0.01x2 + 300x − 2000000x − 10000\n= 100.\nSince the rate of change of profitP′ (10,000) > 0 and P(10,000) > 0, the company should increase\nproduction.\nA coffee shop determines that the daily profit on scones obtained by chargings dollars per scone is\nP(s) = −20s2 + 150s− 10. The coffee shop currently charges$3.25 per scone. FindP′(3.25), the rate of\nchange of profit when the price is$3.25 and decide whether or not the coffee shop should consider raising or\nlowering its prices on scones.\n\n[openstax-calc1-p239-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 239 | section 3.1]\n48. [T] The total cost C(x), in hundreds of dollars,\nto produce x jars of mayonnaise is given by\nC(x) = 0.000003x3 + 4x + 300.\na. Calculate the average cost per jar over the\nfollowing intervals:\ni. [100, 100.1]\nii. [100, 100.01]\niii. [100, 100.001]\niv. [100, 100.0001]\nb. Use the answers from a. to estimate the average\ncost to produce 100 jars of mayonnaise.\n49. [T] For the functionf (x) = x3 − 2x2 − 11x + 12,\ndo the following.\na. Use a graphing calculator to graph f in an\nappropriate viewing window.\nb. Use the ZOOM feature on the calculator to\napproximate the two values ofx = a for which\nmtan = f ′ (a) = 0.\n50. [T] For the function f (x) = x\n1 +x2, do the\nfollowing.\na. Use a graphing calculator to graph f in an\nappropriate viewing window.\nb. Use the ZOOM feature on the calculator to\napproximate the values of x = a for which\nmtan = f ′ (a) = 0.\n51. Suppose that N(x) computes the number of gallons\nof gas used by a vehicle travelingx miles. Suppose the\nvehicle gets 30 mpg.",
+    "final_context_ids": [
+      "openstax-calc1-p235-struct-00",
+      "openstax-calc1-p235-struct-01",
+      "openstax-calc1-p239-struct-00"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1647,
+      "output_tokens": 122,
+      "llm_ms": 2052.9,
+      "search_ms": 568.7,
+      "llm_cost_usd": 0.000854
+    },
+    "elapsed_ms": 2621.7,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "answerable": true,
+    "question": "If a function is differentiable at a point, is it continuous there?",
+    "filter": {
+      "chapter": 3
+    },
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "If a function is differentiable at a point, then it must be continuous at that point. However, a function can be continuous at a point without being differentiable there. This is stated and proven in Theorem 3.1 in section 3.2 of the textbook [openstax-calc1-p244-struct-01][openstax-calc1-p245-struct-00][openstax-calc1-p245-struct-01].",
+    "citations": [
+      "openstax-calc1-p244-struct-01",
+      "openstax-calc1-p245-struct-00",
+      "openstax-calc1-p245-struct-01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "differentiable implies continuous",
+        "filter": {
+          "chapter": 3
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p244-struct-01",
+            "page": 244,
+            "section": "3.2",
+            "score": 0.65012
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p245-struct-00",
+            "page": 245,
+            "section": "3.2",
+            "score": 0.6474
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p245-struct-01",
+            "page": 245,
+            "section": "3.2",
+            "score": 0.62075
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p244-struct-01",
+          "openstax-calc1-p245-struct-00",
+          "openstax-calc1-p245-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2090
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "If a function is differentiable at a point, then it must be continuous at that point. However, a function can be continuous at a point without being differentiable there. This is stated and proven in Theorem 3.1 in section 3.2 of the textbook.",
+        "citations": [
+          "openstax-calc1-p244-struct-01",
+          "openstax-calc1-p245-struct-00",
+          "openstax-calc1-p245-struct-01"
+        ],
+        "bad": [
+          "openstax-calc1-p244-struct-01",
+          "openstax-calc1-p245-struct-00",
+          "openstax-calc1-p245-struct-01"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p244-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 244 | section 3.2]\nDerivatives and Continuity\nNow that we can graph a derivative, let’s examine the behavior of the graphs. First, we consider the relationship between\ndifferentiability and continuity. We will see that if a function is differentiable at a point, it must be continuous there;\n\n[openstax-calc1-p245-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 245 | section 3.2]\nhowever, a function that is continuous at a point need not be differentiable at that point. In fact, a function may be continuous\nat a point and fail to be differentiable at the point for one of several reasons.\nTheorem 3.1: Differentiability Implies Continuity\nLet f (x) be a function and a be in its domain. If f (x) is differentiable at a, then f is continuous at a.\n\n[openstax-calc1-p245-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 245 | section 3.2]\nProof\nIf f (x) is differentiable at a, then f ′(a) exists and\nf ′ (a) = limx → af (x) − f (a)x −a .\nWe want to show that f (x) is continuous at a by showing that limx → af (x) = f (a). Thus,\nlimx → af (x) = limx → a\nf (x) − f (a) + f (a)\n= limx → af (x) − f (a)x −a · (x −a) + f (a) Multiply and divide f (x) − f (a) byx −a.\n= limx → af (x) − f (a)x −a · limx → a(x −a) + limx → af (a)\n= f ′(a) · 0 +f (a)\n= f (a).\nTherefore, since f (a) is defined and limx → af (x) = f (a), we conclude that f is continuous at a.\n□\nWe have just proven that differentiability implies continuity, but now we consider whether continuity implies\ndifferentiability. To determine an answer to this question, we examine the functionf (x) = |x|. This function is continuous\neverywhere; however, f ′(0) is undefined. This observation leads us to believe that continuity does not imply\ndifferentiability. Let’s explore further. For f (x) = |x|,\nf ′ (0) = limx → 0f (x) − f (0)x − 0 = limx → 0|x| − |0|x − 0 = limx → 0|x|x .\nThis limit does not exist because\nlim\nx → 0−\n|x|x = −1 and limx → 0+ |x|x = 1.\nSee Figure 3.14.",
+    "final_context_ids": [
+      "openstax-calc1-p244-struct-01",
+      "openstax-calc1-p245-struct-00",
+      "openstax-calc1-p245-struct-01"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 2771,
+      "output_tokens": 284,
+      "llm_ms": 3603.2,
+      "search_ms": 3.9,
+      "llm_cost_usd": 0.001563
+    },
+    "elapsed_ms": 3607.3,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q24",
+    "split": "dev",
+    "answerable": true,
+    "question": "What is the derivative of velocity called?",
+    "filter": {
+      "section": "3.2"
+    },
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The derivative of velocity is called acceleration. It is the rate of change of velocity and is also known as the second derivative of the position function. This is an example of a higher-order derivative. [openstax-calc1-p249-struct-00]",
+    "citations": [
+      "openstax-calc1-p249-struct-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "derivative of velocity",
+        "filter": {
+          "section": "3.2"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p249-struct-00",
+            "page": 249,
+            "section": "3.2",
+            "score": 0.52189
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p240-struct-00",
+            "page": 240,
+            "section": "3.2",
+            "score": 0.49015
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p242-struct-00",
+            "page": 242,
+            "section": "3.2",
+            "score": 0.48919
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p249-struct-00",
+          "openstax-calc1-p240-struct-00"
+        ],
+        "dropped_by_budget": [
+          "openstax-calc1-p242-struct-00"
+        ],
+        "context_chars": 2241
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p249-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 249 | section 3.2]\nHigher-Order Derivatives\nThe derivative of a function is itself a function, so we can find the derivative of a derivative. For example, the derivative\nof a position function is the rate of change of position, or velocity. The derivative of velocity is the rate of change of\nvelocity, which is acceleration. The new function obtained by differentiating the derivative is called the second derivative.\nFurthermore, we can continue to take derivatives to obtain the third derivative, fourth derivative, and so on. Collectively,\nthese are referred to ashigher-order derivatives . The notation for the higher-order derivatives ofy = f (x) can be\nexpressed in any of the following forms:\nf ′′(x), f ′′′(x), f (4) (x),..., f (n) (x)\ny′′(x), y′′′(x), y(4) (x),..., y(n) (x)\nd2y\ndx 2 , d3ydy 3 , d4ydy 4 ,..., dnydyn .\nIt is interesting to note that the notation ford2y\ndx 2 may be viewed as an attempt to expressddxdydxmorecompactly.\nAnalogously, ddxddxdydx = ddxd2ydx 2 = d3ydx 3 .\n\n[openstax-calc1-p240-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 240 | section 3.2]\n3.2 | The Derivative as a Function\nLearning Objectives\n3.2.1 Define the derivative function of a given function.\n3.2.2 Graph a derivative function from the graph of a given function.\n3.2.3 State the connection between derivatives and continuity.\n3.2.4 Describe three conditions for when a function does not have a derivative.\n3.2.5 Explain the meaning of a higher-order derivative.\nAs we have seen, the derivative of a function at a given point gives us the rate of change or slope of the tangent line to the\nfunction at that point. If we differentiate a position function at a given time, we obtain the velocity at that time. It seems\nreasonable to conclude that knowing the derivative of the function at every point would produce valuable information about\nthe behavior of the function. However, the process of finding the derivative at even a handful of values using the techniques\nof the preceding section would quickly become quite tedious. In this section we define the derivative function and learn a\nprocess for finding it.",
+    "final_context_ids": [
+      "openstax-calc1-p249-struct-00",
+      "openstax-calc1-p240-struct-00"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 2,
+      "input_tokens": 1352,
+      "output_tokens": 96,
+      "llm_ms": 1894.3,
+      "search_ms": 4.2,
+      "llm_cost_usd": 0.000694
+    },
+    "elapsed_ms": 1898.7,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "q25",
+    "split": "dev",
+    "answerable": true,
+    "question": "What are the three common types of discontinuities?",
+    "filter": {
+      "section": "2.4"
+    },
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The three common types of discontinuities are removable discontinuities, jump discontinuities, and infinite discontinuities. A removable discontinuity is where the limit of the function exists at a point but the function is not defined there (a hole in the graph). A jump discontinuity occurs when the left-hand and right-hand limits exist but are not equal. An infinite discontinuity occurs when the function approaches infinity or negative infinity at the point (vertical asymptote) [openstax-calc1-p192-struct-01][openstax-calc1-p192-struct-02].",
+    "citations": [
+      "openstax-calc1-p192-struct-01",
+      "openstax-calc1-p192-struct-02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "types of discontinuities",
+        "filter": {
+          "section": "2.4"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p192-struct-01",
+            "page": 192,
+            "section": "2.4",
+            "score": 0.73503
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p192-struct-02",
+            "page": 192,
+            "section": "2.4",
+            "score": 0.59286
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p193-struct-01",
+            "page": 193,
+            "section": "2.4",
+            "score": 0.58489
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p192-struct-02",
+          "openstax-calc1-p193-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2313
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The three common types of discontinuities are removable discontinuities, jump discontinuities, and infinite discontinuities. A removable discontinuity occurs when the limit of the function exists at a point but the function is not defined there (a hole in the graph). A jump discontinuity occurs when the left-hand and right-hand limits exist but are not equal. An infinite discontinuity occurs when the function approaches infinity or negative infinity at the point (vertical asymptote).",
+        "citations": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p192-struct-02"
+        ],
+        "bad": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p192-struct-02"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p192-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 192 | section 2.4]\nTypes of Discontinuities\nAs we have seen inExample 2.26 and Example 2.27, discontinuities take on several different appearances. We\nclassify the types of discontinuities we have seen thus far as removable discontinuities, infinite discontinuities, or jump\ndiscontinuities. Intuitively, aremovable discontinuity is a discontinuity for which there is a hole in the graph, ajump\ndiscontinuity is a noninfinite discontinuity for which the sections of the function do not meet up, and aninfinite\ndiscontinuity is a discontinuity located at a vertical asymptote.Figure 2.37illustrates the differences in these types of\ndiscontinuities. Although these terms provide a handy way of describing three common types of discontinuities, keep in\nmind that not all discontinuities fit neatly into these categories.\nFigure 2.37 Discontinuities are classified as (a) removable, (b) jump, or (c) infinite.\nThese three discontinuities are formally defined as follows:\n\n[openstax-calc1-p192-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 192 | section 2.4]\nDefinition\nIf f (x) is discontinuous at a, then\n1. f has aremovable discontinuity at a if limx → af (x) exists. (Note: When we state thatlimx → af (x) exists, we\nmean that limx → af (x) = L, where L is a real number.)\n2. f has ajump discontinuity at a if lim\nx → a− f (x) and limx → a+ f (x) both exist, but limx → a− f (x) ≠ limx → a+ f (x).\n(Note: When we state thatlim\nx → a− f (x) and limx → a+ f (x) both exist, we mean that both are real-valued and that\nneither take on the values ±∞.)\n3. f has an infinite discontinuity at a if lim\nx → a− f (x) = ±∞ or limx → a+ f (x) = ±∞.\n\n[openstax-calc1-p193-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 193 | section 2.4]\nExample 2.31\nClassifying a Discontinuity\nIn Example 2.27, we showed that f (x) =\n−x2 + 4 ifx ≤ 3\n4x − 8 if x > 3\nis discontinuous at x = 3. Classify this\ndiscontinuity as removable, jump, or infinite.\nSolution\nEarlier, we showed that f is discontinuous at 3 because limx → 3f (x) does not exist. However, since\nlim\nx → 3− f (x) = −5 and limx → 3− f (x) = 4 both exist, we conclude that the function has a jump discontinuity at 3.",
+    "final_context_ids": [
+      "openstax-calc1-p192-struct-01",
+      "openstax-calc1-p192-struct-02",
+      "openstax-calc1-p193-struct-01"
+    ],
+    "searches": 1,
+    "usage": {
+      "llm_calls": 3,
+      "input_tokens": 2786,
+      "output_tokens": 313,
+      "llm_ms": 3777.2,
+      "search_ms": 4.1,
+      "llm_cost_usd": 0.001615
+    },
+    "elapsed_ms": 3781.4,
+    "post_hoc": {
+      "context_evidence": true
+    }
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "question": "How does L'Hôpital's rule evaluate a limit of the form 0/0?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "abstain",
+    "answer": "The excerpts do not contain a direct explanation of how L'Hôpital's rule evaluates a limit of the form 0/0. They discuss limits and forms like 0/0 and K/0 but do not explicitly describe the application of L'Hôpital's rule for 0/0 forms. Therefore, I must abstain from answering due to insufficient information.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "L'Hôpital's rule 0/0 limit",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.45769
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p241-struct-00",
+            "page": 241,
+            "section": "3.2",
+            "score": 0.43443
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p175-struct-01",
+            "page": 175,
+            "section": "2.3",
+            "score": 0.43324
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p241-struct-00",
+          "openstax-calc1-p175-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1874
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "L'Hôpital's rule 0/0 form",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.37921
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p241-struct-00",
+            "page": 241,
+            "section": "3.2",
+            "score": 0.36066
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p173-struct-02",
+            "page": 173,
+            "section": "2.3",
+            "score": 0.34311
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p241-struct-00",
+          "openstax-calc1-p175-struct-01",
+          "openstax-calc1-p173-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2419
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "L'Hôpital's rule 0/0 form explanation",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.42075
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p241-struct-00",
+            "page": 241,
+            "section": "3.2",
+            "score": 0.3886
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p173-struct-02",
+            "page": 173,
+            "section": "2.3",
+            "score": 0.38497
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p241-struct-00",
+          "openstax-calc1-p175-struct-01",
+          "openstax-calc1-p173-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 2419
+      },
+      {
+        "event": "abstain",
+        "model_text": "The excerpts do not contain a direct explanation of how L'Hôpital's rule evaluates a limit of the form 0/0. They discuss limits and forms like 0/0 and K/0 but do not explicitly describe the application of L'Hôpital's rule for 0/0 forms. Therefore, I must abstain from answering due to insufficient information."
+      }
+    ],
+    "final_context": "[openstax-calc1-p177-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 177 | section 2.3]\nExample 2.23\nEvaluating a Limit of the Form K/0, K ≠0 Using the Limit Laws\nEvaluate lim\nx → 2−\nx − 3\nx2 − 2x.\nSolution\nStep 1. After substituting inx = 2, we see that this limit has the form−1/0. That is, asx approaches 2 from the\n\n[openstax-calc1-p241-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 241 | section 3.2]\nf ′ (x) = lim\nh → 0\nx +h − x\nh\nSubstitute f (x +h) = x +h and f (x) = x\ninto f ′ (x) = lim\nh → 0\nf (x +h) − f (x)\nh .\n= lim\nh → 0\nx +h − x\nh · x +h + xx +h + x\nMultiply numerator and denominator by\nx +h + x without distributing in the\ndenominator.\n= lim\nh → 0\nh\nh( x +h + x) Multiply the numerators and simplify.\n= lim\nh → 0\n1\n( x +h + x) Cancel theh.\n= 12 x Evaluate the limit.\n\n[openstax-calc1-p175-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 175 | section 2.3]\nSolution\nBoth 1/x and 5/x(x − 5) fail to have a limit at zero. Since neither of the two functions has a limit at zero, we\ncannot apply the sum law for limits; we must use a different strategy. In this case, we find the limit by performing\naddition and then applying one of our previous strategies. Observe that\n1x + 5x(x − 5) = x − 5 + 5x(x − 5)\n= xx(x − 5).\nThus,\nlimx → 01x + 5x(x − 5) = limx → 0 xx(x − 5)\n= limx → 0 1x − 5\n= − 15.\nEvaluate limx → 3 1x − 3− 4x2 − 2x − 3.\nLet’s now revisit one-sided limits. Simple modifications in the limit laws allow us to apply them to one-sided limits. For\nexample, to apply the limit laws to a limit of the formlim\nx → a−h(x), we require the functionh(x) to be defined over an\nopen interval of the form(b, a); for a limit of the formlim\nx → a+h(x), we require the functionh(x) to be defined over an\nopen interval of the form (a, c). Example 2.21 illustrates this point.\n\n[openstax-calc1-p173-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 173 | section 2.3]\nSolution\nStep 1. x + 2− 1x + 1 has the form0/0 at −1. Let’s begin by multiplying byx + 2+ 1, the conjugate of\nx + 2− 1, on the numerator and denominator:\nlim\nx → −1\nx + 2− 1\nx + 1 = limx → −1 x + 2− 1x + 1 · x + 2+ 1x + 2+ 1.\nStep 2. We then multiply out the numerator. We don’t multiply out the denominator because we are hoping that\nthe (x + 1) in the denominator cancels out in the end:\n= lim\nx → −1\nx + 1\n(x + 1) x + 2+ 1.",
+    "final_context_ids": [
+      "openstax-calc1-p177-struct-01",
+      "openstax-calc1-p241-struct-00",
+      "openstax-calc1-p175-struct-01",
+      "openstax-calc1-p173-struct-02"
+    ],
+    "searches": 3,
+    "usage": {
+      "llm_calls": 4,
+      "input_tokens": 4140,
+      "output_tokens": 192,
+      "llm_ms": 3834.8,
+      "search_ms": 15.4,
+      "llm_cost_usd": 0.001963
+    },
+    "elapsed_ms": 3850.4,
+    "post_hoc": {
+      "context_evidence": null
+    }
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "question": "What does the chain rule say about the derivative of a composite function f(g(x))?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "answered",
+    "answer": "The chain rule states that the derivative of a composite function f(g(x)) is the derivative of the outer function evaluated at g(x) multiplied by the derivative of the inner function g(x), expressed as (f(g(x)))' = f'(g(x)) * g'(x). [openstax-calc1-p242-struct-00]",
+    "citations": [
+      "openstax-calc1-p242-struct-00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "chain rule derivative of composite function f(g(x))",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p195-struct-01",
+            "page": 195,
+            "section": "2.4",
+            "score": 0.54985
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p172-struct-00",
+            "page": 172,
+            "section": "2.3",
+            "score": 0.5089
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p229-struct-01",
+            "page": 229,
+            "section": "3.1",
+            "score": 0.49649
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p195-struct-01",
+          "openstax-calc1-p172-struct-00",
+          "openstax-calc1-p229-struct-01"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1737
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "chain rule derivative formula",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p222-struct-00",
+            "page": 222,
+            "section": "3.1",
+            "score": 0.44397
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p249-struct-00",
+            "page": 249,
+            "section": "3.2",
+            "score": 0.44228
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p242-struct-00",
+            "page": 242,
+            "section": "3.2",
+            "score": 0.43793
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p195-struct-01",
+          "openstax-calc1-p222-struct-00",
+          "openstax-calc1-p172-struct-00",
+          "openstax-calc1-p249-struct-00"
+        ],
+        "dropped_by_budget": [
+          "openstax-calc1-p229-struct-01",
+          "openstax-calc1-p242-struct-00"
+        ],
+        "context_chars": 2637
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "chain rule derivative formula f(g(x))",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p229-struct-01",
+            "page": 229,
+            "section": "3.1",
+            "score": 0.49749
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p172-struct-00",
+            "page": 172,
+            "section": "2.3",
+            "score": 0.49138
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p230-struct-00",
+            "page": 230,
+            "section": "3.1",
+            "score": 0.48856
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p195-struct-01",
+          "openstax-calc1-p222-struct-00",
+          "openstax-calc1-p229-struct-01",
+          "openstax-calc1-p172-struct-00",
+          "openstax-calc1-p242-struct-00"
+        ],
+        "dropped_by_budget": [
+          "openstax-calc1-p249-struct-00",
+          "openstax-calc1-p230-struct-00"
+        ],
+        "context_chars": 2989
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "answer": "The chain rule states that the derivative of a composite function f(g(x)) is given by the derivative of the outer function evaluated at the inner function times the derivative of the inner function. In other words, if y = f(g(x)), then dy/dx = f'(g(x)) * g'(x).",
+        "citations": [
+          "openstax-calc1-p242-struct-00"
+        ],
+        "bad": [
+          "openstax-calc1-p242-struct-00"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "final_context": "[openstax-calc1-p195-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 195 | section 2.4]\nTheorem 2.9: Composite Function Theorem\nIf f (x) is continuous at L and limx → ag(x) = L, then\nlimx → af\ng(x)\n= f limx → ag(x) = f (L).\nBefore we move on toExample 2.35, recall that earlier, in the section on limit laws, we showedlimx → 0cosx = 1 = cos(0).\nConsequently, we know thatf (x) = cosx iscontinuousat0.In Example 2.35we see how to combine this result with the\ncomposite function theorem.\nExample 2.35\nLimit of a Composite Cosine Function\nEvaluate lim\nx → π/2\ncosx − π2.\nSolution\n\n[openstax-calc1-p222-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 222 | section 3.1]\nwell. In this chapter, we explore one of the main tools of calculus, the derivative, and show convenient ways to calculate\nderivatives. We apply these rules to a variety of functions in this chapter so that we can then explore applications of these\ntechniques.\n\n[openstax-calc1-p229-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 229 | section 3.1]\nExample 3.5\nFinding a Derivative\nFor f (x) = 3x2 − 4x + 1, find f ′(2) by using Equation 3.5.\nSolution\nSubstitute the given function and value directly into the equation.\nf ′ (x) = lim\nx → 2\nf (x) − f (2)\nx − 2 Apply the definition\n= lim\nx → 2\n3x2 − 4x + 1 − 5\nx − 2 Substitute f (x) = 3x2 − 4x + 1 andf (2) = 5.\n= lim\nx → 2\n(x − 2)(3x + 2)\nx − 2 Simplify and factor the numerator.\n= lim\nx → 2\n(3x + 2) Cancel t he common factor.\n= 8 Evaluate the limit.\n\n[openstax-calc1-p172-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 172 | section 2.3]\nFigure 2.24 The graphs of f (x) and g(x) are identical for all x ≠ 1. Their limits at 1 are equal.\nWe see that\nlimx → 1x2 − 1x − 1 = limx → 1(x − 1)(x + 1)x − 1\n= limx → 1(x + 1)\n= 2.\nThe limit has the formlimx → af (x)g(x), where limx → af (x) = 0 and limx → ag(x) = 0. (In this case, we say thatf (x)/g(x) has the\nindeterminate form0/0.) The following Problem-Solving Strategy provides a general outline for evaluating limits of this\ntype.\n\n[openstax-calc1-p242-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 242 | section 3.2]\nf ′ (x), dydx, y′, ddxf (x).\nIn place of f ′ (a) we may also usedydx|x = a Use of thedydx notation (called Leibniz notation) is quite common in\nengineering and physics. To understand this notation better, recall that the derivative of a function at a point is the limit of\nthe slopes of secant lines as the secant lines approach the tangent line. The slopes of these secant lines are often expressed\nin the formΔyΔx where Δy is the difference in they values corresponding to the difference in thex values, which are\nexpressed as Δx (Figure 3.11). Thus the derivative, which can be thought of as the instantaneous rate of change ofy\nwith respect to x, is expressed as\ndy\ndx = limΔx → 0ΔyΔx.\nFigure 3.11 The derivative is expressed as dydx = limΔx → 0ΔyΔx.",
+    "final_context_ids": [
+      "openstax-calc1-p195-struct-01",
+      "openstax-calc1-p222-struct-00",
+      "openstax-calc1-p229-struct-01",
+      "openstax-calc1-p172-struct-00",
+      "openstax-calc1-p242-struct-00"
+    ],
+    "searches": 3,
+    "usage": {
+      "llm_calls": 5,
+      "input_tokens": 5774,
+      "output_tokens": 248,
+      "llm_ms": 4853.2,
+      "search_ms": 564.8,
+      "llm_cost_usd": 0.002706
+    },
+    "elapsed_ms": 5418.3,
+    "post_hoc": {
+      "context_evidence": null
+    }
+  },
+  {
+    "query_id": "u03",
+    "split": "dev",
+    "answerable": false,
+    "question": "What is the formal epsilon-delta definition of a limit?",
+    "filter": null,
+    "config": "A1_dense_budget",
+    "model": "gpt-4.1-mini",
+    "status": "abstain",
+    "answer": "The formal epsilon-delta definition of a limit states that for a function f(x), the limit of f(x) as x approaches a value a is L if for every ε > 0, there exists a δ > 0 such that whenever 0 < |x - a| < δ, it follows that |f(x) - L| < ε. This means we can make f(x) arbitrarily close to L by taking x sufficiently close to a, but not equal to a. However, the exact formal statement is not found in the provided excerpts.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "epsilon delta definition of limit",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.52534
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p169-struct-00",
+            "page": 169,
+            "section": "2.3",
+            "score": 0.50699
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p168-struct-02",
+            "page": 168,
+            "section": "2.3",
+            "score": 0.50621
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p169-struct-00",
+          "openstax-calc1-p168-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1895
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "formal epsilon delta definition of limit",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p169-struct-00",
+            "page": 169,
+            "section": "2.3",
+            "score": 0.50656
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.50176
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p168-struct-02",
+            "page": 168,
+            "section": "2.3",
+            "score": 0.48746
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p169-struct-00",
+          "openstax-calc1-p168-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1895
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "epsilon delta definition of limit formal",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "openstax-calc1-p169-struct-00",
+            "page": 169,
+            "section": "2.3",
+            "score": 0.51589
+          },
+          {
+            "rank": 2,
+            "id": "openstax-calc1-p177-struct-01",
+            "page": 177,
+            "section": "2.3",
+            "score": 0.51587
+          },
+          {
+            "rank": 3,
+            "id": "openstax-calc1-p168-struct-02",
+            "page": 168,
+            "section": "2.3",
+            "score": 0.50509
+          }
+        ],
+        "context_ids": [
+          "openstax-calc1-p177-struct-01",
+          "openstax-calc1-p169-struct-00",
+          "openstax-calc1-p168-struct-02"
+        ],
+        "dropped_by_budget": [],
+        "context_chars": 1895
+      },
+      {
+        "event": "abstain",
+        "model_text": "The formal epsilon-delta definition of a limit states that for a function f(x), the limit of f(x) as x approaches a value a is L if for every ε > 0, there exists a δ > 0 such that whenever 0 < |x - a| < δ, it follows that |f(x) - L| < ε. This means we can make f(x) arbitrarily close to L by taking x sufficiently close to a, but not equal to a. However, the exact formal statement is not found in the provided excerpts."
+      }
+    ],
+    "final_context": "[openstax-calc1-p177-struct-01 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 177 | section 2.3]\nExample 2.23\nEvaluating a Limit of the Form K/0, K ≠0 Using the Limit Laws\nEvaluate lim\nx → 2−\nx − 3\nx2 − 2x.\nSolution\nStep 1. After substituting inx = 2, we see that this limit has the form−1/0. That is, asx approaches 2 from the\n\n[openstax-calc1-p169-struct-00 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 169 | section 2.3]\nTheorem 2.5: Limit Laws\nLet f (x) and g(x) be defined for allx ≠ a over some open interval containinga. Assume thatL and M are real\nnumbers such that limx → af (x) = L and limx → ag(x) = M. Let c be a constant. Then, each of the following statements\nholds:\nSum law for limits: limx → a\nf (x) +g(x)\n= limx → af (x) + limx → ag(x) = L +M\nDifference law for limits: limx → a\nf (x) −g(x)\n= limx → af (x) − limx → ag(x) = L −M\nConstant multiple law for limits: limx → acf (x) = c · limx → af (x) = cL\nProduct law for limits: limx → a\nf (x) ·g(x)\n= limx → af (x) · limx → ag(x) = L ·M\nQuotient law for limits: limx → af (x)g(x) = limx → af (x)limx → ag(x) = LM for M ≠ 0\nPower law for limits: limx → a\nf (x)\nn = limx → af (x)n = Ln for every positive integer n.\nRoot law for limits: limx → a f (x)n = limx → af (x)n = Ln for all L if n is odd and for L ≥ 0 if n is even.\nWe now practice applying these limit laws to evaluate a limit.\n\n[openstax-calc1-p168-struct-02 | OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf | page 168 | section 2.3]\nExample 2.13\nEvaluating a Basic Limit\nEvaluate each of the following limits using Basic Limit Results.\na. limx → 2x\nb. lim\nx → 2\n5\nSolution\na. The limit of x as x approaches a is a: limx → 2x = 2.\nb. The limit of a constant is that constant: lim\nx → 2\n5 = 5.\nWe now take a look at the limit laws, the individual properties of limits. The proofs that these laws hold are omitted here.",
+    "final_context_ids": [
+      "openstax-calc1-p177-struct-01",
+      "openstax-calc1-p169-struct-00",
+      "openstax-calc1-p168-struct-02"
+    ],
+    "searches": 3,
+    "usage": {
+      "llm_calls": 4,
+      "input_tokens": 3630,
+      "output_tokens": 219,
+      "llm_ms": 4226.0,
+      "search_ms": 16.0,
+      "llm_cost_usd": 0.001802
+    },
+    "elapsed_ms": 4242.2,
+    "post_hoc": {
+      "context_evidence": null
+    }
+  }
+]

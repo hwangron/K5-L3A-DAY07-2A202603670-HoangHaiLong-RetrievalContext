@@ -1,0 +1,1115 @@
+[
+  {
+    "query_id": "q01",
+    "question": "What is the limit of a constant c as x approaches a?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p168-struct-02",
+        "page": 168,
+        "section": "2.3",
+        "score": 7.70442,
+        "hit": true,
+        "sources": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p169-struct-00",
+        "page": 169,
+        "section": "2.3",
+        "score": 0.8625,
+        "hit": false,
+        "sources": {
+          "dense": 9,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p177-struct-01",
+        "page": 177,
+        "section": "2.3",
+        "score": 0.65009,
+        "hit": false,
+        "sources": {
+          "dense": 6,
+          "bm25": 4
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p168-struct-02"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p168-struct-02",
+          "openstax-calc1-p169-struct-00",
+          "openstax-calc1-p177-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 1027.3
+  },
+  {
+    "query_id": "q02",
+    "question": "Which limit law only works when the limit of the denominator is not zero?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p175-struct-01",
+        "page": 175,
+        "section": "2.3",
+        "score": 1.70567,
+        "hit": false,
+        "sources": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p178-struct-00",
+        "page": 178,
+        "section": "2.3",
+        "score": 1.67306,
+        "hit": false,
+        "sources": {
+          "dense": 8,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p177-struct-01",
+        "page": 177,
+        "section": "2.3",
+        "score": 0.51936,
+        "hit": false,
+        "sources": {
+          "dense": 4
+        }
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p178-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p175-struct-01",
+          "openstax-calc1-p178-struct-00",
+          "openstax-calc1-p177-struct-01"
+        ],
+        "evidence": false
+      }
+    },
+    "elapsed_ms": 737.2
+  },
+  {
+    "query_id": "q03",
+    "question": "For which values of a can the limit of a rational function be found by direct substitution?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p171-struct-01",
+        "page": 171,
+        "section": "2.3",
+        "score": 6.77422,
+        "hit": false,
+        "sources": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p171-struct-00",
+        "page": 171,
+        "section": "2.3",
+        "score": 3.67606,
+        "hit": false,
+        "sources": {
+          "dense": 1,
+          "bm25": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p170-struct-01",
+        "page": 170,
+        "section": "2.3",
+        "score": 3.31339,
+        "hit": true,
+        "sources": {
+          "dense": 3,
+          "bm25": 3
+        }
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p171-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p171-struct-01",
+          "openstax-calc1-p171-struct-00",
+          "openstax-calc1-p170-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 801.9
+  },
+  {
+    "query_id": "q04",
+    "question": "A 0/0 limit has a square root difference in the numerator. What algebra trick should I try?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p172-struct-01",
+        "page": 172,
+        "section": "2.3",
+        "score": 4.45342,
+        "hit": true,
+        "sources": {
+          "dense": 5,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p174-struct-01",
+        "page": 174,
+        "section": "2.3",
+        "score": -1.72815,
+        "hit": false,
+        "sources": {
+          "dense": 2,
+          "bm25": 12
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p177-struct-01",
+        "page": 177,
+        "section": "2.3",
+        "score": -2.73137,
+        "hit": false,
+        "sources": {
+          "dense": 4,
+          "bm25": 15
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p177-struct-01"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p172-struct-01",
+          "openstax-calc1-p174-struct-01",
+          "openstax-calc1-p177-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 1221.8
+  },
+  {
+    "query_id": "q05",
+    "question": "Why can the sum law not be used for the limit of 1/x + 5/(x(x−5)) as x goes to 0?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p175-struct-01",
+        "page": 175,
+        "section": "2.3",
+        "score": 6.23383,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p169-struct-00",
+        "page": 169,
+        "section": "2.3",
+        "score": -0.67053,
+        "hit": false,
+        "sources": {
+          "dense": 5,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p174-struct-01",
+        "page": 174,
+        "section": "2.3",
+        "score": -0.98769,
+        "hit": false,
+        "sources": {
+          "dense": 15,
+          "bm25": 18
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p175-struct-01",
+          "openstax-calc1-p169-struct-00",
+          "openstax-calc1-p174-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 772.7
+  },
+  {
+    "query_id": "q06",
+    "question": "Can the limit laws be used for the left-hand limit of the square root of (x − 3) at x = 3?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p176-struct-00",
+        "page": 176,
+        "section": "2.3",
+        "score": 4.8872,
+        "hit": true,
+        "sources": {
+          "dense": 4,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p176-struct-01",
+        "page": 176,
+        "section": "2.3",
+        "score": 2.87078,
+        "hit": false,
+        "sources": {
+          "dense": 15,
+          "bm25": 17
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p173-struct-01",
+        "page": 173,
+        "section": "2.3",
+        "score": 2.04656,
+        "hit": false,
+        "sources": {
+          "dense": 7,
+          "bm25": 12
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p176-struct-01"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p176-struct-00",
+          "openstax-calc1-p176-struct-01",
+          "openstax-calc1-p173-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 770.2
+  },
+  {
+    "query_id": "q07",
+    "question": "What inequality between f, g and h does the squeeze theorem require?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p179-struct-00",
+        "page": 179,
+        "section": "2.3",
+        "score": 6.70179,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p178-struct-01",
+        "page": 178,
+        "section": "2.3",
+        "score": 4.57334,
+        "hit": false,
+        "sources": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p179-struct-02",
+        "page": 179,
+        "section": "2.3",
+        "score": 4.08792,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 4
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p179-struct-00"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p179-struct-00",
+          "openstax-calc1-p178-struct-01",
+          "openstax-calc1-p179-struct-02"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 721.3
+  },
+  {
+    "query_id": "q08",
+    "question": "What is the limit of sin θ divided by θ as θ approaches 0?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p180-struct-00",
+        "page": 180,
+        "section": "2.3",
+        "score": 5.60701,
+        "hit": false,
+        "sources": {
+          "dense": 4,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p181-struct-00",
+        "page": 181,
+        "section": "2.3",
+        "score": 5.56599,
+        "hit": true,
+        "sources": {
+          "dense": 3,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p179-struct-02",
+        "page": 179,
+        "section": "2.3",
+        "score": 4.30485,
+        "hit": false,
+        "sources": {
+          "dense": 5,
+          "bm25": 10
+        }
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p181-struct-00"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p180-struct-00",
+          "openstax-calc1-p181-struct-00",
+          "openstax-calc1-p179-struct-02"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 736.9
+  },
+  {
+    "query_id": "q10",
+    "question": "What three conditions must hold for a function to be continuous at a point a?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p188-struct-01",
+        "page": 188,
+        "section": "2.4",
+        "score": 6.34488,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p188-struct-00",
+        "page": 188,
+        "section": "2.4",
+        "score": 5.93323,
+        "hit": false,
+        "sources": {
+          "dense": 2,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p187-struct-01",
+        "page": 187,
+        "section": "2.4",
+        "score": 5.26705,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 6
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p188-struct-01"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p188-struct-01",
+          "openstax-calc1-p188-struct-00",
+          "openstax-calc1-p187-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 1108.7
+  },
+  {
+    "query_id": "q11",
+    "question": "What do we call a discontinuity where the pieces of the graph do not meet up but nothing goes to infinity?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p192-struct-01",
+        "page": 192,
+        "section": "2.4",
+        "score": 4.38681,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p194-struct-00",
+        "page": 194,
+        "section": "2.4",
+        "score": -0.2018,
+        "hit": false,
+        "sources": {
+          "dense": 2,
+          "bm25": 5
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p193-struct-01",
+        "page": 193,
+        "section": "2.4",
+        "score": -0.77803,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 9
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p194-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p194-struct-00",
+          "openstax-calc1-p193-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 751.6
+  },
+  {
+    "query_id": "q13",
+    "question": "When is a function continuous over a closed interval [a, b]?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p194-struct-02",
+        "page": 194,
+        "section": "2.4",
+        "score": 6.56519,
+        "hit": true,
+        "sources": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p196-struct-03",
+        "page": 196,
+        "section": "2.4",
+        "score": 6.02005,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p197-struct-00",
+        "page": 197,
+        "section": "2.4",
+        "score": 4.21122,
+        "hit": false,
+        "sources": {
+          "bm25": 3
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p196-struct-03"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p194-struct-02",
+          "openstax-calc1-p196-struct-03",
+          "openstax-calc1-p197-struct-00"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 656.5
+  },
+  {
+    "query_id": "q15",
+    "question": "Over what set are the trigonometric functions continuous?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p195-struct-00",
+        "page": 195,
+        "section": "2.4",
+        "score": 5.88429,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p196-struct-01",
+        "page": 196,
+        "section": "2.4",
+        "score": 5.66401,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p196-struct-00",
+        "page": 196,
+        "section": "2.4",
+        "score": 4.84721,
+        "hit": true,
+        "sources": {
+          "dense": 2,
+          "bm25": 4
+        }
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p195-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p195-struct-00",
+          "openstax-calc1-p196-struct-01",
+          "openstax-calc1-p196-struct-00"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 701.7
+  },
+  {
+    "query_id": "q17",
+    "question": "Why does f(−1) < 0 < f(1) not prove that 1/x has a zero on [−1, 1]?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p198-struct-01",
+        "page": 198,
+        "section": "2.4",
+        "score": 7.40505,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p198-struct-00",
+        "page": 198,
+        "section": "2.4",
+        "score": 4.83725,
+        "hit": false,
+        "sources": {
+          "dense": 6
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p197-struct-00",
+        "page": 197,
+        "section": "2.4",
+        "score": 4.12407,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 5
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p198-struct-01"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p198-struct-01",
+          "openstax-calc1-p198-struct-00",
+          "openstax-calc1-p197-struct-00"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 726.2
+  },
+  {
+    "query_id": "q18",
+    "question": "What is the equation of the tangent line to f(x) = x^2 at x = 3?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p226-struct-01",
+        "page": 226,
+        "section": "3.1",
+        "score": 8.02273,
+        "hit": false,
+        "sources": {
+          "dense": 1,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p227-struct-01",
+        "page": 227,
+        "section": "3.1",
+        "score": 8.00143,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p226-struct-00",
+        "page": 226,
+        "section": "3.1",
+        "score": 7.87428,
+        "hit": true,
+        "sources": {
+          "dense": 2,
+          "bm25": 2
+        }
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p226-struct-01"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p226-struct-01",
+          "openstax-calc1-p227-struct-01",
+          "openstax-calc1-p226-struct-00"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 1201.9
+  },
+  {
+    "query_id": "q21",
+    "question": "Should the toy company raise or cut production when it makes 10,000 gaming systems, and why?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p235-struct-00",
+        "page": 235,
+        "section": "3.1",
+        "score": 5.28473,
+        "hit": false,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p235-struct-01",
+        "page": 235,
+        "section": "3.1",
+        "score": -2.47995,
+        "hit": true,
+        "sources": {
+          "dense": 2,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p247-struct-01",
+        "page": 247,
+        "section": "3.2",
+        "score": -10.46225,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 3
+        }
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p235-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p235-struct-00",
+          "openstax-calc1-p235-struct-01",
+          "openstax-calc1-p247-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 1096.2
+  },
+  {
+    "query_id": "q22",
+    "question": "If a function is differentiable at a point, is it continuous there?",
+    "filter": {
+      "chapter": 3
+    },
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p245-struct-00",
+        "page": 245,
+        "section": "3.2",
+        "score": 9.99025,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p247-struct-00",
+        "page": 247,
+        "section": "3.2",
+        "score": 9.6735,
+        "hit": false,
+        "sources": {
+          "dense": 5,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p244-struct-01",
+        "page": 244,
+        "section": "3.2",
+        "score": 8.69335,
+        "hit": false,
+        "sources": {
+          "dense": 2,
+          "bm25": 3
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p245-struct-00"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p245-struct-00",
+          "openstax-calc1-p247-struct-00",
+          "openstax-calc1-p244-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 1050.3
+  },
+  {
+    "query_id": "q24",
+    "question": "What is the derivative of velocity called?",
+    "filter": {
+      "section": "3.2"
+    },
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p249-struct-00",
+        "page": 249,
+        "section": "3.2",
+        "score": 7.05854,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p240-struct-00",
+        "page": 240,
+        "section": "3.2",
+        "score": 0.42159,
+        "hit": false,
+        "sources": {
+          "dense": 3,
+          "bm25": 3
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p242-struct-00",
+        "page": 242,
+        "section": "3.2",
+        "score": -1.81475,
+        "hit": false,
+        "sources": {
+          "dense": 2,
+          "bm25": 2
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p249-struct-00",
+          "openstax-calc1-p240-struct-00"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 989.4
+  },
+  {
+    "query_id": "q25",
+    "question": "What are the three common types of discontinuities?",
+    "filter": {
+      "section": "2.4"
+    },
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p192-struct-01",
+        "page": 192,
+        "section": "2.4",
+        "score": 8.57237,
+        "hit": true,
+        "sources": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p187-struct-00",
+        "page": 187,
+        "section": "2.4",
+        "score": 1.70839,
+        "hit": false,
+        "sources": {
+          "dense": 5,
+          "bm25": 2
+        }
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p193-struct-01",
+        "page": 193,
+        "section": "2.4",
+        "score": 0.69219,
+        "hit": false,
+        "sources": {
+          "dense": 2
+        }
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p193-struct-01"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p192-struct-01",
+          "openstax-calc1-p187-struct-00",
+          "openstax-calc1-p193-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 699.8
+  }
+]

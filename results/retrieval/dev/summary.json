@@ -1,0 +1,108 @@
+{
+  "split": "dev",
+  "n": 18,
+  "top_k": 3,
+  "query": "original question",
+  "filter": "question.filter (user-provided scope) for all methods",
+  "methods": {
+    "dense": {
+      "hit1": 9,
+      "hit3": 16,
+      "N": 18,
+      "context_evidence": {
+        "800": 5,
+        "3000": 16
+      },
+      "median_ms": 237.6,
+      "mean_ms": 262.3,
+      "embedding_tokens": 335,
+      "missed_at3": [
+        "q04",
+        "q06"
+      ],
+      "missed_at1": [
+        "q01",
+        "q02",
+        "q03",
+        "q04",
+        "q06",
+        "q08",
+        "q13",
+        "q18",
+        "q21"
+      ],
+      "embedding_cost_usd": 7e-06
+    },
+    "bm25": {
+      "hit1": 12,
+      "hit3": 17,
+      "N": 18,
+      "context_evidence": {
+        "800": 6,
+        "3000": 17
+      },
+      "median_ms": 0.3,
+      "mean_ms": 0.3,
+      "embedding_tokens": 0,
+      "missed_at3": [
+        "q02"
+      ],
+      "missed_at1": [
+        "q02",
+        "q03",
+        "q06",
+        "q07",
+        "q18",
+        "q21"
+      ],
+      "embedding_cost_usd": 0.0
+    },
+    "hybrid_rrf": {
+      "hit1": 12,
+      "hit3": 18,
+      "N": 18,
+      "context_evidence": {
+        "800": 6,
+        "3000": 18
+      },
+      "median_ms": 4.2,
+      "mean_ms": 4.2,
+      "embedding_tokens": 0,
+      "missed_at3": [],
+      "missed_at1": [
+        "q02",
+        "q03",
+        "q06",
+        "q07",
+        "q18",
+        "q21"
+      ],
+      "embedding_cost_usd": 0.0
+    },
+    "hybrid_rerank": {
+      "hit1": 12,
+      "hit3": 17,
+      "N": 18,
+      "context_evidence": {
+        "800": 6,
+        "3000": 17
+      },
+      "median_ms": 771.4,
+      "mean_ms": 876.2,
+      "embedding_tokens": 0,
+      "missed_at3": [
+        "q02"
+      ],
+      "missed_at1": [
+        "q02",
+        "q03",
+        "q08",
+        "q15",
+        "q18",
+        "q21"
+      ],
+      "embedding_cost_usd": 0.0
+    }
+  },
+  "embedding_cache_hits": 38
+}

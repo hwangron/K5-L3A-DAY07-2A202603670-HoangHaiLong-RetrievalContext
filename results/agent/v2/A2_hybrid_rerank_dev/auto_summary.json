@@ -1,0 +1,46 @@
+{
+  "config": "A2_hybrid_rerank",
+  "retriever": "hybrid_rerank",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "context_order": "rank_interleave",
+  "max_searches": 3,
+  "note": "Improvement 2: dense+BM25 RRF, cross-encoder rerank of 20 candidates, same budget as A1",
+  "split": "dev",
+  "model": "gpt-4.1-mini",
+  "agent_version": 2,
+  "run_at": "2026-11-15T03:21:41+00:00",
+  "cases": 21,
+  "errors": 0,
+  "status": {
+    "answered": 20,
+    "abstain": 1
+  },
+  "tool_use": {
+    "n": 21,
+    "N": 21
+  },
+  "searches_distribution": {
+    "1": 17,
+    "3": 4
+  },
+  "context_evidence": {
+    "n": 16,
+    "N": 18
+  },
+  "false_abstention_auto": {
+    "n": 0,
+    "N": 18
+  },
+  "unanswerable_abstained_auto": {
+    "n": 1,
+    "N": 3
+  },
+  "avg_context_chars": 2348.5,
+  "input_tokens": 43954,
+  "output_tokens": 2090,
+  "llm_cost_usd": 0.02092,
+  "embedding_cost_usd": 1e-06,
+  "median_latency_s": 2.83,
+  "total_latency_s": 73.2
+}

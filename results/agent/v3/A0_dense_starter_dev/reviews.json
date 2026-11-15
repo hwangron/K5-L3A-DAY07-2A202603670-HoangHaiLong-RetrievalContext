@@ -1,0 +1,146 @@
+[
+  {
+    "query_id": "q01",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q02",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q03",
+    "citation_support": [
+      true
+    ],
+    "note": "Nói \"giá trị trong miền xác định\"; chunk p171 chỉ là ví dụ, không nêu quy tắc chung.",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "q04",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q05",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q06",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q07",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q08",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q10",
+    "citation_support": [
+      true
+    ],
+    "note": "Chunk p188-00 có điều kiện iii, thiếu i và ii.",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "q11",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q13",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q15",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [],
+    "note": "Từ chối nhầm câu có đáp án.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q21",
+    "citation_support": [
+      true
+    ],
+    "note": "Không đưa ra quyết định; chunk chỉ có đề.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q22",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; p244-01 nêu rõ ý (evidence thay thế hợp lệ, metric không bắt).",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q24",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; p250 có a(t) = v′(t).",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q25",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; p192-02 có định nghĩa 3 loại.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "u01",
+    "citation_support": [],
+    "note": "Từ chối, không nêu nội dung quy tắc.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u02",
+    "citation_support": [],
+    "note": "Từ chối, không nêu nội dung quy tắc.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "note": "Từ chối, không nêu định nghĩa.",
+    "abstention_correct": true
+  }
+]

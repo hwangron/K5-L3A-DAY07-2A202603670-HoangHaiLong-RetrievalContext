@@ -1,0 +1,5 @@
+# Python 3.11+ (tested on 3.14.7, Windows 11)
+openai>=2,<4               # agent model gpt-4.1-mini + query embedding text-embedding-3-small
+pg8000==1.31.6             # pure-Python PostgreSQL driver for the Day 6 pgvector store
+python-dotenv>=1,<2
+sentence-transformers>=3   # local cross-encoder reranker (pulls torch; CPU is enough)

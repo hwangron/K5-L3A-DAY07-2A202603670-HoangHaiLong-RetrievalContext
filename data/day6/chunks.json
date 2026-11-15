@@ -1,0 +1,2450 @@
+[
+  {
+    "id": "openstax-calc1-p168-struct-00",
+    "text": "2.3 | The Limit Laws\nLearning Objectives\n2.3.1 Recognize the basic limit laws.\n2.3.2 Use the limit laws to evaluate the limit of a function.\n2.3.3 Evaluate the limit of a function by factoring.\n2.3.4 Use the limit laws to evaluate the limit of a polynomial or rational function.\n2.3.5 Evaluate the limit of a function by factoring or by using conjugates.\n2.3.6 Evaluate the limit of a function by using the squeeze theorem.\nIn the previous section, we evaluated limits by looking at graphs or by constructing a table of values. In this section, we\nestablish laws for calculating limits and learn how to apply these laws. In the Student Project at the end of this section, you\nhave the opportunity to apply these limit laws to derive the formula for the area of a circle by adapting a method devised by\nthe Greek mathematician Archimedes. We begin by restating two useful limit results from the previous section. These two\nresults, together with the limit laws, serve as a foundation for calculating many limits.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 168,
+    "metadata": {
+      "printed_page": 160,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 1012,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p168-struct-01",
+    "text": "Evaluating Limits with the Limit Laws\nThe first two limit laws were stated inTwo Important Limitsand we repeat them here. These basic results, together with\nthe other limit laws, allow us to evaluate limits of many algebraic functions.\nTheorem 2.4: Basic Limit Results\nFor any real number a and any constant c,\ni. (2.14)limx → ax = a\nii. (2.15)limx → ac = c",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 168,
+    "metadata": {
+      "printed_page": 160,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 1012,
+      "char_end": 1370,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p168-struct-02",
+    "text": "Example 2.13\nEvaluating a Basic Limit\nEvaluate each of the following limits using Basic Limit Results.\na. limx → 2x\nb. lim\nx → 2\n5\nSolution\na. The limit of x as x approaches a is a: limx → 2x = 2.\nb. The limit of a constant is that constant: lim\nx → 2\n5 = 5.\nWe now take a look at the limit laws, the individual properties of limits. The proofs that these laws hold are omitted here.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 168,
+    "metadata": {
+      "printed_page": 160,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 1370,
+      "char_end": 1753,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p169-struct-00",
+    "text": "Theorem 2.5: Limit Laws\nLet f (x) and g(x) be defined for allx ≠ a over some open interval containinga. Assume thatL and M are real\nnumbers such that limx → af (x) = L and limx → ag(x) = M. Let c be a constant. Then, each of the following statements\nholds:\nSum law for limits: limx → a\nf (x) +g(x)\n= limx → af (x) + limx → ag(x) = L +M\nDifference law for limits: limx → a\nf (x) −g(x)\n= limx → af (x) − limx → ag(x) = L −M\nConstant multiple law for limits: limx → acf (x) = c · limx → af (x) = cL\nProduct law for limits: limx → a\nf (x) ·g(x)\n= limx → af (x) · limx → ag(x) = L ·M\nQuotient law for limits: limx → af (x)g(x) = limx → af (x)limx → ag(x) = LM for M ≠ 0\nPower law for limits: limx → a\nf (x)\nn = limx → af (x)n = Ln for every positive integer n.\nRoot law for limits: limx → a f (x)n = limx → af (x)n = Ln for all L if n is odd and for L ≥ 0 if n is even.\nWe now practice applying these limit laws to evaluate a limit.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 169,
+    "metadata": {
+      "printed_page": 161,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 928,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p169-struct-01",
+    "text": "Example 2.14\nEvaluating a Limit Using Limit Laws\nUse the limit laws to evaluate limx → −3(4x + 2).\nSolution\nLet’s apply the limit laws one step at a time to be sure we understand how they work. We need to keep in mind\nthe requirement that, at each application of a limit law, the new limits must exist for the limit law to be applied.\nlimx → −3(4x + 2) = limx → −34x + limx → −32 Apply the sum law.\n= 4 · limx → −3x + limx → −32 Apply the constant multiple law.\n= 4 ·(−3) + 2 = −10. Apply the basic limit results and simplify.\nExample 2.15\nUsing Limit Laws Repeatedly\nUse the limit laws to evaluate lim\nx → 2\n2x2 − 3x + 1\nx3 + 4 .\nSolution",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 169,
+    "metadata": {
+      "printed_page": 161,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 928,
+      "char_end": 1567,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p170-struct-00",
+    "text": "To find this limit, we need to apply the limit laws several times. Again, we need to keep in mind that as we rewrite\nthe limit in terms of other limits, each new limit must exist for the limit law to be applied.\nlimx → 22x2 − 3x + 1x3 + 4 = limx → 22x2 − 3x + 1limx → 2x3 + 4 Apply the quotient law, making sure that. (2)3 + 4 ≠ 0\n=\n2 · limx → 2x2 − 3 · limx → 2x + limx → 21\nlimx → 2x3 + limx → 24 Apply the sum law and constant multiple law.\n=\n2 · limx → 2x2 − 3 · limx → 2x + limx → 21\nlimx → 2x3 + limx → 24 Apply the power law.\n= 2(4) − 3(2) + 1\n(2)3 + 4 = 14. Apply the basic limit laws and simplify.\nUse the limit laws to evaluate lim\nx → 6\n(2x − 1) x + 4. In each step, indicate the limit law applied.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 170,
+    "metadata": {
+      "printed_page": 162,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 710,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p170-struct-01",
+    "text": "Limits of Polynomial and Rational Functions\nBy now you have probably noticed that, in each of the previous examples, it has been the case thatlimx → af (x) = f (a). This\nis not always true, but it does hold for all polynomials for any choice ofa and for all rational functions at all values ofa for\nwhich the rational function is defined.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 170,
+    "metadata": {
+      "printed_page": 162,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 710,
+      "char_end": 1049,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p170-struct-02",
+    "text": "Theorem 2.6: Limits of Polynomial and Rational Functions\nLet p(x) and q(x) be polynomial functions. Let a be a real number. Then,\nlimx → ap(x) = p(a)\nlimx → ap(x)q(x) = p(a)q(a) whenq(a) ≠ 0.\nTo see that this theorem holds, consider the polynomialp(x) = cnxn +cn − 1xn − 1+ ⋯ + c1x +c0. By applying the\nsum, constant multiple, and power laws, we end up with\nlimx → ap(x) = limx → acnxn +cn − 1xn − 1+ ⋯ + c1x +c0\n= cn limx → axn +cn − 1 limx → axn − 1+ ⋯ + c1 limx → ax + limx → ac0\n= cnan +cn − 1an − 1+ ⋯ + c1a +c0\n= p(a).\nIt now follows from the quotient law that if p(x) and q(x) are polynomials for which q(a) ≠ 0, then\nlimx → ap(x)q(x) = p(a)q(a).\nExample 2.16 applies this result.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 170,
+    "metadata": {
+      "printed_page": 162,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 1049,
+      "char_end": 1736,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p171-struct-00",
+    "text": "Example 2.16\nEvaluating a Limit of a Rational Function\nEvaluate the limx → 32x2 − 3x + 15x + 4 .\nSolution\nSince 3 is in the domain of the rational functionf (x) = 2x2 − 3x + 15x + 4 , we can calculate the limit by substituting\n3 for x into the function. Thus,\nlimx → 32x2 − 3x + 15x + 4 = 1019.\nEvaluate limx → −23x3 − 2x + 7.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 171,
+    "metadata": {
+      "printed_page": 163,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 327,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p171-struct-01",
+    "text": "Additional Limit Evaluation Techniques\nAs we have seen, we may evaluate easily the limits of polynomials and limits of some (but not all) rational functions by\ndirect substitution. However, as we saw in the introductory section on limits, it is certainly possible forlimx → af (x) to exist\nwhen f (a) is undefined. The following observation allows us to evaluate many limits of this type:\nIf for all x ≠ a, f (x) = g(x) over some open interval containing a, then limx → af (x) = limx → ag(x).\nTo understand this idea better, consider the limit limx → 1x2 − 1x − 1.\nThe function\nf (x) = x2 − 1x − 1\n= (x − 1)(x + 1)x − 1\nand the functiong(x) = x + 1 are identical for all values ofx ≠ 1. The graphs of these two functions are shown inFigure\n2.24.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 171,
+    "metadata": {
+      "printed_page": 163,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 327,
+      "char_end": 1072,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p172-struct-00",
+    "text": "Figure 2.24 The graphs of f (x) and g(x) are identical for all x ≠ 1. Their limits at 1 are equal.\nWe see that\nlimx → 1x2 − 1x − 1 = limx → 1(x − 1)(x + 1)x − 1\n= limx → 1(x + 1)\n= 2.\nThe limit has the formlimx → af (x)g(x), where limx → af (x) = 0 and limx → ag(x) = 0. (In this case, we say thatf (x)/g(x) has the\nindeterminate form0/0.) The following Problem-Solving Strategy provides a general outline for evaluating limits of this\ntype.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 172,
+    "metadata": {
+      "printed_page": 164,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 442,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p172-struct-01",
+    "text": "Problem-Solving Strategy: Calculating a Limit When f(x)/g(x) has the Indeterminate Form 0/0\n1. First, we need to make sure that our function has the appropriate form and cannot be evaluated immediately\nusing the limit laws.\n2. We then need to find a function that is equal toh(x) = f (x)/g(x) for allx ≠ a over some interval containing\na. To do this, we may need to try one or more of the following steps:\na. If f (x) and g(x) are polynomials, we should factor each function and cancel out any common factors.\nb. If the numerator or denominator contains a difference involving a square root, we should try\nmultiplying the numerator and denominator by the conjugate of the expression involving the square\nroot.\nc. If f (x)/g(x) is a complex fraction, we begin by simplifying it.\n3. Last, we apply the limit laws.\nThe next examples demonstrate the use of this Problem-Solving Strategy.Example 2.17illustrates the factor-and-cancel\ntechnique; Example 2.18shows multiplying by a conjugate. InExample 2.19, we look at simplifying a complex fraction.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 172,
+    "metadata": {
+      "printed_page": 164,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 442,
+      "char_end": 1486,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p173-struct-00",
+    "text": "Example 2.17\nEvaluating a Limit by Factoring and Canceling\nEvaluate limx → 3 x2 − 3x2x2 − 5x − 3.\nSolution\nStep 1. The function f (x) = x2 − 3x\n2x2 − 5x − 3 is undefined forx = 3. In fact, if we substitute 3 into the function\nwe get 0/0, which is undefined. Factoring and canceling is a good strategy:\nlimx → 3 x2 − 3x2x2 − 5x − 3= limx → 3 x(x − 3)(x − 3)(2x + 1)",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 173,
+    "metadata": {
+      "printed_page": 165,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 365,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p173-struct-01",
+    "text": "Step 2. For all x ≠ 3, x2 − 3x\n2x2 − 5x − 3= x2x + 1. Therefore,\nlimx → 3 x(x − 3)(x − 3)(2x + 1) = limx → 3 x2x + 1.\nStep 3. Evaluate using the limit laws:\nlimx → 3 x2x + 1= 37.\nEvaluate limx → −3x2 + 4x + 3x2 − 9 .\nExample 2.18\nEvaluating a Limit by Multiplying by a Conjugate\nEvaluate limx → −1 x + 2− 1x + 1 .",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 173,
+    "metadata": {
+      "printed_page": 165,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 365,
+      "char_end": 679,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p173-struct-02",
+    "text": "Solution\nStep 1. x + 2− 1x + 1 has the form0/0 at −1. Let’s begin by multiplying byx + 2+ 1, the conjugate of\nx + 2− 1, on the numerator and denominator:\nlim\nx → −1\nx + 2− 1\nx + 1 = limx → −1 x + 2− 1x + 1 · x + 2+ 1x + 2+ 1.\nStep 2. We then multiply out the numerator. We don’t multiply out the denominator because we are hoping that\nthe (x + 1) in the denominator cancels out in the end:\n= lim\nx → −1\nx + 1\n(x + 1) x + 2+ 1.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 173,
+    "metadata": {
+      "printed_page": 165,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 679,
+      "char_end": 1105,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p174-struct-00",
+    "text": "Step 3. Then we cancel:\n= limx → −1 1x + 2+ 1.\nStep 4. Last, we apply the limit laws:\nlimx → −1 1x + 2+ 1= 12.\nEvaluate lim\nx → 5\nx − 1− 2\nx − 5 .\nExample 2.19\nEvaluating a Limit by Simplifying a Complex Fraction\nEvaluate limx → 1\n1\nx + 1− 12\nx − 1 .",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 174,
+    "metadata": {
+      "printed_page": 166,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 251,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p174-struct-01",
+    "text": "Solution\nStep 1.\n1\nx + 1− 12\nx − 1 has the form 0/0 at 1. We simplify the algebraic fraction by multiplying by\n2(x + 1)/2(x + 1) :\nlimx → 1\n1\nx + 1− 12\nx − 1 = limx → 1\n1\nx + 1− 12\nx − 1 · 2(x + 1)2(x + 1).\nStep 2. Next, we multiply through the numerators. Do not multiply the denominators because we want to be able\nto cancel the factor (x − 1):\n= limx → 1 2 −(x + 1)2(x − 1)(x + 1).\nStep 3. Then, we simplify the numerator:\n= lim\nx → 1\n−x + 1\n2(x − 1)(x + 1).\nStep 4. Now we factor out −1 from the numerator:\n= lim\nx → 1\n−(x − 1)\n2(x − 1)(x + 1).\nStep 5. Then, we cancel the common factors of (x − 1):\n= lim\nx → 1\n−1\n2(x + 1).\nStep 6. Last, we evaluate using the limit laws:\nlim\nx → 1\n−1\n2(x + 1)= − 14.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 174,
+    "metadata": {
+      "printed_page": 166,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 251,
+      "char_end": 956,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p175-struct-00",
+    "text": "Evaluate limx → −3\n1\nx + 2+ 1\nx + 3 .\nExample 2.20does not fall neatly into any of the patterns established in the previous examples. However, with a little\ncreativity, we can still use these same techniques.\nExample 2.20\nEvaluating a Limit When the Limit Laws Do Not Apply\nEvaluate limx → 01x + 5x(x − 5).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 175,
+    "metadata": {
+      "printed_page": 167,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 307,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p175-struct-01",
+    "text": "Solution\nBoth 1/x and 5/x(x − 5) fail to have a limit at zero. Since neither of the two functions has a limit at zero, we\ncannot apply the sum law for limits; we must use a different strategy. In this case, we find the limit by performing\naddition and then applying one of our previous strategies. Observe that\n1x + 5x(x − 5) = x − 5 + 5x(x − 5)\n= xx(x − 5).\nThus,\nlimx → 01x + 5x(x − 5) = limx → 0 xx(x − 5)\n= limx → 0 1x − 5\n= − 15.\nEvaluate limx → 3 1x − 3− 4x2 − 2x − 3.\nLet’s now revisit one-sided limits. Simple modifications in the limit laws allow us to apply them to one-sided limits. For\nexample, to apply the limit laws to a limit of the formlim\nx → a−h(x), we require the functionh(x) to be defined over an\nopen interval of the form(b, a); for a limit of the formlim\nx → a+h(x), we require the functionh(x) to be defined over an\nopen interval of the form (a, c). Example 2.21 illustrates this point.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 175,
+    "metadata": {
+      "printed_page": 167,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 307,
+      "char_end": 1219,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p175-struct-02",
+    "text": "Example 2.21\nEvaluating a One-Sided Limit Using the Limit Laws\nEvaluate each of the following limits, if possible.\na. lim\nx → 3− x − 3",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 175,
+    "metadata": {
+      "printed_page": 167,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 1219,
+      "char_end": 1353,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p176-struct-00",
+    "text": "b. lim\nx → 3+ x − 3\nSolution\nFigure 2.25 illustrates the function f (x) = x − 3 and aids in our understanding of these limits.\nFigure 2.25 The graph shows the function f (x) = x − 3.\na. The function f (x) = x − 3 is defined over the interval[3, +∞). Since this function is not defined to\nthe left of 3, we cannot apply the limit laws to computelim\nx → 3− x − 3. In fact, sincef (x) = x − 3 is\nundefined to the left of 3, lim\nx → 3− x − 3 does not exist.\nb. Since f (x) = x − 3 is defined to the right of 3, the limit laws do apply tolim\nx → 3+ x − 3. By applying\nthese limit laws we obtain lim\nx → 3+ x − 3= 0.\nIn Example 2.22we look at one-sided limits of a piecewise-defined function and use these limits to draw a conclusion\nabout a two-sided limit of the same function.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 176,
+    "metadata": {
+      "printed_page": 168,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 774,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p176-struct-01",
+    "text": "Example 2.22\nEvaluating a Two-Sided Limit Using the Limit Laws\nFor f (x) =\n4x − 3 if x < 2\n(x − 3)2 if x ≥ 2, evaluate each of the following limits:\na. lim\nx → 2− f (x)\nb. lim\nx → 2+ f (x)\nc. lim\nx → 2\nf (x)\nSolution\nFigure 2.26 illustrates the function f (x) and aids in our understanding of these limits.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 176,
+    "metadata": {
+      "printed_page": 168,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 774,
+      "char_end": 1080,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p177-struct-00",
+    "text": "Figure 2.26 This graph shows a function f (x).\na. Since f (x) = 4x − 3 for allx in (−∞, 2), replace f (x) in the limit with4x − 3 and apply the limit\nlaws:\nlim\nx → 2− f (x) = limx → 2− (4x − 3) = 5.\nb. Since f (x) = (x − 3)2 for allx in (2, +∞), replace f (x) in the limit with(x − 3)2 and apply the\nlimit laws:\nlim\nx → 2+ f (x) = limx → 2− (x − 3)2 = 1.\nc. Since lim\nx → 2− f (x) = 5 and limx → 2+ f (x) = 1, we conclude that limx → 2f (x) does not exist.\nGraph f (x) =\n−x − 2 ifx < −1\n2 ifx = −1\nx3 if x > −1\nand evaluate lim\nx → −1− f (x).\nWe now turn our attention to evaluating a limit of the formlimx → af (x)g(x), where limx → af (x) = K, where K ≠ 0 and\nlimx → ag(x) = 0. That is, f (x)/g(x) has the form K/0, K ≠ 0 at a.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 177,
+    "metadata": {
+      "printed_page": 169,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 730,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p177-struct-01",
+    "text": "Example 2.23\nEvaluating a Limit of the Form K/0, K ≠0 Using the Limit Laws\nEvaluate lim\nx → 2−\nx − 3\nx2 − 2x.\nSolution\nStep 1. After substituting inx = 2, we see that this limit has the form−1/0. That is, asx approaches 2 from the",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 177,
+    "metadata": {
+      "printed_page": 169,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 730,
+      "char_end": 960,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p178-struct-00",
+    "text": "left, the numerator approaches −1; and the denominator approaches 0. Consequently, the magnitude ofx − 3x(x − 2)\nbecomes infinite. To get a better idea of what the limit is, we need to factor the denominator:\nlim\nx → 2−\nx − 3\nx2 − 2x = limx → 2− x − 3x(x − 2).\nStep 2. Since x − 2 is the only part of the denominator that is zero when 2 is substituted, we then separate\n1/(x − 2) from the rest of the function:\n= lim\nx → 2−\nx − 3x · 1x − 2.\nStep 3. lim\nx → 2−\nx − 3x = − 12 and limx → 2− 1x − 2= −∞. Therefore, the product of(x − 3)/x and 1/(x − 2) has\na limit of +∞:\nlim\nx → 2−\nx − 3\nx2 − 2x = +∞.\nEvaluate limx → 1 x + 2(x − 1)2.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 178,
+    "metadata": {
+      "printed_page": 170,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 632,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p178-struct-01",
+    "text": "The Squeeze Theorem\nThe techniques we have developed thus far work very well for algebraic functions, but we are still unable to evaluate limits\nof very basic trigonometric functions. The next theorem, called thesqueeze theorem, proves very useful for establishing\nbasic trigonometric limits. This theorem allows us to calculate limits by “squeezing” a function, with a limit at a pointa that\nis unknown, between two functions having a common known limit at a. Figure 2.27 illustrates this idea.\nFigure 2.27 The Squeeze Theorem applies when\nf (x) ≤ g(x) ≤ h(x) and limx → af (x) = limx → ah(x).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 178,
+    "metadata": {
+      "printed_page": 170,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 632,
+      "char_end": 1226,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p179-struct-00",
+    "text": "Theorem 2.7: The Squeeze Theorem\nLet f (x), g(x), and h(x) be defined for all x ≠ a over an open interval containing a. If\nf (x) ≤ g(x) ≤ h(x)\nfor all x ≠ a in an open interval containing a and\nlimx → af (x) = L = limx → ah(x)\nwhere L is a real number, then limx → ag(x) = L.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 179,
+    "metadata": {
+      "printed_page": 171,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 276,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p179-struct-01",
+    "text": "Example 2.24\nApplying the Squeeze Theorem\nApply the squeeze theorem to evaluate limx → 0xcosx.\nSolution\nBecause −1 ≤ cosx ≤ 1 for allx, we have− |x| ≤ xcosx ≤ |x| . Since limx → 0( − |x|) = 0 = limx → 0|x|, from the\nsqueeze theorem, we obtainlimx → 0xcosx = 0. The graphs off (x) = − |x|, g(x) = xcosx, and h(x) = |x| are\nshown in Figure 2.28.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 179,
+    "metadata": {
+      "printed_page": 171,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 276,
+      "char_end": 620,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p179-struct-02",
+    "text": "Figure 2.28 The graphs of f (x), g(x), and h(x) are shown\naround the point x = 0.\nUse the squeeze theorem to evaluate lim\nx → 0\nx2 sin1x.\nWe now use the squeeze theorem to tackle several very important limits. Although this discussion is somewhat lengthy,\nthese limits prove invaluable for the development of the material in both the next section and the next chapter. The first of\nthese limits islim\nθ → 0\nsinθ. Consider the unit circle shown inFigure 2.29. In the figure, we see thatsinθ isthe y-coordinate\non the unit circle and it corresponds to the line segment shown in blue. The radian measure of angleθ is the length of the\narc it subtends on the unit circle. Therefore, we see that for 0 <θ < π2, 0 < sinθ < θ.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 179,
+    "metadata": {
+      "printed_page": 171,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 620,
+      "char_end": 1339,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p180-struct-00",
+    "text": "Figure 2.29 The sine function is shown as a line on the unit\ncircle.\nBecause lim\nθ → 0+ 0 = 0and limθ → 0+θ = 0, by using the squeeze theorem we conclude that\nlim\nθ → 0+ sinθ = 0.\nTo see that lim\nθ → 0− sinθ = 0 as well, observe that for −π2 < θ < 0, 0 < −θ < π2 and hence, 0 < sin(−θ) < −θ.\nConsequently, 0 < − sinθ < −θ. It follows that0 > sinθ > θ. An application of the squeeze theorem produces the\ndesired limit. Thus, since lim\nθ → 0+ sinθ = 0 and limθ → 0− sinθ = 0,\n(2.16)lim\nθ → 0\nsinθ = 0.\nNext, using the identity cosθ = 1 − sin2θ for −π2 < θ < π2, we see that\n(2.17)lim\nθ → 0\ncosθ = lim\nθ → 0\n1 − sin2θ = 1.\nWe now take a look at a limit that plays an important role in later chapters—namely,lim\nθ → 0\nsinθ\nθ . To evaluate this limit,\nwe use the unit circle inFigure 2.30. Notice that this figure adds one additional triangle toFigure 2.30. We see that the\nlength of the side opposite angle θ in this new triangle is tanθ. Thus, we see that for 0 <θ < π2, sinθ < θ < tanθ.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 180,
+    "metadata": {
+      "printed_page": 172,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 984,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p181-struct-00",
+    "text": "Figure 2.30 The sine and tangent functions are shown as lines\non the unit circle.\nBy dividing by sinθ in all parts of the inequality, we obtain\n1 < θsinθ < 1cosθ.\nEquivalently, we have\n1 > sinθθ > cosθ.\nSince lim\nθ → 0+ 1 = 1 = limθ → 0+ cosθ, we conclude that limθ → 0+ sinθθ = 1. By applying a manipulation similar to that used\nin demonstrating that lim\nθ → 0− sinθ = 0, we can show that limθ → 0− sinθθ = 1. Thus,\n(2.18)lim\nθ → 0\nsinθ\nθ = 1.\nIn Example 2.25 we use this limit to establish lim\nθ → 0\n1 − cosθ\nθ = 0. This limit also proves useful in later chapters.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 181,
+    "metadata": {
+      "printed_page": 173,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 567,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p181-struct-01",
+    "text": "Example 2.25\nEvaluating an Important Trigonometric Limit\nEvaluate lim\nθ → 0\n1 − cosθ\nθ .\nSolution\nIn the first step, we multiply by the conjugate so that we can use a trigonometric identity to convert the cosine in\nthe numerator to a sine:",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 181,
+    "metadata": {
+      "printed_page": 173,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 567,
+      "char_end": 806,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p182-struct-00",
+    "text": "(2.19)\nlim\nθ → 0\n1 − cosθ\nθ = limθ → 01 − cosθθ · 1 + cosθ1 + cosθ\n= lim\nθ → 0\n1 − cos2θ\nθ(1 + cosθ)\n= lim\nθ → 0\nsin2θ\nθ(1 + cosθ)\n= lim\nθ → 0\nsinθ\nθ · sinθ1 + cosθ\n= 1 ·02 = 0.\nTherefore,\nlim\nθ → 0\n1 − cosθ\nθ = 0.\nEvaluate lim\nθ → 0\n1 − cosθ\nsinθ .",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 182,
+    "metadata": {
+      "printed_page": 174,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 249,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p183-struct-00",
+    "text": "Deriving the Formula for the Area of a Circle\nSome of the geometric formulas we take for granted today were first derived by methods that anticipate some of the\nmethods of calculus. The Greek mathematician Archimedes (ca. 287−212; BCE) was particularly inventive, using\npolygons inscribed within circles to approximate the area of the circle as the number of sides of the polygon increased.\nHe never came up with the idea of a limit, but we can use this idea to see what his geometric constructions could have\npredicted about the limit.\nWe can estimate the area of a circle by computing the area of an inscribed regular polygon. Think of the regular\npolygon as being made up ofn triangles. By taking the limit as the vertex angle of these triangles goes to zero, you can\nobtain the area of the circle. To see this, carry out the following steps:\n1. Express the height h and the base b of the isosceles triangle in Figure 2.31 in terms of θ and r.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 183,
+    "metadata": {
+      "printed_page": 175,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 947,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p183-struct-01",
+    "text": "Figure 2.31\n2. Using the expressions that you obtained in step 1, express the area of the isosceles triangle in terms of θ and r.\n(Substitute (1/2 )sinθ for sin(θ/2)cos(θ/2) in your expression.)\n3. If ann-sided regular polygon is inscribed in a circle of radiusr, find a relationship betweenθ and n. Solve this\nfor n. Keep in mind there are 2π radians in a circle. (Use radians, not degrees.)\n4. Find an expression for the area of the n-sided polygon in terms of r and θ.\n5. To find a formula for the area of the circle, find the limit of the expression in step 4 asθ goes to zero. (Hint:\nlim\nθ → 0\n(sinθ)\nθ = 1).\nThe technique of estimating areas of regions by using polygons is revisited in Introduction to Integration.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 183,
+    "metadata": {
+      "printed_page": 175,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "text",
+      "char_start": 947,
+      "char_end": 1668,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p184-struct-00",
+    "text": "2.3 EXERCISES\nIn the following exercises, use the limit laws to evaluate\neach limit. Justify each step by indicating the appropriate\nlimit law(s).\n83. limx → 04x2 − 2x + 3\n84. limx → 1x3 + 3x2 + 54 − 7x\n85. limx → −2 x2 − 6x + 3\n86. limx → −1(9x + 1)2\nIn the following exercises, use direct substitution to\nevaluate each limit.\n87. limx → 7x2\n88. limx → −24x2 − 1\n89. limx → 0 11 + sinx\n90. limx → 2e2x −x2\n91. limx → 12 − 7xx + 6\n92. limx → 3lne3x\nIn the following exercises, use direct substitution to show\nthat each limit leads to the indeterminate form0/0. Then,\nevaluate the limit.\n93. limx → 4x2 − 16x − 4\n94. lim\nx → 2\nx − 2\nx2 − 2x\n95. lim\nx → 6\n3x − 18\n2x − 12\n96. lim\nh → 0\n(1 +h)2 − 1\nh\n97. lim\nt → 9\nt − 9\nt − 3\n98. lim\nh → 0\n1\na +h − 1a\nh , where a is a real-valued constant\n99. lim\nθ → π\nsinθ\ntanθ\n100. limx → 1x3 − 1x2 − 1\n101. limx → 1/22x2 + 3x − 22x − 1\n102. limx → −3 x + 4− 1x + 3",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 184,
+    "metadata": {
+      "printed_page": 176,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 901,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p184-struct-01",
+    "text": "In the following exercises, use direct substitution to obtain\nan undefined expression. Then, use the method of\nExample 2.23to simplify the function to help determine\nthe limit.\n103. lim\nx → −2−\n2x2 + 7x − 4\nx2 +x − 2\n104. lim\nx → −2+\n2x2 + 7x − 4\nx2 +x − 2\n105. lim\nx → 1−\n2x2 + 7x − 4\nx2 +x − 2\n106. lim\nx → 1+\n2x2 + 7x − 4\nx2 +x − 2\nIn the following exercises, assume that\nlim\nx → 6\nf (x) = 4, lim\nx → 6\ng(x) = 9, and lim\nx → 6\nh(x) = 6. Use\nthese three facts and the limit laws to evaluate each limit.\n107. lim\nx → 6\n2f (x)g(x)\n108. lim\nx → 6\ng(x) − 1\nf (x)\n109. lim\nx → 6\nf (x) + 13g(x)\n110. lim\nx → 6\nh(x)\n3\n2\n111. lim\nx → 6\ng(x) − f (x)\n112. lim\nx → 6\nx ·h(x)",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 184,
+    "metadata": {
+      "printed_page": 176,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "exercises",
+      "char_start": 901,
+      "char_end": 1566,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p185-struct-00",
+    "text": "113. lim\nx → 6\n(x + 1) · f (x)\n114. lim\nx → 6\nf (x) ·g(x) −h(x)\n[T] In the following exercises, use a calculator to draw\nthe graph of each piecewise-defined function and study the\ngraph to evaluate the given limits.\n115. f (x) =\nx2, x ≤ 3\nx + 4, x > 3\na. lim\nx → 3− f (x)\nb. lim\nx → 3+ f (x)\n116. g(x) =\nx3 − 1, x ≤ 0\n1, x > 0\na. lim\nx → 0−g(x)\nb. lim\nx → 0+g(x)\n117. h(x) =\nx2 − 2x + 1, x < 2\n3 −x, x ≥ 2\na. lim\nx → 2−h(x)\nb. lim\nx → 2+h(x)\nIn the following exercises, use the following graphs and the\nlimit laws to evaluate each limit.\n118. lim\nx → −3+\nf (x) +g(x)\n119. lim\nx → −3−\nf (x) − 3g(x)\n120. lim\nx → 0\nf (x)g(x)\n3\n121. lim\nx → −5\n2 +g(x)\nf (x)\n122. lim\nx → 1\nf (x)\n2\n123. lim\nx → 1\nf (x) −g(x)\n124. limx → −7\nx ·g(x)",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 185,
+    "metadata": {
+      "printed_page": 177,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 727,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p186-struct-00",
+    "text": "125. limx → −9\nx · f (x) + 2 ·g(x)\nForthefollowingproblems,evaluatethelimitusingthe\nsqueezetheorem.Useacalculatortographthefunctions\nf (x), g(x), and h(x) when possible.\n126. [T] True or False? If\n2x − 1 ≤g(x) ≤ x2 − 2x + 3, then limx → 2g(x) = 0.\n127. [T] lim\nθ → 0\nθ2 cos1θ\n128. limx → 0f (x), where f (x) =\n0, x r ational\nx2, x irrrational\n129. [T] In physics, the magnitude of an electric field\ngenerated by a point charge at a distancer in vacuum\nis governed by Coulomb’s law:E(r) = q\n4πε0r2, where\nE represents the magnitude of the electric field,q is the\ncharge of the particle,r is the distance between the particle\nand where the strength of the field is measured, and14πε0\nis Coulomb’s constant: 8.988 × 109 N · m2 /C2.\na. Use a graphing calculator to graphE(r) given that\nthe charge of the particle is q = 10−10.\nb. Evaluate lim\nr → 0+E(r). What is the physical\nmeaning of this quantity? Is it physically relevant?\nWhy are you evaluating from the right?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 186,
+    "metadata": {
+      "printed_page": 178,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 964,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p186-struct-01",
+    "text": "130. [T] The density of an object is given by its mass\ndivided by its volume: ρ = m/V.\na. Use a calculator to plot the volume as a function of\ndensity\nV = m/ρ\n, assuming you are examining\nsomething of mass 8 kg (m = 8).\nb. Evaluate lim\nρ → 0+V(ρ) and explain the physical\nmeaning.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 186,
+    "metadata": {
+      "printed_page": 178,
+      "chapter": 2,
+      "section": "2.3",
+      "section_title": "The Limit Laws",
+      "page_type": "exercises",
+      "char_start": 964,
+      "char_end": 1244,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p187-struct-00",
+    "text": "2.4 | Continuity\nLearning Objectives\n2.4.1 Explain the three conditions for continuity at a point.\n2.4.2 Describe three kinds of discontinuities.\n2.4.3 Define continuity on an interval.\n2.4.4 State the theorem for limits of composite functions.\n2.4.5 Provide an example of the intermediate value theorem.\nMany functions have the property that their graphs can be traced with a pencil without lifting the pencil from the page. Such\nfunctions are calledcontinuous. Other functions have points at which a break in the graph occurs, but satisfy this property\nover intervals contained in their domains. They are continuous on these intervals and are said to have adiscontinuity at a\npoint where a break occurs.\nWe begin our investigation of continuity by exploring what it means for a function to havecontinuity at a point. Intuitively,\na function is continuous at a particular point if there is no break in its graph at that point.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 187,
+    "metadata": {
+      "printed_page": 179,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 928,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p187-struct-01",
+    "text": "Continuity at a Point\nBefore we look at a formal definition of what it means for a function to be continuous at a point, let’s consider various\nfunctions that fail to meet our intuitive notion of what it means to be continuous at a point. We then create a list of conditions\nthat prevent such failures.\nOur first function of interest is shown inFigure 2.32. We see that the graph off (x) has a hole ata. In fact,f (a) is\nundefined. At the very least, for f (x) to be continuous at a, we need the following condition:\ni. f (a) is defined\nFigure 2.32 The function f (x) is not continuous at a\nbecause f (a) is undefined.\nHowever, as we see inFigure 2.33, this condition alone is insufficient to guarantee continuity at the pointa. Although\nf (a) is defined, the function has a gap ata. In this example, the gap exists becauselimx → af (x) does not exist. We must add\nanother condition for continuity at a—namely,\nii. limx → af (x) exists.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 187,
+    "metadata": {
+      "printed_page": 179,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 928,
+      "char_end": 1864,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p188-struct-00",
+    "text": "Figure 2.33 The function f (x) is not continuous at a\nbecause limx → af (x) does not exist.\nHowever, as we see inFigure 2.34, these two conditions by themselves do not guarantee continuity at a point. The function\nin this figure satisfies both of our first two conditions, but is still not continuous ata. We must add a third condition to our\nlist:\niii. limx → af (x) = f (a).\nFigure 2.34 The function f (x) is not continuous at a\nbecause limx → af (x) ≠ f (a).\nNow we put our list of conditions together and form a definition of continuity at a point.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 188,
+    "metadata": {
+      "printed_page": 180,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 553,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p188-struct-01",
+    "text": "Definition\nA function f (x) is continuous at a point a if and only if the following three conditions are satisfied:\ni. f (a) is defined\nii. limx → af (x) exists\niii. limx → af (x) = f (a)\nA function is discontinuous at a point a if it fails to be continuous at a.\nThe following procedure can be used to analyze the continuity of a function at a point using this definition.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 188,
+    "metadata": {
+      "printed_page": 180,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 553,
+      "char_end": 926,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p189-struct-00",
+    "text": "Problem-Solving Strategy: Determining Continuity at a Point\n1. Check to see iff (a) is defined. Iff (a) is undefined, we need go no further. The function is not continuous\nat a. If f (a) is defined, continue to step 2.\n2. Compute limx → af (x). In some cases, we may need to do this by first computinglimx → a− f (x) and limx → a+ f (x).\nIf limx → af (x) does not exist (that is, it is not a real number), then the function is not continuous ata and the\nproblem is solved. If limx → af (x) exists, then continue to step 3.\n3. Compare f (a) and limx → af (x). If limx → af (x) ≠ f (a), then the function is not continuous at a. If\nlimx → af (x) = f (a), then the function is continuous at a.\nThe next three examples demonstrate how to apply this definition to determine whether a function is continuous at a given\npoint. These examples illustrate situations in which each of the conditions for continuity in the definition succeed or fail.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 189,
+    "metadata": {
+      "printed_page": 181,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 939,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p189-struct-01",
+    "text": "Example 2.26\nDetermining Continuity at a Point, Condition 1\nUsing the definition, determine whether the functionf (x) = (x2 − 4)/(x − 2) is continuous atx = 2. Justify\nthe conclusion.\nSolution\nLet’s begin by trying to calculate f (2). We can see that f (2) = 0/0, which is undefined. Therefore,\nf (x) = x2 − 4x − 2 is discontinuous at 2 because f (2) is undefined. The graph of f (x) is shown in Figure 2.35.\nFigure 2.35 The function f (x) is discontinuous at 2 because\nf (2) is undefined.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 189,
+    "metadata": {
+      "printed_page": 181,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 939,
+      "char_end": 1428,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p190-struct-00",
+    "text": "Example 2.27\nDetermining Continuity at a Point, Condition 2\nUsing the definition, determine whether the functionf (x) =\n−x2 + 4 ifx ≤ 3\n4x − 8 if x > 3\nis continuous atx = 3. Justify\nthe conclusion.\nSolution\nLet’s begin by trying to calculate f (3).\nf (3) = − (32) + 4 = −5.\nThus, f (3) is defined. Next, we calculate limx → 3f (x). To do this, we must compute limx → 3− f (x) and\nlim\nx → 3+ f (x):\nlim\nx → 3− f (x) = − (32) + 4 = −5\nand\nlim\nx → 3+ f (x) = 4(3) − 8 = 4.\nTherefore, limx → 3f (x) does not exist. Thus,f (x) is not continuous at 3. The graph off (x) is shown inFigure\n2.36.\nFigure 2.36 The function f (x) is not continuous at 3\nbecause lim\nx → 3\nf (x) does not exist.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 190,
+    "metadata": {
+      "printed_page": 182,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 682,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p191-struct-00",
+    "text": "Example 2.28\nDetermining Continuity at a Point, Condition 3\nUsing the definition, determine whether the function f (x) =\nsinxx if x ≠ 0\n1 if x = 0\nis continuous at x = 0.\nSolution\nFirst, observe that\nf (0) = 1.\nNext,\nlimx → 0f (x) = limx → 0sinxx = 1.\nLast, compare f (0) and limx → 1f (x). We see that\nf (0) = 1 = limx → 0f (x).\nSince all three of the conditions in the definition of continuity are satisfied, f (x) is continuous at x = 0.\nUsing the definition, determine whether the functionf (x) =\n2x + 1 if x < 1\n2 if x = 1\n−x + 4 ifx > 1\nis continuous atx = 1.\nIf the function is not continuous at 1, indicate the condition for continuity at a point that fails to hold.\nBy applying the definition of continuity and previously established theorems concerning the evaluation of limits, we can\nstate the following theorem.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 191,
+    "metadata": {
+      "printed_page": 183,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 825,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p191-struct-01",
+    "text": "Theorem 2.8: Continuity of Polynomials and Rational Functions\nPolynomials and rational functions are continuous at every point in their domains.\nProof\nPreviously, we showed that ifp(x) and q(x) are polynomials, limx → ap(x) = p(a) for every polynomial p(x) and\nlimx → ap(x)q(x) = p(a)q(a) as long as q(a) ≠ 0. Therefore, polynomials and rational functions are continuous on their domains.\n□\nWe now applyContinuity of Polynomials and Rational Functionsto determine the points at which a given rational\nfunction is continuous.\nExample 2.29\nContinuity of a Rational Function",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 191,
+    "metadata": {
+      "printed_page": 183,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 825,
+      "char_end": 1396,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p192-struct-00",
+    "text": "For what values of x is f (x) = x + 1x − 5 continuous?\nSolution\nThe rational function f (x) = x + 1x − 5 is continuous for every value of x except x = 5.\nFor what values of x is f (x) = 3x4 − 4x2 continuous?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 192,
+    "metadata": {
+      "printed_page": 184,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 208,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p192-struct-01",
+    "text": "Types of Discontinuities\nAs we have seen inExample 2.26 and Example 2.27, discontinuities take on several different appearances. We\nclassify the types of discontinuities we have seen thus far as removable discontinuities, infinite discontinuities, or jump\ndiscontinuities. Intuitively, aremovable discontinuity is a discontinuity for which there is a hole in the graph, ajump\ndiscontinuity is a noninfinite discontinuity for which the sections of the function do not meet up, and aninfinite\ndiscontinuity is a discontinuity located at a vertical asymptote.Figure 2.37illustrates the differences in these types of\ndiscontinuities. Although these terms provide a handy way of describing three common types of discontinuities, keep in\nmind that not all discontinuities fit neatly into these categories.\nFigure 2.37 Discontinuities are classified as (a) removable, (b) jump, or (c) infinite.\nThese three discontinuities are formally defined as follows:",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 192,
+    "metadata": {
+      "printed_page": 184,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 208,
+      "char_end": 1157,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p192-struct-02",
+    "text": "Definition\nIf f (x) is discontinuous at a, then\n1. f has aremovable discontinuity at a if limx → af (x) exists. (Note: When we state thatlimx → af (x) exists, we\nmean that limx → af (x) = L, where L is a real number.)\n2. f has ajump discontinuity at a if lim\nx → a− f (x) and limx → a+ f (x) both exist, but limx → a− f (x) ≠ limx → a+ f (x).\n(Note: When we state thatlim\nx → a− f (x) and limx → a+ f (x) both exist, we mean that both are real-valued and that\nneither take on the values ±∞.)\n3. f has an infinite discontinuity at a if lim\nx → a− f (x) = ±∞ or limx → a+ f (x) = ±∞.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 192,
+    "metadata": {
+      "printed_page": 184,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 1157,
+      "char_end": 1738,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p193-struct-00",
+    "text": "Example 2.30\nClassifying a Discontinuity\nIn Example 2.26, we showed thatf (x) = x2 − 4x − 2 is discontinuous atx = 2. Classify this discontinuity as\nremovable, jump, or infinite.\nSolution\nTo classify the discontinuity at 2 we must evaluate limx → 2f (x):\nlimx → 2f (x) = limx → 2x2 − 4x − 2\n= limx → 2(x − 2)(x + 2)x − 2\n= limx → 2(x + 2)\n= 4.\nSince f is discontinuous at 2 and limx → 2f (x) exists, f has a removable discontinuity at x = 2.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 193,
+    "metadata": {
+      "printed_page": 185,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 442,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p193-struct-01",
+    "text": "Example 2.31\nClassifying a Discontinuity\nIn Example 2.27, we showed that f (x) =\n−x2 + 4 ifx ≤ 3\n4x − 8 if x > 3\nis discontinuous at x = 3. Classify this\ndiscontinuity as removable, jump, or infinite.\nSolution\nEarlier, we showed that f is discontinuous at 3 because limx → 3f (x) does not exist. However, since\nlim\nx → 3− f (x) = −5 and limx → 3− f (x) = 4 both exist, we conclude that the function has a jump discontinuity at 3.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 193,
+    "metadata": {
+      "printed_page": 185,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 442,
+      "char_end": 872,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p193-struct-02",
+    "text": "Example 2.32\nClassifying a Discontinuity\nDetermine whether f (x) = x + 2x + 1 is continuous at −1. If the function is discontinuous at −1, classify the\ndiscontinuity as removable, jump, or infinite.\nSolution\nThe function valuef (−1) is undefined. Therefore, the function is not continuous at −1. To determine the type of",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 193,
+    "metadata": {
+      "printed_page": 185,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 872,
+      "char_end": 1192,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p194-struct-00",
+    "text": "discontinuity, we must determine the limit at −1. We see thatlim\nx → −1−\nx + 2\nx + 1= −∞ and limx → −1+ x + 2x + 1= +∞.\nTherefore, the function has an infinite discontinuity at −1.\nFor f (x) =\nx2 if x ≠ 1\n3 if x = 1\n, decide whetherf is continuous at 1. Iff is not continuous at 1, classify the\ndiscontinuity as removable, jump, or infinite.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 194,
+    "metadata": {
+      "printed_page": 186,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 342,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p194-struct-01",
+    "text": "Continuity over an Interval\nNow that we have explored the concept of continuity at a point, we extend that idea tocontinuity over an interval . As\nwe develop this idea for different types of intervals, it may be useful to keep in mind the intuitive idea that a function is\ncontinuous over an interval if we can use a pencil to trace the function between any two points in the interval without lifting\nthe pencil from the paper. In preparation for defining continuity on an interval, we begin by looking at the definition of what\nit means for a function to be continuous from the right at a point and continuous from the left at a point.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 194,
+    "metadata": {
+      "printed_page": 186,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 342,
+      "char_end": 979,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p194-struct-02",
+    "text": "Continuity from the Right and from the Left\nA function f (x) is said to be continuous from the right at a if lim\nx → a+ f (x) = f (a).\nA function f (x) is said to be continuous from the left at a if lim\nx → a− f (x) = f (a).\nA function is continuous over an open interval if it is continuous at every point in the interval. A functionf (x) is continuous\nover a closed interval of the form\na, b\nifitiscontinuousateverypointin (a, b) and is continuous from the right ata\nand is continuous from the left atb. Analogously, a functionf (x) is continuous over an interval of the form(a, b\nifitis\ncontinuousover (a, b) and is continuous from the left atb. Continuity over other types of intervals are defined in a similar\nfashion.\nRequiring that lim\nx → a+ f (x) = f (a) and limx → b− f (x) = f (b) ensures that we can trace the graph of the function from the\npoint\na, f (a)\ntothepoint\nb, f (b)\nwithoutliftingthepencil.If,forexample, lim\nx → a+ f (x) ≠ f (a), we would need to lift\nour pencil to jump from f (a) to the graph of the rest of the function over (a, b\n.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 194,
+    "metadata": {
+      "printed_page": 186,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 979,
+      "char_end": 2038,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p194-struct-03",
+    "text": "Example 2.33\nContinuity on an Interval\nState the interval(s) over which the function f (x) = x − 1\nx2 + 2x is continuous.\nSolution\nSince f (x) = x − 1\nx2 + 2x is a rational function, it is continuous at every point in its domain. The domain of\nf (x) is the set (−∞, −2) ∪ (−2, 0) ∪ (0, +∞). Thus, f (x) is continuous over each of the intervals",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 194,
+    "metadata": {
+      "printed_page": 186,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 2038,
+      "char_end": 2381,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p195-struct-00",
+    "text": "(−∞, −2), (−2, 0), and (0, +∞).\nExample 2.34\nContinuity over an Interval\nState the interval(s) over which the function f (x) = 4 −x2 is continuous.\nSolution\nFrom the limit laws, we know thatlimx → a 4 −x2 = 4 − a2 for all values ofa in (−2, 2). We also know that\nlim\nx → −2+ 4 −x2 = 0 exists and limx → 2− 4 −x2 = 0 exists. Therefore, f (x) is continuous over the interval\n[−2, 2].\nState the interval(s) over which the function f (x) = x + 3 is continuous.\nThe Composite Function Theoremallows us to expand our ability to compute limits. In particular, this theorem\nultimately allows us to demonstrate that trigonometric functions are continuous over their domains.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 195,
+    "metadata": {
+      "printed_page": 187,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 666,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p195-struct-01",
+    "text": "Theorem 2.9: Composite Function Theorem\nIf f (x) is continuous at L and limx → ag(x) = L, then\nlimx → af\ng(x)\n= f limx → ag(x) = f (L).\nBefore we move on toExample 2.35, recall that earlier, in the section on limit laws, we showedlimx → 0cosx = 1 = cos(0).\nConsequently, we know thatf (x) = cosx iscontinuousat0.In Example 2.35we see how to combine this result with the\ncomposite function theorem.\nExample 2.35\nLimit of a Composite Cosine Function\nEvaluate lim\nx → π/2\ncosx − π2.\nSolution",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 195,
+    "metadata": {
+      "printed_page": 187,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 666,
+      "char_end": 1154,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p196-struct-00",
+    "text": "The given function is a composite ofcosx and x − π2. Since limx → π/2x − π2 = 0 and cosx is continuous at 0,\nwe may apply the composite function theorem. Thus,\nlimx → π/2cosx − π2 = cos limx → π/2x − π2 = cos(0) = 1.\nEvaluate limx → πsin(x −π).\nThe proof of the next theorem uses the composite function theorem as well as the continuity off (x) = sinx and\ng(x) = cosx at the point 0 to show that trigonometric functions are continuous over their entire domains.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 196,
+    "metadata": {
+      "printed_page": 188,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 462,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p196-struct-01",
+    "text": "Theorem 2.10: Continuity of Trigonometric Functions\nTrigonometric functions are continuous over their entire domains.\nProof\nWe begin by demonstrating thatcosx iscontinuousateveryrealnumber.Todothis,wemustshowthat limx → acosx = cosa\nfor all values of a.\nlimx → acosx = limx → acos((x −a) +a) rewritex = x −a +a\n= limx → a\ncos(x −a)cosa − sin(x −a)sina\napply the identity for the cosine of the sum of two angles\n= cos limx → a(x −a)cosa − sin limx → a(x −a)sina limx → a(x −a) = 0, and sinx and cosx are continuous at 0\n= cos(0)cosa − sin(0)sina evaluate cos(0) and sin(0) and simplify\n= 1 · cosa − 0 · sina = cosa.\nThe proof thatsinx is continuous at every real number is analogous. Because the remaining trigonometric functions may\nbe expressed in terms of sinx and cosx, their continuity follows from the quotient limit law.\n□\nAs you can see, the composite function theorem is invaluable in demonstrating the continuity of trigonometric functions.\nAs we continue our study of calculus, we revisit this theorem many times.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 196,
+    "metadata": {
+      "printed_page": 188,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 462,
+      "char_end": 1486,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p196-struct-02",
+    "text": "The Intermediate Value Theorem\nFunctions that are continuous over intervals of the form\na, b\n, where a and b are real numbers, exhibit many useful\nproperties. Throughout our study of calculus, we will encounter many powerful theorems concerning such functions. The\nfirst of these theorems is the Intermediate Value Theorem.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 196,
+    "metadata": {
+      "printed_page": 188,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 1486,
+      "char_end": 1810,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p196-struct-03",
+    "text": "Theorem 2.11: The Intermediate Value Theorem\nLet f be continuous over a closed, bounded interval\na, b\n. If z is any real number betweenf (a) and f (b), then there\nis a number c in\na, b\nsatisfying f (c) = z in Figure 2.38.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 196,
+    "metadata": {
+      "printed_page": 188,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 1810,
+      "char_end": 2031,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p197-struct-00",
+    "text": "Figure 2.38 There is a number c ∈\na, b\nthat satisfies\nf (c) = z.\nExample 2.36\nApplication of the Intermediate Value Theorem\nShow that f (x) = x − cosx has at least one zero.\nSolution\nSince f (x) = x − cosx is continuous over(−∞, +∞), it is continuous over any closed interval of the form\na, b\n. If you can find an interval\na, b\nsuchthat f (a) and f (b) have opposite signs, you can use the\nIntermediate Value Theorem to conclude there must be a real numberc in (a, b) that satisfies f (c) = 0. Note\nthat\nf (0) = 0 − cos(0) = −1 < 0\nand\nfπ2 = π2 − cosπ2 = π2 > 0.\nUsing the Intermediate Value Theorem, we can see that there must be a real numberc in [0, π/2] that satisfies\nf (c) = 0. Therefore, f (x) = x − cosx has at least one zero.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 197,
+    "metadata": {
+      "printed_page": 189,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 735,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p197-struct-01",
+    "text": "Example 2.37\nWhen Can You Apply the Intermediate Value Theorem?\nIf f (x) is continuous over[0, 2], f (0) > 0 and f (2) > 0, can we use the Intermediate Value Theorem to\nconclude that f (x) has no zeros in the interval\n0, 2]? Explain.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 197,
+    "metadata": {
+      "printed_page": 189,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 735,
+      "char_end": 968,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p198-struct-00",
+    "text": "Solution\nNo. The Intermediate Value Theorem only allows us to conclude that we can find a value betweenf (0) and\nf (2); it doesn’t allow us to conclude that we can’t find other values. To see this more clearly, consider the\nfunction f (x) = (x − 1)2. It satisfies f (0) = 1 > 0,f (2) = 1 > 0, and f (1) = 0.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 198,
+    "metadata": {
+      "printed_page": 190,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 308,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p198-struct-01",
+    "text": "Example 2.38\nWhen Can You Apply the Intermediate Value Theorem?\nFor f (x) = 1/x, f (−1) = −1 < 0and f (1) = 1 > 0.Can we conclude thatf (x) has a zero in the interval\n[−1, 1]?\nSolution\nNo. The function is not continuous over [−1, 1]. The Intermediate Value Theorem does not apply here.\nShow that f (x) = x3 −x2 − 3x + 1 has a zero over the interval [0, 1].",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 198,
+    "metadata": {
+      "printed_page": 190,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "text",
+      "char_start": 308,
+      "char_end": 664,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p199-struct-00",
+    "text": "2.4 EXERCISES\nFor the following exercises, determine the point(s), if any,\nat which each function is discontinuous. Classify any\ndiscontinuity as jump, removable, infinite, or other.\n131. f (x) = 1x\n132. f (x) = 2\nx2 + 1\n133. f (x) = x\nx2 −x\n134. g(t) = t−1 + 1\n135. f (x) = 5ex − 2\n136. f (x) = |x − 2|x − 2\n137. H(x) = tan2x\n138. f (t) = t + 3\nt2 + 5t + 6\nFor the following exercises, decide if the function\ncontinuous at the given point. If it is discontinuous, what\ntype of discontinuity is it?\n139. 2x2 − 5x + 3x − 1 at x = 1\n140. h(θ) = sinθ − cosθtanθ at θ = π\n141. g(u) =\n6u2 +u − 2\n2u − 1 ifu ≠ 12\n7\n2 ifu = 12\n, at u = 12\n142. f (y) = sin(πy)tan(πy), at y = 1\n143. f (x) =\nx2 −ex if x < 0\nx − 1 if x ≥ 0, at x = 0\n144. f (x) =\nxsin(x) if x ≤ πxtan(x) if x > π, at x = π",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 199,
+    "metadata": {
+      "printed_page": 191,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 780,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p199-struct-01",
+    "text": "In the following exercises, find the value(s) ofk that makes\neach function continuous over the given interval.\n145. f (x) =\n3x + 2, x < k2x − 3, k ≤ x ≤ 8\n146. f (θ) =\nsinθ, 0 ≤ θ < π2\ncos(θ +k), π2 ≤ θ ≤ π\n147. f (x) =\nx2 + 3x + 2\nx + 2 , x ≠ − 2\nk, x = −2\n148. f (x) =\nekx, 0 ≤ x < 4\nx + 3, 4 ≤ x ≤ 8\n149. f (x) =\nkx, 0 ≤ x ≤ 3\nx + 1, 3 < x ≤ 10",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 199,
+    "metadata": {
+      "printed_page": 191,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 780,
+      "char_end": 1128,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p199-struct-02",
+    "text": "In the following exercises, use the Intermediate Value\nTheorem (IVT).\n150. Let h(x) =\n3x2 − 4, x ≤ 2\n5 + 4x, x > 2\nOver the interval\n[0, 4], there is no value ofx such that h(x) = 10,\nalthough h(0) < 10 and h(4) > 10. Explain why this\ndoes not contradict the IVT.\n151. A particle moving along a line has at each timet\na position function s(t), which is continuous. Assume\ns(2) = 5 and s(5) = 2. Another particle moves such that\nits position is given byh(t) = s(t) −t. Explain why there\nmust be a value c for 2 <c < 5 such that h(c) = 0.\n152. [T] Use the statement “The cosine oft is equal tot\ncubed.”\na. Write a mathematical equation of the statement.\nb. Prove that the equation in part a. has at least one\nreal solution.\nc. Use a calculator to find an interval of length 0.01\nthat contains a solution.\n153. Apply the IVT to determine whether2x = x3 has\na solution in one of the intervals\n1.25, 1.375\nor\n1.375, 1.5\n. Briefly explain your response for each\ninterval.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 199,
+    "metadata": {
+      "printed_page": 191,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 1128,
+      "char_end": 2093,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p200-struct-00",
+    "text": "154. Consider the graph of the functiony = f (x) shown\nin the following graph.\na. Find all values for which the function is\ndiscontinuous.\nb. For each value in part a., state why the formal\ndefinition of continuity does not apply.\nc. Classify each discontinuity as either jump,\nremovable, or infinite.\n155. Let f (x) =\n3x, x > 1\nx3, x < 1.\na. Sketch the graph of f.\nb. Is it possible to find a valuek such thatf (1) = k,\nwhich makes f (x) continuous for all real\nnumbers? Briefly explain.\n156. Let f (x) = x4 − 1\nx2 − 1 for x ≠ − 1, 1.\na. Sketch the graph of f.\nb. Is it possible to find valuesk1 and k2 such that\nf (−1) = k and f (1) = k2, and that makesf (x)\ncontinuous for all real numbers? Briefly explain.\n157. Sketch the graph of the function y = f (x) with\nproperties i. through vii.\ni. The domain of f is (−∞, +∞).\nii. f has an infinite discontinuity at x = −6.\niii. f (−6) = 3\niv. lim\nx → −3− f (x) = limx → −3+ f (x) = 2\nv. f (−3) = 3\nvi. f is left continuous but not right continuous at",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 200,
+    "metadata": {
+      "printed_page": 192,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 998,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p200-struct-01",
+    "text": "x = 3.\nvii. limx → − ∞f (x) = −∞ and limx → + ∞f (x) = +∞\n158. Sketch the graph of the function y = f (x) with\nproperties i. through iv.\ni. The domain of f is\n0, 5\n.\nii. lim\nx → 1+ f (x) and limx → 1− f (x) exist and are equal.\niii. f (x) is left continuous but not continuous at\nx = 2, and right continuous but not continuous at\nx = 3.\niv. f (x) has a removable discontinuity atx = 1, a\njump discontinuity atx = 2, and the following\nlimits hold: lim\nx → 3− f (x) = −∞ and\nlim\nx → 3+ f (x) = 2.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 200,
+    "metadata": {
+      "printed_page": 192,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 998,
+      "char_end": 1493,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p200-struct-02",
+    "text": "In the following exercises, supposey = f (x) is defined for\nall x. For each description, sketch a graph with the indicated\nproperty.\n159. Discontinuous atx = 1 with limx → −1f (x) = −1 and\nlimx → 2f (x) = 4\n160. Discontinuous at x = 2 but continuous elsewhere\nwith limx → 0f (x) = 12\nDetermine whether each of the given statements is true.\nJustify your response with an explanation or\ncounterexample.\n161. f (t) = 2et −e−t is continuous everywhere.\n162. If the left- and right-hand limits off (x) as x → a\nexist and are equal, thenf cannot be discontinuous at\nx = a.\n163. If a function is not continuous at a point, then it is not\ndefined at that point.\n164. According to the IVT,cosx − sinx −x = 2 has a\nsolution over the interval [−1, 1].\n165. If f (x) is continuous such thatf (a) and f (b) have\nopposite signs, thenf (x) = 0 has exactly one solution in\na, b\n.\n166. The function f (x) = x2 − 4x + 3\nx2 − 1 is continuous\nover the interval [0, 3].",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 200,
+    "metadata": {
+      "printed_page": 192,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 1493,
+      "char_end": 2441,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p201-struct-00",
+    "text": "167. If f (x) is continuous everywhere and\nf (a), f (b) > 0, then there is no root off (x) in the\ninterval\na, b\n.\n[T] The following problems consider the scalar form of\nCoulomb’s law, which describes the electrostatic force\nbetween two point charges, such as electrons. It is given by\nthe equation F(r) = ke |q1q2|r2 , where ke is Coulomb’s\nconstant, qi are the magnitudes of the charges of the two\nparticles, and r is the distance between the two particles.\n168. To simplify the calculation of a model with many\ninteracting particles, after some threshold valuer = R,\nwe approximate F as zero.\na. Explain the physical reasoning behind this\nassumption.\nb. What is the force equation?\nc. Evaluate the force F using both Coulomb’s law\nand our approximation, assuming two protons with\na charge magnitude of\n1.6022 × 10−19 coulombs (C), and the\nCoulomb constantke = 8.988 × 109 Nm2/C2 are\n1 m apart. Also, assumeR < 1 m. How much\ninaccuracy does our approximation generate? Is our",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 201,
+    "metadata": {
+      "printed_page": 193,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 977,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p201-struct-01",
+    "text": "approximation reasonable?\nd. Is there any finite value ofR for which this system\nremains continuous at R?\n169. Instead of making the force 0 atR, instead we let\nthe force be 10−20 for r ≥ R. Assume two protons, which\nhave a magnitude of charge1.6022 × 10−19 C, and the\nCoulomb constantke = 8.988 × 109 Nm2/C2. Is there a\nvalue R that can make this system continuous? If so, find\nit.\nRecall the discussion on spacecraft from the chapter\nopener. The following problems consider a rocket launch\nfrom Earth’s surface. The force of gravity on the rocket is\ngiven by F(d) = − mk/d2, where m is the mass of the\nrocket, d is the distance of the rocket from the center of\nEarth, and k is a constant.\n170. [T] Determine the value and units ofk given that\nthe mass of the rocket on Earth is 3 million kg. (Hint: The\ndistance from the center of Earth to its surface is 6378 km.)\n171. [T] After a certain distance D has passed, the\ngravitational effect of Earth becomes quite negligible, so",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 201,
+    "metadata": {
+      "printed_page": 193,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 977,
+      "char_end": 1955,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p201-struct-02",
+    "text": "we can approximate the force function by\nF(d) =\n−mkd2 ifd < D\n10,000 if d ≥ D\n. Find the necessary condition\nD such that the force function remains continuous.\n172. As the rocket travels away from Earth’s surface, there\nis a distanceD where the rocket sheds some of its mass,\nsince it no longer needs the excess fuel storage. We can\nwrite this function asF(d) =\n−m1k\nd2 ifd < D\n−m2k\nd2 ifd ≥ D\n. Is there\na D value such that this function is continuous, assuming\nm1 ≠ m2?\nProve the following functions are continuous everywhere\n173. f (θ) = sinθ\n174. g(x) = |x|\n175. Where is f (x) =\n0 ifx is irrational\n1 ifx is rational continuous?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 201,
+    "metadata": {
+      "printed_page": 193,
+      "chapter": 2,
+      "section": "2.4",
+      "section_title": "Continuity",
+      "page_type": "exercises",
+      "char_start": 1955,
+      "char_end": 2588,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p222-struct-00",
+    "text": "well. In this chapter, we explore one of the main tools of calculus, the derivative, and show convenient ways to calculate\nderivatives. We apply these rules to a variety of functions in this chapter so that we can then explore applications of these\ntechniques.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 222,
+    "metadata": {
+      "printed_page": 214,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 261,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p222-struct-01",
+    "text": "3.1 | Defining the Derivative\nLearning Objectives\n3.1.1 Recognize the meaning of the tangent to a curve at a point.\n3.1.2 Calculate the slope of a tangent line.\n3.1.3 Identify the derivative as the limit of a difference quotient.\n3.1.4 Calculate the derivative of a given function at a point.\n3.1.5 Describe the velocity as a rate of change.\n3.1.6 Explain the difference between average velocity and instantaneous velocity.\n3.1.7 Estimate the derivative from a table of values.\nNow that we have both a conceptual understanding of a limit and the practical ability to compute limits, we have established\nthe foundation for our study of calculus, the branch of mathematics in which we compute derivatives and integrals.\nMost mathematicians and historians agree that calculus was developed independently by the Englishman Isaac Newton\n(1643–1727) and the German Gottfried Leibniz(1646–1716), whose images appear inFigure 3.2. When we credit",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 222,
+    "metadata": {
+      "printed_page": 214,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 261,
+      "char_end": 1199,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p222-struct-02",
+    "text": "Newton and Leibniz with developing calculus, we are really referring to the fact that Newton and Leibniz were the first\nto understand the relationship between the derivative and the integral. Both mathematicians benefited from the work of\npredecessors, such as Barrow, Fermat, and Cavalieri. The initial relationship between the two mathematicians appears to\nhave been amicable; however, in later years a bitter controversy erupted over whose work took precedence. Although it\nseems likely that Newton did, indeed, arrive at the ideas behind calculus first, we are indebted to Leibniz for the notation\nthat we commonly use today.\nFigure 3.2 Newton and Leibniz are credited with developing calculus independently.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 222,
+    "metadata": {
+      "printed_page": 214,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 1199,
+      "char_end": 1911,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p223-struct-00",
+    "text": "Tangent Lines\nWe begin our study of calculus by revisiting the notion of secant lines and tangent lines. Recall that we used the slope of\na secant line to a function at a point(a, f (a)) to estimate the rate of change, or the rate at which one variable changes in\nrelation to another variable. We can obtain the slope of the secant by choosing a value ofx near a and drawing a line\nthrough the points(a, f (a)) and\nx, f (x)\n, as shown inFigure 3.3. The slope of this line is given by an equation in the\nform of a difference quotient:\nmsec = f (x) − f (a)x −a .\nWe can also calculate the slope of a secant line to a function at a valuea by using this equation and replacingx with\na +h, where h is a value close to 0. We can then calculate the slope of the line through the points(a, f (a)) and\n(a +h, f (a +h)). In this case, we find the secant line has a slope given by the following difference quotient with\nincrement h:\nmsec = f (a +h) − f (a)a +h −a = f (a +h) − f (a)h .",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 223,
+    "metadata": {
+      "printed_page": 215,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 975,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p223-struct-01",
+    "text": "Definition\nLet f be a function defined on an interval I containing a. If x ≠ a is in I, then\n(3.1)Q = f (x) − f (a)x −a\nis a difference quotient.\nAlso, if h ≠ 0 is chosen so that a +h is in I, then\n(3.2)Q = f (a +h) − f (a)h\nis a difference quotient with increment h.\nView the development of thederivative (http://www.openstaxcollege.org/l/20_calcapplets) with this\napplet.\nThese two expressions for calculating the slope of a secant line are illustrated inFigure 3.3. We will see that each of these\ntwo methods for finding the slope of a secant line is of value. Depending on the setting, we can choose one or the other. The\nprimary consideration in our choice usually depends on ease of calculation.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 223,
+    "metadata": {
+      "printed_page": 215,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 975,
+      "char_end": 1676,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p224-struct-00",
+    "text": "Figure 3.3 We can calculate the slope of a secant line in either of two ways.\nIn Figure 3.4(a) we see that, as the values ofx approach a, the slopes of the secant lines provide better estimates of the\nrate of change of the function ata. Furthermore, the secant lines themselves approach the tangent line to the function at\na, which represents the limit of the secant lines. Similarly,Figure 3.4(b) shows that as the values ofh get closer to0,\nthe secant lines also approach the tangent line. The slope of the tangent line ata isthe rate ofchange ofthe function ata,\nas shown in Figure 3.4(c).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 224,
+    "metadata": {
+      "printed_page": 216,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 593,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p224-struct-01",
+    "text": "Figure 3.4 The secant lines approach the tangent line (shown in green) as the second point approaches the first.\nYou can use thissite (http://www.openstaxcollege.org/l/20_diffmicros)to explore graphs to see if they\nhave a tangent line at a point.\nIn Figure 3.5we show the graph off (x) = x and its tangent line at(1, 1) in a series of tighter intervals aboutx = 1.\nAs the intervals become narrower, the graph of the function and its tangent line appear to coincide, making the values on\nthe tangent line a good approximation to the values of the function for choices ofx close to1. In fact, the graph off (x)\nitself appears to be locally linear in the immediate vicinity of x = 1.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 224,
+    "metadata": {
+      "printed_page": 216,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 593,
+      "char_end": 1273,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p225-struct-00",
+    "text": "Figure 3.5 For values of x close to 1, the graph of f (x) = x and its tangent line appear to coincide.\nFormally we may define the tangent line to the graph of a function as follows.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 225,
+    "metadata": {
+      "printed_page": 217,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 182,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p225-struct-01",
+    "text": "Definition\nLet f (x) be a function defined in an open interval containinga. The tangent lineto f (x) at a is the line passing\nthrough the point\na, f (a)\nhaving slope\n(3.3)mtan = limx → af (x) − f (a)x −a\nprovided this limit exists.\nEquivalently, we may define the tangent line tof (x) at a to be the line passing through the point\na, f (a)\nhaving\nslope\n(3.4)mtan = limh → 0f (a +h) − f (a)h\nprovided this limit exists.\nJust as we have used two different expressions to define the slope of a secant line, we use two different forms to define the\nslope of the tangent line. In this text we use both forms of the definition. As before, the choice of definition will depend\non the setting. Now that we have formally defined a tangent line to a function at a point, we can use this definition to find\nequations of tangent lines.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 225,
+    "metadata": {
+      "printed_page": 217,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 182,
+      "char_end": 1005,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p226-struct-00",
+    "text": "Example 3.1\nFinding a Tangent Line\nFind the equation of the line tangent to the graph of f (x) = x2 at x = 3.\nSolution\nFirst find the slope of the tangent line. In this example, use Equation 3.3.\nmtan = limx → 3f (x) − f (3)x − 3 Apply the definition\n= limx → 3x2 − 9x − 3 Substitute f (x) = x2 and f (3) = 9.\n= limx → 3(x − 3)(x + 3)x − 3 = limx → 3(x + 3) = 6 Factor the numerator to evaluate the limit.\nNext, find a point on the tangent line. Since the line is tangent to the graph off (x) at x = 3, it passes through\nthe point\n3, f (3)\n. We have f (3) = 9, so the tangent line passes through the point (3, 9).\nUsing the point-slope equation of the line with the slopem = 6 and the point(3, 9), we obtain the line\ny − 9 = 6(x − 3). Simplifying, we havey = 6x − 9. The graph off (x) = x2 and its tangent line at3 are\nshown in Figure 3.6.\nFigure 3.6 The tangent line to f (x) at x = 3.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 226,
+    "metadata": {
+      "printed_page": 218,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 887,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p226-struct-01",
+    "text": "Example 3.2\nThe Slope of a Tangent Line Revisited\nUse Equation 3.4 to find the slope of the line tangent to the graph of f (x) = x2 at x = 3.\nSolution\nThe steps are very similar to Example 3.1. See Equation 3.4 for the definition.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 226,
+    "metadata": {
+      "printed_page": 218,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 887,
+      "char_end": 1117,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p227-struct-00",
+    "text": "mtan = limh → 0f (3 +h) − f (3)h Apply the definition\n= lim\nh → 0\n(3 +h)2 − 9\nh Substitute f (3 +h) = (3 +h)2 and f (3) = 9.\n= lim\nh → 0\n9 + 6h+h2 − 9\nh Expand and simplify to evaluate the limit.\n= lim\nh → 0\nh(6 +h)\nh = limh → 0(6 +h) = 6\nWe obtained the same value for the slope of the tangent line by using the other definition, demonstrating that the\nformulas can be interchanged.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 227,
+    "metadata": {
+      "printed_page": 219,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 384,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p227-struct-01",
+    "text": "Example 3.3\nFinding the Equation of a Tangent Line\nFind the equation of the line tangent to the graph of f (x) = 1/x at x = 2.\nSolution\nWe can use Equation 3.3, but as we have seen, the results are the same if we use Equation 3.4.\nmtan = limx → 2f (x) − f (2)x − 2 Apply the definition\n= limx → 2\n1x − 12\nx − 2 Substitute f (x) = 1x andf (2) = 12.\n= limx → 2\n1x − 12\nx − 2· 2x2x Multiply numerator and denominator by 2x tosimplify fractions.\n= limx → 2 (2 −x)(x − 2)(2x) Simplify.\n= limx → 2−12x Simplify using 2 −xx − 2= −1, forx ≠ 2.\n= − 14 Evaluate the limit.\nWe now know that the slope of the tangent line is−14. To find the equation of the tangent line, we also need a\npoint on the line. We know thatf (2) = 12. Since the tangent line passes through the point(2, 12) we can use\nthe point-slope equation of a line to find the equation of the tangent line. Thus the tangent line has the equation\ny = − 14x + 1. The graphs of f (x) = 1x and y = − 14x + 1 are shown in Figure 3.7.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 227,
+    "metadata": {
+      "printed_page": 219,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 384,
+      "char_end": 1365,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p228-struct-00",
+    "text": "Figure 3.7 The line is tangent to f (x) at x = 2.\nFind the slope of the line tangent to the graph of f (x) = x at x = 4.\nThe Derivative of a Function at a Point\nThe type of limit we compute in order to find the slope of the line tangent to a function at a point occurs in many applications\nacross many disciplines. These applications include velocity and acceleration in physics, marginal profit functions in\nbusiness, and growth rates in biology. This limit occurs so frequently that we give this value a special name: thederivative.\nThe process of finding a derivative is called differentiation.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 228,
+    "metadata": {
+      "printed_page": 220,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 598,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p228-struct-01",
+    "text": "Definition\nLet f (x) be a function defined in an open interval containinga. The derivative of the functionf (x) at a, denoted\nby f ′ (a), is defined by\n(3.5)f ′ (a) = limx → af (x) − f (a)x −a\nprovided this limit exists.\nAlternatively, we may also define the derivative of f (x) at a as\n(3.6)f ′ (a) = lim\nh → 0\nf (a +h) − f (a)\nh .\nExample 3.4\nEstimating a Derivative\nFor f (x) = x2, use a table to estimate f ′(3) using Equation 3.5.\nSolution",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 228,
+    "metadata": {
+      "printed_page": 220,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 598,
+      "char_end": 1042,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p229-struct-00",
+    "text": "Create a table using values of x just below 3 and just above 3.\nx x2−9\nx−3\n2.9 5.9\n2.99 5.99\n2.999 5.999\n3.001 6.001\n3.01 6.01\n3.1 6.1\nAfter examining the table, we see that a good estimate is f ′ (3) = 6.\nFor f (x) = x2, use a table to estimate f ′(3) using Equation 3.6.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 229,
+    "metadata": {
+      "printed_page": 221,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 273,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p229-struct-01",
+    "text": "Example 3.5\nFinding a Derivative\nFor f (x) = 3x2 − 4x + 1, find f ′(2) by using Equation 3.5.\nSolution\nSubstitute the given function and value directly into the equation.\nf ′ (x) = lim\nx → 2\nf (x) − f (2)\nx − 2 Apply the definition\n= lim\nx → 2\n3x2 − 4x + 1 − 5\nx − 2 Substitute f (x) = 3x2 − 4x + 1 andf (2) = 5.\n= lim\nx → 2\n(x − 2)(3x + 2)\nx − 2 Simplify and factor the numerator.\n= lim\nx → 2\n(3x + 2) Cancel t he common factor.\n= 8 Evaluate the limit.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 229,
+    "metadata": {
+      "printed_page": 221,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 273,
+      "char_end": 726,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p230-struct-00",
+    "text": "Example 3.6\nRevisiting the Derivative\nFor f (x) = 3x2 − 4x + 1, find f ′(2) by using Equation 3.6.\nSolution\nUsing this equation, we can substitute two values of the function into the equation, and we should get the same\nvalue as in Example 3.5.\nf ′ (2) = lim\nh → 0\nf (2 +h) − f (2)\nh Apply the definition\n= lim\nh → 0\n(3(2 +h)2 − 4(2 +h) + 1) − 5\nh\nSubstitute f (2) = 5 and\nf (2 +h) = 3(2 +h)2 − 4(2 +h) + 1.\n= lim\nh → 0\n3h2 + 8h\nh Simplify the numerator.\n= lim\nh → 0\nh(3h + 8)\nh Factor the numerator.\n= lim\nh → 0\n(3h + 8) Cancel t he common factor.\n= 8 Evaluate the limit.\nThe results are the same whether we use Equation 3.5 or Equation 3.6.\nFor f (x) = x2 + 3x + 2, find f ′ (1).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 230,
+    "metadata": {
+      "printed_page": 222,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 682,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p230-struct-01",
+    "text": "Velocities and Rates of Change\nNow that we can evaluate a derivative, we can use it in velocity applications. Recall that ifs(t) is the position of an object\nmoving along a coordinate axis, the average velocity of the object over a time interval[a, t] if t > a or [t, a] if t < a is\ngiven by the difference quotient\n(3.7)vave = s(t) −s(a)t −a .\nAs the values oft approach a, the values ofvave approach the value we call the instantaneous velocity ata. That is,\ninstantaneous velocity at a, denoted v(a), is given by\n(3.8)v(a) = s′ (a) = limt → as(t) −s(a)t −a .\nTo better understand the relationship between average velocity and instantaneous velocity, seeFigure 3.8. In this figure,\nthe slope of the tangent line (shown in red) is the instantaneous velocity of the object at timet = a whose position at time\nt is given by the functions(t). The slope of the secant line (shown in green) is the average velocity of the object over the\ntime interval [a, t].",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 230,
+    "metadata": {
+      "printed_page": 222,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 682,
+      "char_end": 1637,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p231-struct-00",
+    "text": "Figure 3.8 The slope of the secant line is the average velocity\nover the interval [a, t]. The slope of the tangent line is the\ninstantaneous velocity.\nWe can useEquation 3.5to calculate the instantaneous velocity, or we can estimate the velocity of a moving object by\nusing a table of values. We can then confirm the estimate by using Equation 3.7.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 231,
+    "metadata": {
+      "printed_page": 223,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 349,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p231-struct-01",
+    "text": "Example 3.7\nEstimating Velocity\nA lead weight on a spring is oscillating up and down. Its position at timet with respect to a fixed horizontal\nline is given bys(t) = sint (Figure 3.9). Use a table of values to estimatev(0). Check the estimate by using\nEquation 3.5.\nFigure 3.9 A lead weight suspended from a spring in vertical\noscillatory motion.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 231,
+    "metadata": {
+      "printed_page": 223,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 349,
+      "char_end": 696,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p231-struct-02",
+    "text": "Solution\nWe can estimate the instantaneous velocity att = 0 by computing a table of average velocities using values oft\napproaching 0, as shown in Table 3.2.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 231,
+    "metadata": {
+      "printed_page": 223,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 696,
+      "char_end": 853,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p232-struct-00",
+    "text": "t sint−sin0\nt−0 = sintt\n−0.1 0.998334166\n−0.01 0.9999833333\n−0.001 0.999999833\n0.001 0.999999833\n0.01 0.9999833333\n0.1 0.998334166",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 232,
+    "metadata": {
+      "printed_page": 224,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 131,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p232-struct-01",
+    "text": "Table 3.2\nAverage velocities using values of t\napproaching 0\nFrom the table we see that the average velocity over the time interval[−0.1, 0] is 0.998334166, the average\nvelocity over the time interval[−0.01, 0] is 0.9999833333, and so forth. Using this table of values, it appears\nthat a good estimate is v(0) = 1.\nBy using Equation 3.5, we can see that\nv(0) = s′ (0) = limt → 0sint − sin0t − 0 = limt → 0sintt = 1.\nThus, in fact, v(0) = 1.\nA rock is dropped from a height of64 feet. Its height above ground at timet seconds later is given by\ns(t) = −16t2 + 64, 0 ≤t ≤ 2. Find its instantaneous velocity1 second after it is dropped, usingEquation\n3.5.\nAs we have seen throughout this section, the slope of a tangent line to a function and instantaneous velocity are related\nconcepts. Each is calculated by computing a derivative and each measures the instantaneous rate of change of a function, or\nthe rate of change of a function at any point along the function.\nDefinition\nThe instantaneous rate of change of a function f (x) at a value a is its derivative f ′(a).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 232,
+    "metadata": {
+      "printed_page": 224,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 131,
+      "char_end": 1197,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p233-struct-00",
+    "text": "Example 3.8\nChapter Opener: Estimating Rate of Change of Velocity\nFigure 3.10 (credit: modification of work by Codex41,\nFlickr)\nReaching a top speed of270.49 mph, the Hennessey Venom GT is one of the fastest cars in the world. In tests it\nwent from0 to 60 mph in3.05 seconds, from0 to 100mph in5.88 seconds, from0 to 200mph in14.51\nseconds, and from0 to 229.9mph in19.96 seconds. Use this data to draw a conclusion about the rate of change\nof velocity (that is, its acceleration) as it approaches229.9 mph. Does the rate at which the car is accelerating\nappear to be increasing, decreasing, or constant?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 233,
+    "metadata": {
+      "printed_page": 225,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 604,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p233-struct-01",
+    "text": "Solution\nFirst observe that60 mph = 88 ft/s, 100 mph ≈ 146.67 ft/s, 200 mph ≈ 293.33 ft/s, and 229.9 mph\n≈ 337.19 ft/s. We can summarize the information in a table.\nt v(t)\n0 0\n3.05 88\n5.88 147.67\n14.51 293.33\n19.96 337.19\nTable 3.3\nv(t) at different values\nof t\nNow compute the average acceleration of the car in feet per second on intervals of the form\nt, 19.96\nas t\napproaches 19.96, as shown in the following table.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 233,
+    "metadata": {
+      "printed_page": 225,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 604,
+      "char_end": 1022,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p234-struct-00",
+    "text": "t v(t)−v(19.96)\nt−19.96 = v(t)−337.19t−19.96\n0.0 16.89\n3.05 14.74\n5.88 13.46\n14.51 8.05\nTable 3.4\nAverage acceleration\nThe rate at which the car is accelerating is decreasing as its velocity approaches 229.9 mph (337.19 ft/s).\nExample 3.9\nRate of Change of Temperature\nA homeowner sets the thermostat so that the temperature in the house begins to drop from70°F at 9 p.m.,\nreaches a low of60° during the night, and rises back to70° by 7 a.m. the next morning. Suppose that the\ntemperature in the house is given byT(t) = 0.4t2 − 4t+ 70 for 0 ≤t ≤ 10, where t is the number of hours\npast 9 p.m. Find the instantaneous rate of change of the temperature at midnight.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 234,
+    "metadata": {
+      "printed_page": 226,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 663,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p234-struct-01",
+    "text": "Solution\nSince midnight is 3 hours past 9 p.m., we want to compute T′(3). Refer to Equation 3.5.\nT′ (3) = limt → 3T(t) −T(3)t − 3 Apply the definition\n= lim\nt → 3\n0.4t2 − 4t+ 70 − 61.6\nt − 3\nSubstituteT(t) = 0.4t2 − 4t+ 70 and\nT(3) = 61.6.\n= lim\nt → 3\n0.4t2 − 4t+ 8.4\nt − 3 Simplify.\n= lim\nt → 3\n0.4(t − 3)(t − 7)\nt − 3 = limt → 30.4(t − 3)(t − 7)t − 3\n= lim\nt → 3\n0.4(t − 7) Cancel.\n= −1.6 Ev\naluate the limit.\nThe instantaneous rate of change of the temperature at midnight is −1.6°F per hour.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 234,
+    "metadata": {
+      "printed_page": 226,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 663,
+      "char_end": 1158,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p235-struct-00",
+    "text": "Example 3.10\nRate of Change of Profit\nA toy company can sellx electronic gaming systems at a price ofp = −0.01x + 400 dollars per gaming\nsystem. The cost of manufacturingx systemsisgivenby C(x) = 100x + 10,000 dollars. Find the rate of change\nof profit when 10,000 games are produced. Should the toy company increase or decrease production?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 235,
+    "metadata": {
+      "printed_page": 227,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 341,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p235-struct-01",
+    "text": "Solution\nThe profitP(x) earned by producingx gaming systems isR(x) −C(x), where R(x) is the revenue obtained\nfrom the sale of x games. Since the company can sell x games at p = −0.01x + 400 per game,\nR(x) = xp = x(−0.01x + 400) = −0.01x2 + 400x.\nConsequently,\nP(x) = −0.01x2 + 300x − 10,000.\nTherefore, evaluating the rate of change of profit gives\nP′ (10000) = limx → 10000P(x) −P(10000)x − 10000\n= limx → 10000−0.01x2 + 300x − 10000 − 1990000x − 10000\n= limx → 10000−0.01x2 + 300x − 2000000x − 10000\n= 100.\nSince the rate of change of profitP′ (10,000) > 0 and P(10,000) > 0, the company should increase\nproduction.\nA coffee shop determines that the daily profit on scones obtained by chargings dollars per scone is\nP(s) = −20s2 + 150s− 10. The coffee shop currently charges$3.25 per scone. FindP′(3.25), the rate of\nchange of profit when the price is$3.25 and decide whether or not the coffee shop should consider raising or\nlowering its prices on scones.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 235,
+    "metadata": {
+      "printed_page": 227,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "text",
+      "char_start": 341,
+      "char_end": 1299,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p236-struct-00",
+    "text": "3.1 EXERCISES\nFor the following exercises, useEquation 3.3to find the\nslope of the secant line between the valuesx1 and x2 for\neach function y = f (x).\n1. f (x) = 4x + 7; x1 = 2,x2 = 5\n2. f (x) = 8x − 3; x1 = −1,x2 = 3\n3. f (x) = x2 + 2x + 1; x1 = 3,x2 = 3.5\n4. f (x) = −x2 +x + 2; x1 = 0.5,x2 = 1.5\n5. f (x) = 43x − 1; x1 = 1, x2 = 3\n6. f (x) = x − 72x + 1; x1 = −2,x2 = 0\n7. f (x) = x; x1 = 1, x2 = 16\n8. f (x) = x − 9; x1 = 10, x2 = 13\n9. f (x) = x1/3 + 1; x1 = 0,x2 = 8\n10. f (x) = 6x2/3 + 2x1/3; x1 = 1, x2 = 27\nFor the following functions,\na. use Equation 3.4to find the slope of the tangent\nline mtan = f ′ (a), and\nb. find the equation of the tangent line tof at x = a.\n11. f (x) = 3 − 4x, a = 2\n12. f (x) = x5 + 6, a = −1\n13. f (x) = x2 +x, a = 1\n14. f (x) = 1 −x −x2, a = 0\n15. f (x) = 7x, a = 3\n16. f (x) = x + 8, a = 1\n17. f (x) = 2 − 3x2, a = −2\n18. f (x) = −3x − 1, a = 4\n19. f (x) = 2x + 3, a = −4\n20. f (x) = 3\nx2, a = 3\nFor the following functionsy = f (x), find f ′ (a) using\nEquation 3.3.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 236,
+    "metadata": {
+      "printed_page": 228,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 1008,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p236-struct-01",
+    "text": "21. f (x) = 5x + 4, a = −1\n22. f (x) = −7x + 1, a = 3\n23. f (x) = x2 + 9x, a = 2\n24. f (x) = 3x2 −x + 2, a = 1\n25. f (x) = x, a = 4\n26. f (x) = x − 2, a = 6\n27. f (x) = 1x, a = 2\n28. f (x) = 1x − 3, a = −1\n29. f (x) = 1\nx3, a = 1\n30. f (x) = 1x, a = 4",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 236,
+    "metadata": {
+      "printed_page": 228,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 1008,
+      "char_end": 1260,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p236-struct-02",
+    "text": "For the following exercises, given the function y = f (x),\na. find the slope of the secant linePQ for each point\nQ\nx, f (x)\nwith x value given in the table.\nb. Use the answers from a. to estimate the value of the\nslope of the tangent line at P.\nc. Use the answer from b. to find the equation of the\ntangent line to f at point P.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 236,
+    "metadata": {
+      "printed_page": 228,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 1260,
+      "char_end": 1588,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p237-struct-00",
+    "text": "31. [T] f (x) = x2 + 3x + 4,P(1, 8) (Round to 6\ndecimal places.)\nx Slope\nmPQ\nx Slope\nmPQ\n1.1 (i) 0.9 (vii)\n1.01 (ii) 0.99 (viii)\n1.001 (iii) 0.999 (ix)\n1.0001 (iv) 0.9999 (x)\n1.00001 (v) 0.99999 (xi)\n1.000001 (vi) 0.999999 (xii)\n32. [T] f (x) = x + 1\nx2 − 1, P(0, −1)\nx Slope\nmPQ\nx Slope\nmPQ\n0.1 (i) −0.1 (vii)\n0.01 (ii) −0.01 (viii)\n0.001 (iii) −0.001 (ix)\n0.0001 (iv) −0.0001 (x)\n0.00001 (v) −0.00001 (xi)\n0.000001 (vi) −0.000001 (xii)\n33. [T] f (x) = 10e0.5x, P(0, 10) (Round to 4 decimal\nplaces.)\nx Slope mPQ\n−0.1 (i)\n−0.01 (ii)\n−0.001 (iii)\n−0.0001 (iv)\n−0.00001 (v)\n−0.000001 (vi)\n34. [T] f (x) = tan(x), P(π, 0)\nx Slope mPQ\n3.1 (i)\n3.14 (ii)\n3.141 (iii)\n3.1415 (iv)\n3.14159 (v)\n3.141592 (vi)\n[T] For the following position functionsy = s(t), an\nobject is moving along a straight line, wheret isinseconds\nand s is in meters. Find\na. the simplified expression for the average velocity\nfrom t = 2 to t = 2 +h;\nb. the average velocity between t = 2 and\nt = 2 +h, where (i)h = 0.1, (ii)h = 0.01,\n(iii)h = 0.001, and (iv)h = 0.0001; and\nc. use the answer from a. to estimate the instantaneous",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 237,
+    "metadata": {
+      "printed_page": 229,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 1093,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p238-struct-00",
+    "text": "velocity at t = 2 second.\n35. s(t) = 13t + 5\n36. s(t) = t2 − 2t\n37. s(t) = 2t3 + 3\n38. s(t) = 16\nt2 − 4t\n39. Use the following graph to evaluate a.f ′ (1) and b.\nf ′ (6).\n40. Use the following graph to evaluate a.f ′ (−3) and b.\nf ′ (1.5).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 238,
+    "metadata": {
+      "printed_page": 230,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 240,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p238-struct-01",
+    "text": "For the following exercises, use the limit definition of\nderivative to show that the derivative does not exist at\nx = a for each of the given functions.\n41. f (x) = x1/3, x = 0\n42. f (x) = x2/3, x = 0\n43. f (x) =\n1, x < 1x, x ≥ 1, x = 1\n44. f (x) = |x|x , x = 0\n45. [T] The position in feet of a race car along a straight\ntrack after t seconds is modeled by the function\ns(t) = 8t2 − 116t3.\na. Find the average velocity of the vehicle over the\nfollowing time intervals to four decimal places:\ni. [4, 4.1]\nii. [4, 4.01]\niii. [4, 4.001]\niv. [4, 4.0001]\nb. Use a. to draw a conclusion about the instantaneous\nvelocity of the vehicle at t = 4 seconds.\n46. [T] The distance in feet that a ball rolls down an\nincline is modeled by the functions(t) = 14t2, where t is\nseconds after the ball begins rolling.\na. Find the average velocity of the ball over the\nfollowing time intervals:\ni. [5, 5.1]\nii. [5, 5.01]\niii. [5, 5.001]\niv. [5, 5.0001]\nb. Use the answers from a. to draw a conclusion about",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 238,
+    "metadata": {
+      "printed_page": 230,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 240,
+      "char_end": 1228,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p238-struct-02",
+    "text": "the instantaneous velocity of the ball att = 5\nseconds.\n47. Two vehicles start out traveling side by side along\na straight road. Their position functions, shown in the\nfollowing graph, are given bys = f (t) and s = g(t),\nwhere s is measured in feet and t is measured in seconds.\na. Which vehicle has traveled farther at t = 2\nseconds?\nb. What is the approximate velocity of each vehicle at\nt = 3 seconds?\nc. Which vehicle is traveling faster att = 4 seconds?\nd. What is true about the positions of the vehicles at\nt = 4 seconds?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 238,
+    "metadata": {
+      "printed_page": 230,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 1228,
+      "char_end": 1756,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p239-struct-00",
+    "text": "48. [T] The total cost C(x), in hundreds of dollars,\nto produce x jars of mayonnaise is given by\nC(x) = 0.000003x3 + 4x + 300.\na. Calculate the average cost per jar over the\nfollowing intervals:\ni. [100, 100.1]\nii. [100, 100.01]\niii. [100, 100.001]\niv. [100, 100.0001]\nb. Use the answers from a. to estimate the average\ncost to produce 100 jars of mayonnaise.\n49. [T] For the functionf (x) = x3 − 2x2 − 11x + 12,\ndo the following.\na. Use a graphing calculator to graph f in an\nappropriate viewing window.\nb. Use the ZOOM feature on the calculator to\napproximate the two values ofx = a for which\nmtan = f ′ (a) = 0.\n50. [T] For the function f (x) = x\n1 +x2, do the\nfollowing.\na. Use a graphing calculator to graph f in an\nappropriate viewing window.\nb. Use the ZOOM feature on the calculator to\napproximate the values of x = a for which\nmtan = f ′ (a) = 0.\n51. Suppose that N(x) computes the number of gallons\nof gas used by a vehicle travelingx miles. Suppose the\nvehicle gets 30 mpg.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 239,
+    "metadata": {
+      "printed_page": 231,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 985,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p239-struct-01",
+    "text": "a. Find a mathematical expression for N(x).\nb. What is N(100)? Explain the physical meaning.\nc. What is N′(100)? Explain the physical meaning.\n52. [T] For the function f (x) = x4 − 5x2 + 4, do the\nfollowing.\na. Use a graphing calculator to graph f in an\nappropriate viewing window.\nb. Use the nDeriv function, which numerically finds\nthe derivative, on a graphing calculator to estimate\nf ′ (−2), f ′(−0.5), f ′(1.7), and f ′(2.718).\n53. [T] For the function f (x) = x2\nx2 + 1, do the\nfollowing.\na. Use a graphing calculator to graph f in an\nappropriate viewing window.\nb. Use the nDeriv function on a graphing calculator\nto find f ′ (−4), f ′(−2), f ′(2), and f ′(4).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 239,
+    "metadata": {
+      "printed_page": 231,
+      "chapter": 3,
+      "section": "3.1",
+      "section_title": "Defining the Derivative",
+      "page_type": "exercises",
+      "char_start": 985,
+      "char_end": 1653,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p240-struct-00",
+    "text": "3.2 | The Derivative as a Function\nLearning Objectives\n3.2.1 Define the derivative function of a given function.\n3.2.2 Graph a derivative function from the graph of a given function.\n3.2.3 State the connection between derivatives and continuity.\n3.2.4 Describe three conditions for when a function does not have a derivative.\n3.2.5 Explain the meaning of a higher-order derivative.\nAs we have seen, the derivative of a function at a given point gives us the rate of change or slope of the tangent line to the\nfunction at that point. If we differentiate a position function at a given time, we obtain the velocity at that time. It seems\nreasonable to conclude that knowing the derivative of the function at every point would produce valuable information about\nthe behavior of the function. However, the process of finding the derivative at even a handful of values using the techniques\nof the preceding section would quickly become quite tedious. In this section we define the derivative function and learn a\nprocess for finding it.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 240,
+    "metadata": {
+      "printed_page": 232,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 1032,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p240-struct-01",
+    "text": "Derivative Functions\nThe derivative function gives the derivative of a function at each point in the domain of the original function for which the\nderivative is defined. We can formally define a derivative function as follows.\nDefinition\nLet f be a function. Thederivative function, denoted byf ′, is the function whose domain consists of those values\nof x such that the following limit exists:\n(3.9)f ′ (x) = lim\nh → 0\nf (x +h) − f (x)\nh .\nA function f (x) is said to bedifferentiable at a if f ′(a) exists. More generally, a function is said to bedifferentiable\non S if it is differentiable at every point in an open setS, and adifferentiable function is one in whichf ′(x) exists on\nits domain.\nIn the next few examples we use Equation 3.9 to find the derivative of a function.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 240,
+    "metadata": {
+      "printed_page": 232,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 1032,
+      "char_end": 1813,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p240-struct-02",
+    "text": "Example 3.11\nFinding the Derivative of a Square-Root Function\nFind the derivative of f (x) = x.\nSolution\nStart directly with the definition of the derivative function. Use Equation 3.1.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 240,
+    "metadata": {
+      "printed_page": 232,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 1813,
+      "char_end": 1998,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p241-struct-00",
+    "text": "f ′ (x) = lim\nh → 0\nx +h − x\nh\nSubstitute f (x +h) = x +h and f (x) = x\ninto f ′ (x) = lim\nh → 0\nf (x +h) − f (x)\nh .\n= lim\nh → 0\nx +h − x\nh · x +h + xx +h + x\nMultiply numerator and denominator by\nx +h + x without distributing in the\ndenominator.\n= lim\nh → 0\nh\nh( x +h + x) Multiply the numerators and simplify.\n= lim\nh → 0\n1\n( x +h + x) Cancel theh.\n= 12 x Evaluate the limit.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 241,
+    "metadata": {
+      "printed_page": 233,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 379,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p241-struct-01",
+    "text": "Example 3.12\nFinding the Derivative of a Quadratic Function\nFind the derivative of the function f (x) = x2 − 2x.\nSolution\nFollow the same procedure here, but without having to multiply by the conjugate.\nf ′ (x) = lim\nh → 0\n((x +h)2 − 2(x +h)) − (x2 − 2x)\nh\nSubstitute f (x +h) = (x +h)2 − 2(x +h) and\nf (x) = x2 − 2x int\no\nf ′ (x) = lim\nh → 0\nf (x +h) − f (x)\nh .\n= lim\nh → 0\nx2 + 2xh +h2 − 2x − 2h−x2 + 2x\nh Expand (x +h)2 − 2(x +h).\n= lim\nh → 0\n2xh − 2h+h2\nh Simplify.\n= lim\nh → 0\nh(2x − 2 +h)\nh Factor outh from the numerator.\n= lim\nh → 0\n(2x − 2 +h) Cancel t he common factor ofh.\n= 2x − 2 Ev\naluate the limit.\nFind the derivative of f (x) = x2.\nWe use a variety of different notations to express the derivative of a function. InExample 3.12we showed that if\nf (x) = x2 − 2x, then f ′ (x) = 2x − 2. If we had expressed this function in the formy = x2 − 2x, we could have\nexpressed the derivative asy′ = 2x − 2 or dydx = 2x − 2. We could have conveyed the same information by writing\nd\ndx\nx2 − 2x = 2x − 2. Thus, for the functiony = f (x), each of the following notations represents the derivative of\nf (x):",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 241,
+    "metadata": {
+      "printed_page": 233,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 379,
+      "char_end": 1489,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p242-struct-00",
+    "text": "f ′ (x), dydx, y′, ddxf (x).\nIn place of f ′ (a) we may also usedydx|x = a Use of thedydx notation (called Leibniz notation) is quite common in\nengineering and physics. To understand this notation better, recall that the derivative of a function at a point is the limit of\nthe slopes of secant lines as the secant lines approach the tangent line. The slopes of these secant lines are often expressed\nin the formΔyΔx where Δy is the difference in they values corresponding to the difference in thex values, which are\nexpressed as Δx (Figure 3.11). Thus the derivative, which can be thought of as the instantaneous rate of change ofy\nwith respect to x, is expressed as\ndy\ndx = limΔx → 0ΔyΔx.\nFigure 3.11 The derivative is expressed as dydx = limΔx → 0ΔyΔx.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 242,
+    "metadata": {
+      "printed_page": 234,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 755,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p242-struct-01",
+    "text": "Graphing a Derivative\nWe have already discussed how to graph a function, so given the equation of a function or the equation of a derivative\nfunction, we could graph it. Given both, we would expect to see a correspondence between the graphs of these two\nfunctions, since f ′(x) gives the rate of change of a function f (x) (or slope of the tangent line to f (x)).\nIn Example 3.11we found that forf (x) = x, f ′(x) = 1/2x. If we graph these functions on the same axes, as inFigure\n3.12, we can use the graphs to understand the relationship between these two functions. First, we notice thatf (x) is\nincreasing over its entire domain, which means that the slopes of its tangent lines at all points are positive. Consequently,\nwe expectf ′ (x) > 0 for all values ofx initsdomain.Furthermore,as x increases,theslopesofthetangentlinesto f (x)\nare decreasing and we expect to see a corresponding decrease inf ′(x). We also observe thatf (0) is undefined and that\nlim\nx → 0+ f ′ (x) = +∞, corresponding to a vertical tangent to f (x) at 0.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 242,
+    "metadata": {
+      "printed_page": 234,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 755,
+      "char_end": 1787,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p243-struct-00",
+    "text": "Figure 3.12 The derivative f ′(x) is positive everywhere\nbecause the function f (x) is increasing.\nIn Example 3.12we found that forf (x) = x2 − 2x, f ′ (x) = 2x − 2. The graphs of these functions are shown inFigure\n3.13. Observe thatf (x) is decreasing forx < 1. For these same values ofx, f ′ (x) < 0. For values ofx > 1, f (x) is\nincreasing and f ′ (x) > 0. Also, f (x) has a horizontal tangent at x = 1 and f ′ (1) = 0.\nFigure 3.13 The derivative f ′ (x) < 0 where the function\nf (x) is decreasing and f ′ (x) > 0 where f (x) is increasing.\nThe derivative is zero where the function has a horizontal\ntangent.\nExample 3.13\nSketching a Derivative Using a Function\nUse the following graph of f (x) to sketch a graph of f ′ (x).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 243,
+    "metadata": {
+      "printed_page": 235,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 727,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p244-struct-00",
+    "text": "Solution\nThe solution is shown in the following graph. Observe thatf (x) is increasing andf ′ (x) > 0 on ( – 2, 3). Also,\nf (x) is decreasing andf ′ (x) < 0 on (−∞, −2) and on(3, +∞). Also note thatf (x) has horizontal tangents\nat – 2 and 3, and f ′ (−2) = 0 and f ′ (3) = 0.\nSketch the graph of f (x) = x2 − 4. On what interval is the graph of f ′ (x) above the x-axis?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 244,
+    "metadata": {
+      "printed_page": 236,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 371,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p244-struct-01",
+    "text": "Derivatives and Continuity\nNow that we can graph a derivative, let’s examine the behavior of the graphs. First, we consider the relationship between\ndifferentiability and continuity. We will see that if a function is differentiable at a point, it must be continuous there;",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 244,
+    "metadata": {
+      "printed_page": 236,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 371,
+      "char_end": 643,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p245-struct-00",
+    "text": "however, a function that is continuous at a point need not be differentiable at that point. In fact, a function may be continuous\nat a point and fail to be differentiable at the point for one of several reasons.\nTheorem 3.1: Differentiability Implies Continuity\nLet f (x) be a function and a be in its domain. If f (x) is differentiable at a, then f is continuous at a.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 245,
+    "metadata": {
+      "printed_page": 237,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 370,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p245-struct-01",
+    "text": "Proof\nIf f (x) is differentiable at a, then f ′(a) exists and\nf ′ (a) = limx → af (x) − f (a)x −a .\nWe want to show that f (x) is continuous at a by showing that limx → af (x) = f (a). Thus,\nlimx → af (x) = limx → a\nf (x) − f (a) + f (a)\n= limx → af (x) − f (a)x −a · (x −a) + f (a) Multiply and divide f (x) − f (a) byx −a.\n= limx → af (x) − f (a)x −a · limx → a(x −a) + limx → af (a)\n= f ′(a) · 0 +f (a)\n= f (a).\nTherefore, since f (a) is defined and limx → af (x) = f (a), we conclude that f is continuous at a.\n□\nWe have just proven that differentiability implies continuity, but now we consider whether continuity implies\ndifferentiability. To determine an answer to this question, we examine the functionf (x) = |x|. This function is continuous\neverywhere; however, f ′(0) is undefined. This observation leads us to believe that continuity does not imply\ndifferentiability. Let’s explore further. For f (x) = |x|,\nf ′ (0) = limx → 0f (x) − f (0)x − 0 = limx → 0|x| − |0|x − 0 = limx → 0|x|x .\nThis limit does not exist because\nlim\nx → 0−\n|x|x = −1 and limx → 0+ |x|x = 1.\nSee Figure 3.14.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 245,
+    "metadata": {
+      "printed_page": 237,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 370,
+      "char_end": 1464,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p246-struct-00",
+    "text": "Figure 3.14 The function f (x) = |x| is continuous at 0 but\nis not differentiable at 0.\nLet’s consider some additional situations in which a continuous function fails to be differentiable. Consider the function\nf (x) = x3 :\nf ′ (0) = limx → 0 x3 − 0x − 0 = limx → 0 1x23 = +∞.\nThus f ′ (0) does not exist. A quick look at the graph off (x) = x3 clarifies the situation. The function has a vertical\ntangent line at 0 (Figure 3.15).\nFigure 3.15 The function f (x) = x3 has a vertical tangent at\nx = 0. It is continuous at 0 but is not differentiable at 0.\nThe function f (x) =\nxsin1x if x ≠ 0\n0 ifx = 0\nalso has a derivative that exhibits interesting behavior at 0. We see that\nf ′ (0) = lim\nx → 0\nxsin(1/x) − 0\nx − 0 = limx → 0sin1x.\nThis limit does not exist, essentially because the slopes of the secant lines continuously change direction as they approach\nzero (Figure 3.16).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 246,
+    "metadata": {
+      "printed_page": 238,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 877,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p247-struct-00",
+    "text": "Figure 3.16 The function f (x) =\nxsin1x if x ≠ 0\n0 ifx = 0\nis not\ndifferentiable at 0.\nIn summary:\n1. We observe that if a function is not continuous, it cannot be differentiable, since every differentiable function must\nbe continuous. However, if a function is continuous, it may still fail to be differentiable.\n2. We saw thatf (x) = |x| failed to be differentiable at0 because the limit of the slopes of the tangent lines on the\nleft and right were not the same. Visually, this resulted in a sharp corner on the graph of the function at0. From\nthis we conclude that in order to be differentiable at a point, a function must be “smooth” at that point.\n3. As we saw in the example off (x) = x3 , a function fails to be differentiable at a point where there is a vertical\ntangent line.\n4. As we saw withf (x) =\nxsin1x if x ≠ 0\n0 ifx = 0\na function may fail to be differentiable at a point in more complicated\nways as well.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 247,
+    "metadata": {
+      "printed_page": 239,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 923,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p247-struct-01",
+    "text": "Example 3.14\nA Piecewise Function that is Continuous and Differentiable\nA toy company wants to design a track for a toy car that starts out along a parabolic curve and then converts\nto a straight line (Figure 3.17 ). The function that describes the track is to have the form\nf (x) =\n1\n10x2 +bx +cifx < −10\n−14x + 52 ifx ≥ −10 where x and f (x) are in inches. For the car to move smoothly along the\ntrack, the functionf (x) must be both continuous and differentiable at−10. Find values ofb and c that make\nf (x) both continuous and differentiable.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 247,
+    "metadata": {
+      "printed_page": 239,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 923,
+      "char_end": 1469,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p248-struct-00",
+    "text": "Figure 3.17 For the car to move smoothly along the track, the\nfunction must be both continuous and differentiable.\nSolution\nFor the function to be continuous at x = −10, lim\nx → 10− f (x) = f (−10). Thus, since\nlim\nx → −10− f (x) = 110(−10)2 − 10b +c = 10 − 10b+c\nand f (−10) = 5, we must have 10 − 10b +c = 5. Equivalently, we have c = 10b − 5.\nFor the function to be differentiable at −10,\nf ′ (10) = limx → −10f (x) − f (−10)x + 10\nmust exist. Sincef (x) is defined using different rules on the right and the left, we must evaluate this limit from\nthe right and the left and then set them equal to each other:\nlim\nx → −10−\nf (x) − f (−10)\nx + 10 = limx → −10−\n1\n10x2 +bx +c − 5\nx + 10\n= lim\nx → −10−\n1\n10x2 +bx + (10b − 5) − 5\nx + 10 Substitutec = 10b − 5.\n= lim\nx → −10−\nx2 − 100 + 10bx + 100b\n10(x + 10)\n= lim\nx → −10−\n(x + 10)(x − 10 + 10b)\n10(x + 10) Factor by grouping.\n= b − 2.\nWe also have\nlim\nx → −10+\nf (x) − f (−10)\nx + 10 = limx → −10+\n− 14x + 52 − 5\nx + 10\n= lim\nx → −10+\n−(x + 10)\n4(x + 10)\n= − 14.\nThis gives us b − 2 = −14. Thus b = 74 and c = 1074 − 5 =252 .\nFind values of a and b that make f (x) =\nax +b if x < 3\nx2 if x ≥ 3 both continuous and differentiable at 3.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 248,
+    "metadata": {
+      "printed_page": 240,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 1186,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p249-struct-00",
+    "text": "Higher-Order Derivatives\nThe derivative of a function is itself a function, so we can find the derivative of a derivative. For example, the derivative\nof a position function is the rate of change of position, or velocity. The derivative of velocity is the rate of change of\nvelocity, which is acceleration. The new function obtained by differentiating the derivative is called the second derivative.\nFurthermore, we can continue to take derivatives to obtain the third derivative, fourth derivative, and so on. Collectively,\nthese are referred to ashigher-order derivatives . The notation for the higher-order derivatives ofy = f (x) can be\nexpressed in any of the following forms:\nf ′′(x), f ′′′(x), f (4) (x),..., f (n) (x)\ny′′(x), y′′′(x), y(4) (x),..., y(n) (x)\nd2y\ndx 2 , d3ydy 3 , d4ydy 4 ,..., dnydyn .\nIt is interesting to note that the notation ford2y\ndx 2 may be viewed as an attempt to expressddxdydxmorecompactly.\nAnalogously, ddxddxdydx = ddxd2ydx 2 = d3ydx 3 .",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 249,
+    "metadata": {
+      "printed_page": 241,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 975,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p249-struct-01",
+    "text": "Example 3.15\nFinding a Second Derivative\nFor f (x) = 2x2 − 3x + 1, find f ′′(x).\nSolution\nFirst find f ′(x).\nf ′ (x) = lim\nh → 0\n2(x +h)2 − 3(x +h) + 1 − (2x2 − 3x + 1)\nh\nSubstitute f (x) = 2x2 − 3x + 1\nand\nf (x +h) = 2(x +h)2 − 3(x +h) + 1\nint\no f ′ (x) = lim\nh → 0\nf (x +h) − f (x)\nh .\n= lim\nh → 0\n4xh +h2 − 3h\nh Simplify the numerator.\n= lim\nh → 0\n(4x +h − 3)\nFactor out theh in the numerator\nand cancel with theh in the\ndenominator.\n= 4x − 3 Take the limit.\nNext, find f ′′(x) by taking the derivative of f ′ (x) = 4x − 3.\nf ′′(x) = lim\nh → 0\nf ′ (x +h) − f ′(x)\nh\nUse f ′ (x) = lim\nh → 0\nf (x +h) − f (x)\nh with f ′(x) in\nplace of f (x).\n= lim\nh → 0\n4(x +h) − 3\n− (4x − 3)\nh\nSubstitute f ′ (x +h) = 4(x +h) − 3 and\nf ′ (x) = 4x − 3.\n= lim\nh → 0\n4 Simplify.\n= 4 Take the limit.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 249,
+    "metadata": {
+      "printed_page": 241,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 975,
+      "char_end": 1756,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p250-struct-00",
+    "text": "Find f ′′(x) for f (x) = x2.\nExample 3.16\nFinding Acceleration\nThe position of a particle along a coordinate axis at timet (in seconds) is given bys(t) = 3t2 − 4t+ 1 (in\nmeters). Find the function that describes its acceleration at time t.\nSolution\nSince v(t) = s′(t) and a(t) = v′ (t) = s′′(t), we begin by finding the derivative of s(t) :\ns′ (t) = lim\nh → 0\ns(t +h) −s(t)\nh\n= lim\nh → 0\n3(t +h)2 − 4(t +h) + 1 −3t2 − 4t+ 1\nh\n= 6t − 4.\nNext,\ns′′(t) = lim\nh → 0\ns′ (t +h) −s′(t)\nh\n= lim\nh → 0\n6(t +h) − 4 − (6t − 4)\nh\n= 6.\nThus, a = 6 m/s2.\nFor s(t) = t3, find a(t).",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 250,
+    "metadata": {
+      "printed_page": 242,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "text",
+      "char_start": 0,
+      "char_end": 565,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p251-struct-00",
+    "text": "3.2 EXERCISES\nFor the following exercises, use the definition of a\nderivative to find f ′ (x).\n54. f (x) = 6\n55. f (x) = 2 − 3x\n56. f (x) = 2x7 + 1\n57. f (x) = 4x2\n58. f (x) = 5x −x2\n59. f (x) = 2 x\n60. f (x) = x − 6\n61. f (x) = 9x\n62. f (x) = x + 1x\n63. f (x) = 1x\nFor the following exercises, use the graph ofy = f (x) to\nsketch the graph of its derivative f ′ (x).\n64.\n65.\n66.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 251,
+    "metadata": {
+      "printed_page": 243,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 379,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p252-struct-00",
+    "text": "67.\nFor the following exercises, the given limit represents the\nderivative of a functiony = f (x) at x = a. Find f (x)\nand a.\n68. lim\nh → 0\n(1 +h)2/3 − 1\nh\n69. lim\nh → 0\n3(2 +h)2 + 2 − 14\nh\n70. lim\nh → 0\ncos(π +h) + 1\nh\n71. lim\nh → 0\n(2 +h)4 − 16\nh\n72. lim\nh → 0\n[2(3 +h)2 − (3 +h)] − 15\nh\n73. lim\nh → 0\neh − 1\nh\nFor the following functions,\na. sketch the graph and\nb. use the definition of a derivative to show that the\nfunction is not differentiable at x = 1.\n74. f (x) =\n2 x, 0 ≤x ≤ 13x − 1, x > 1\n75. f (x) =\n3, x < 13x, x ≥ 1\n76. f (x) =\n−x2 + 2, x ≤ 1\nx, x > 1\n77. f (x) =\n2x, x ≤ 1\n2x, x > 1\nFor the following graphs,\na. determine for which values of x = a the\nlimx → af (x) exists but f is not continuous at\nx = a, and\nb. determine for which values ofx = a the function\nis continuous but not differentiable at x = a.\n78.\n79.",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 252,
+    "metadata": {
+      "printed_page": 244,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 832,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p253-struct-00",
+    "text": "80. Use the graph to evaluate a.f ′ (−0.5), b. f ′ (0), c.\nf ′ (1), d. f ′ (2), and e. f ′ (3), if it exists.\nFor the following functions, use\nf ′′(x) = lim\nh → 0\nf ′ (x +h) − f ′(x)\nh to find f ′′(x).\n81. f (x) = 2 − 3x\n82. f (x) = 4x2\n83. f (x) =x + 1x\nForthefollowingexercises,useacalculatortograph f (x).\nDetermine the function f ′ (x), then use a calculator to\ngraph f ′ (x).\n84. [T] f (x) = − 5x\n85. [T] f (x) = 3x2 + 2x + 4.\n86. [T] f (x) = x + 3x\n87. [T] f (x) = 12x\n88. [T] f (x) = 1 +x + 1x\n89. [T] f (x) = x3 + 1",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 253,
+    "metadata": {
+      "printed_page": 245,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 524,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p253-struct-01",
+    "text": "For the following exercises, describe what the two\nexpressions represent in terms of each of the given\nsituations. Be sure to include units.\na. f (x +h) − f (x)h\nb. f ′ (x) = lim\nh → 0\nf (x +h) − f (x)\nh\n90. P(x) denotes the population of a city at timex in\nyears.\n91. C(x) denotes the total amount of money (in\nthousands of dollars) spent on concessions byx customers\nat an amusement park.\n92. R(x) denotes the total cost (in thousands of dollars)\nof manufacturing x clock radios.\n93. g(x) denotes the grade (in percentage points) received\non a test, given x hours of studying.\n94. B(x) denotes the cost (in dollars) of a sociology\ntextbook at university bookstores in the United States inx\nyears since 1990.\n95. p(x) denotes atmospheric pressure at an altitude ofx\nfeet.\n96. Sketch the graph of a functiony = f (x) with all of\nthe following properties:\na. f ′ (x) > 0 for −2 ≤x < 1\nb. f ′ (2) = 0\nc. f ′ (x) > 0 for x > 2\nd. f (2) = 2 and f (0) = 1\ne. limx → −∞f (x) = 0 and limx → ∞f (x) = ∞",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 253,
+    "metadata": {
+      "printed_page": 245,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 524,
+      "char_end": 1519,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p253-struct-02",
+    "text": "f. f ′ (1) does not exist.\n97. Suppose temperature T in degrees Fahrenheit at a\nheight x in feet above the ground is given by y = T(x).\na. Give a physical interpretation, with units, ofT′(x).\nb. If we know thatT′ (1000) = −0.1, explain the\nphysical meaning.\n98. Suppose the total profit of a company isy = P(x)\nthousand dollars when x units of an item are sold.\na. What does P(b) −P(a)b −a for 0 <a < b measure,\nand what are the units?\nb. What does P′(x) measure, and what are the units?\nc. Suppose that P′ (30) = 5, what is the\napproximate change in profit if the number of items\nsold increases from 30 to 31?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 253,
+    "metadata": {
+      "printed_page": 245,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 1519,
+      "char_end": 2129,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p254-struct-00",
+    "text": "99. The graph in the following figure models the number\nof peopleN(t) who have come down with the flut weeks\nafter its initial outbreak in a town with a population of\n50,000 citizens.\na. Describe whatN′(t) represents and how it behaves\nas t increases.\nb. What does the derivative tell us about how this\ntown is affected by the flu outbreak?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 254,
+    "metadata": {
+      "printed_page": 246,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 0,
+      "char_end": 341,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p254-struct-01",
+    "text": "For the following exercises, use the following table, which\nshows the heighth of the SaturnV rocket for the Apollo\n11 mission t seconds after launch.\nTime (seconds) Height (meters)\n0 0\n1 2\n2 4\n3 13\n4 25\n5 32\n100. What is the physical meaning ofh′ (t)? What are\nthe units?\n101. [T] Construct a table of values forh′ (t) and graph\nboth h(t) and h′ (t) on the same graph. (Hint:for interior\npoints, estimate both the left limit and right limit and\naverage them.)\n102. [T] The best linear fit to the data is given by\nH(t) = 7.229t − 4.905, where H is the height of the\nrocket (in meters) andt is the time elapsed since takeoff.\nFrom this equation, determineH′ (t). Graph H(t) with\nthe given data and, on a separate coordinate plane, graph\nH′ (t).\n103. [T] The best quadratic fit to the data is given by\nG(t) = 1.429t2 + 0.0857t− 0.1429, where G is the\nheight of the rocket (in meters) andt is the time elapsed\nsince takeoff. From this equation, determineG′ (t). Graph",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 254,
+    "metadata": {
+      "printed_page": 246,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 341,
+      "char_end": 1305,
+      "day6_strategy": "C"
+    }
+  },
+  {
+    "id": "openstax-calc1-p254-struct-02",
+    "text": "G(t) with the given data and, on a separate coordinate\nplane, graph G′ (t).\n104. [T] The best cubic fit to the data is given by\nF(t) = 0.2037t3 + 2.956t2 − 2.705t+ 0.4683, where\nF is the height of the rocket (in m) andt is the time\nelapsed since take off. From this equation, determine\nF′ (t). Graph F(t) with the given data and, on a separate\ncoordinate plane, graphF′ (t). Does the linear, quadratic,\nor cubic function fit the data best?\n105. Using the best linear, quadratic, and cubic fits to\nthe data, determine whatH′′(t), G′′(t) andF′′(t) are. What\nare the physical meanings ofH′′(t), G′′(t) andF′′(t), and\nwhat are their units?",
+    "source_id": "openstax-calc1",
+    "source": "OpenStax Calculus Volume 1 (2018), CalculusVolume1-OP.pdf",
+    "page": 254,
+    "metadata": {
+      "printed_page": 246,
+      "chapter": 3,
+      "section": "3.2",
+      "section_title": "The Derivative as a Function",
+      "page_type": "exercises",
+      "char_start": 1305,
+      "char_end": 1940,
+      "day6_strategy": "C"
+    }
+  }
+]

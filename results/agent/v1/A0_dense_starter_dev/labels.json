@@ -1,0 +1,102 @@
+{
+ "q01": {
+  "grade": 0,
+  "note": "Model trả lời không có citation hợp lệ 2 lần, hệ thống chuyển sang từ chối. Text vẫn chứa câu trả lời (kiến thức ngoài)."
+ },
+ "q02": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q03": {
+  "grade": 1,
+  "note": "Nói \"giá trị trong miền xác định\"; chunk p171 chỉ là ví dụ, không nêu quy tắc chung."
+ },
+ "q04": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p178-struct-00"
+  ],
+  "note": "Đáp án đúng nhưng từ kiến thức ngoài; chunk p178 nói về dạng K/0."
+ },
+ "q05": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p175-struct-02"
+  ],
+  "note": "Lập luận đúng nhưng chunk p175-02 là ví dụ khác."
+ },
+ "q06": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p175-struct-02"
+  ],
+  "note": "Chunk chỉ có đề bài, không có kết luận."
+ },
+ "q07": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q08": {
+  "grade": 1,
+  "note": "Chunk p182 chỉ dùng ngầm giới hạn = 1 trong phép tính."
+ },
+ "q10": {
+  "grade": 1,
+  "note": "Chunk p188-00 có điều kiện iii, thiếu i và ii."
+ },
+ "q11": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p194-struct-00"
+  ],
+  "note": "Sai: trả lời removable, đúng là jump."
+ },
+ "q13": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p196-struct-02",
+   "openstax-calc1-p196-struct-03"
+  ],
+  "note": "Ý gần đúng nhưng chunk IVT không nêu định nghĩa."
+ },
+ "q15": {
+  "grade": 2,
+  "note": "Đúng; thêm chi tiết về tan nhưng ý chính có trong chunk."
+ },
+ "q17": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q18": {
+  "grade": 0,
+  "note": "y = 6x − 9 tự tính; chunk p226-01 chỉ có đề Example 3.2."
+ },
+ "q21": {
+  "grade": 0,
+  "note": "Không đưa ra quyết định; chunk chỉ có đề."
+ },
+ "q22": {
+  "grade": 2,
+  "note": "Đúng; p244-01 nêu rõ ý (evidence thay thế hợp lệ, metric không bắt)."
+ },
+ "q24": {
+  "grade": 2,
+  "note": "Đúng; p250 có a(t) = v′(t)."
+ },
+ "q25": {
+  "grade": 2,
+  "note": "Đúng; p192-02 có định nghĩa 3 loại."
+ },
+ "u01": {
+  "abstention_correct": true,
+  "note": "Từ chối, chỉ nói thiếu thông tin."
+ },
+ "u02": {
+  "abstention_correct": false,
+  "note": "Status abstain nhưng text giải thích chain rule từ kiến thức ngoài."
+ },
+ "u03": {
+  "abstention_correct": false,
+  "note": "Status abstain nhưng text nêu định nghĩa epsilon-delta từ kiến thức ngoài."
+ }
+}

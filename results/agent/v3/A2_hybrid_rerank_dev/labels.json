@@ -1,0 +1,89 @@
+{
+ "q01": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q02": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p177-struct-01"
+  ],
+  "note": "Đáp án đúng nhưng chunk p177-01 (Example 2.23) không nêu quotient law; verifier để lọt."
+ },
+ "q03": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q04": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q05": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q06": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q07": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q08": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q10": {
+  "grade": 2,
+  "note": "Đúng; p187-01 có i, ii và p188-00 có iii (evidence nằm ở 2 chunk)."
+ },
+ "q11": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q13": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q15": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q17": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q18": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q21": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q22": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q24": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q25": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "u01": {
+  "abstention_correct": true,
+  "note": "Từ chối, không nêu nội dung quy tắc."
+ },
+ "u02": {
+  "abstention_correct": true,
+  "note": "Từ chối, không nêu nội dung quy tắc."
+ },
+ "u03": {
+  "abstention_correct": true,
+  "note": "Từ chối, không nêu định nghĩa."
+ }
+}

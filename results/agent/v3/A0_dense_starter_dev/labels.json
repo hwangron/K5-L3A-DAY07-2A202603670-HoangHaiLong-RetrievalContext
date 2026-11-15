@@ -1,0 +1,86 @@
+{
+ "q01": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q02": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q03": {
+  "grade": 1,
+  "note": "Nói \"giá trị trong miền xác định\"; chunk p171 chỉ là ví dụ, không nêu quy tắc chung."
+ },
+ "q04": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q05": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q06": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q07": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q08": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q10": {
+  "grade": 1,
+  "note": "Chunk p188-00 có điều kiện iii, thiếu i và ii."
+ },
+ "q11": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q13": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q15": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q17": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q18": {
+  "grade": 0,
+  "note": "Từ chối nhầm câu có đáp án."
+ },
+ "q21": {
+  "grade": 0,
+  "note": "Không đưa ra quyết định; chunk chỉ có đề."
+ },
+ "q22": {
+  "grade": 2,
+  "note": "Đúng; p244-01 nêu rõ ý (evidence thay thế hợp lệ, metric không bắt)."
+ },
+ "q24": {
+  "grade": 2,
+  "note": "Đúng; p250 có a(t) = v′(t)."
+ },
+ "q25": {
+  "grade": 2,
+  "note": "Đúng; p192-02 có định nghĩa 3 loại."
+ },
+ "u01": {
+  "abstention_correct": true,
+  "note": "Từ chối, không nêu nội dung quy tắc."
+ },
+ "u02": {
+  "abstention_correct": true,
+  "note": "Từ chối, không nêu nội dung quy tắc."
+ },
+ "u03": {
+  "abstention_correct": true,
+  "note": "Từ chối, không nêu định nghĩa."
+ }
+}

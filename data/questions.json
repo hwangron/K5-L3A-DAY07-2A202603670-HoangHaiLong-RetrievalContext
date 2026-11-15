@@ -1,0 +1,487 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the limit of a constant c as x approaches a?",
+    "expected_answer": "The constant itself: lim c = c.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 168,
+        "evidence": "The limit of a constant is that constant"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "condition",
+    "question": "Which limit law only works when the limit of the denominator is not zero?",
+    "expected_answer": "The quotient law for limits (needs M ≠ 0).",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 169,
+        "evidence": "Quotient law for limits: limx → af (x)g(x) = limx → af (x)limx → ag(x) = LM for M ≠ 0"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "condition",
+    "question": "For which values of a can the limit of a rational function be found by direct substitution?",
+    "expected_answer": "At all values of a where the rational function is defined (denominator q(a) ≠ 0).",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 170,
+        "evidence": "for all rational functions at all values ofa for which the rational function is defined"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "A 0/0 limit has a square root difference in the numerator. What algebra trick should I try?",
+    "expected_answer": "Multiply numerator and denominator by the conjugate of the square-root expression.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 172,
+        "evidence": "we should try multiplying the numerator and denominator by the conjugate of the expression involving the square root"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "condition",
+    "question": "Why can the sum law not be used for the limit of 1/x + 5/(x(x−5)) as x goes to 0?",
+    "expected_answer": "Neither term has a limit at 0, so the sum law does not apply; add the fractions first (limit is −1/5).",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 175,
+        "evidence": "Since neither of the two functions has a limit at zero, we cannot apply the sum law for limits"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "condition",
+    "question": "Can the limit laws be used for the left-hand limit of the square root of (x − 3) at x = 3?",
+    "expected_answer": "No. The function is not defined to the left of 3, so the left-hand limit does not exist.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 176,
+        "evidence": "Since this function is not defined to the left of 3, we cannot apply the limit laws"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "direct",
+    "question": "What inequality between f, g and h does the squeeze theorem require?",
+    "expected_answer": "f(x) ≤ g(x) ≤ h(x) for all x ≠ a in an open interval containing a, and lim f = lim h = L.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 179,
+        "evidence": "f (x) ≤ g(x) ≤ h(x) for all x ≠ a in an open interval containing a and"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the limit of sin θ divided by θ as θ approaches 0?",
+    "expected_answer": "1",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 181,
+        "evidence": "we conclude that limθ → 0+ sinθθ = 1"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "What three conditions must hold for a function to be continuous at a point a?",
+    "expected_answer": "f(a) is defined, lim f(x) as x→a exists, and that limit equals f(a).",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 188,
+        "evidence": "the following three conditions are satisfied: i. f (a) is defined ii. limx → af (x) exists iii. limx → af (x) = f (a)"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What do we call a discontinuity where the pieces of the graph do not meet up but nothing goes to infinity?",
+    "expected_answer": "A jump discontinuity.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 192,
+        "evidence": "discontinuity is a noninfinite discontinuity for which the sections of the function do not meet up"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "condition",
+    "question": "When is a function continuous over a closed interval [a, b]?",
+    "expected_answer": "When it is continuous at every point of (a, b), continuous from the right at a and from the left at b.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 194,
+        "evidence": "(a, b) and is continuous from the right ata and is continuous from the left atb"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "direct",
+    "question": "Over what set are the trigonometric functions continuous?",
+    "expected_answer": "Over their entire domains.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 196,
+        "evidence": "Trigonometric functions are continuous over their entire domains."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "type": "condition",
+    "question": "Why does f(−1) < 0 < f(1) not prove that 1/x has a zero on [−1, 1]?",
+    "expected_answer": "Because 1/x is not continuous on [−1, 1], so the IVT does not apply.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 198,
+        "evidence": "The function is not continuous over [−1, 1]. The Intermediate Value Theorem does not apply here."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the equation of the tangent line to f(x) = x^2 at x = 3?",
+    "expected_answer": "y = 6x − 9 (slope 6 through (3, 9)).",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 226,
+        "evidence": "y − 9 = 6(x − 3). Simplifying, we havey = 6x − 9."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "type": "condition",
+    "question": "Should the toy company raise or cut production when it makes 10,000 gaming systems, and why?",
+    "expected_answer": "Increase production, because P′(10,000) = 100 > 0 and P(10,000) > 0.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 235,
+        "evidence": "Since the rate of change of profitP′ (10,000) > 0 and P(10,000) > 0, the company should increase production."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "type": "filter",
+    "question": "If a function is differentiable at a point, is it continuous there?",
+    "expected_answer": "Yes. Differentiability at a implies continuity at a.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 245,
+        "evidence": "If f (x) is differentiable at a, then f is continuous at a."
+      }
+    ],
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "type": "filter",
+    "question": "What is the derivative of velocity called?",
+    "expected_answer": "Acceleration (the second derivative of position).",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 249,
+        "evidence": "The derivative of velocity is the rate of change of velocity, which is acceleration."
+      }
+    ],
+    "filter": {
+      "section": "3.2"
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q25",
+    "split": "dev",
+    "type": "filter",
+    "question": "What are the three common types of discontinuities?",
+    "expected_answer": "Removable, jump and infinite discontinuities.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 192,
+        "evidence": "classify the types of discontinuities we have seen thus far as removable discontinuities, infinite discontinuities, or jump discontinuities"
+      }
+    ],
+    "filter": {
+      "section": "2.4"
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "unanswerable",
+    "question": "How does L'Hôpital's rule evaluate a limit of the form 0/0?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "L'Hôpital's rule is in section 4.8, outside the corpus (2.3, 2.4, 3.1, 3.2). Checked: 'pital' and 'rule' appear on none of the 67 pages. Near-topic trap: 0/0 limits are solved on pages 171-175 by factoring/conjugates."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "unanswerable",
+    "question": "What does the chain rule say about the derivative of a composite function f(g(x))?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chain rule is section 3.6, outside the corpus. Checked: 'chain rule' on 0 pages. Near-topic trap: 'composite' appears on pages 187, 195, 196 but only about continuity of composite functions, not derivatives."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "type": "unanswerable",
+    "question": "What is the formal epsilon-delta definition of a limit?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Epsilon-delta definition is section 2.5, outside the corpus. Checked: 'epsilon' on 0 pages; 'ε' only on page 186 inside Coulomb's law (ε0); 'δ' only on page 242 as Δx/Δy."
+  },
+  {
+    "id": "q09",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Which ancient mathematician estimated the area of a circle using polygons drawn inside it?",
+    "expected_answer": "Archimedes.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 183,
+        "evidence": "using polygons inscribed within circles to approximate the area of the circle"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "test",
+    "type": "filter",
+    "question": "What kind of discontinuity does f(x) = (x + 2)/(x + 1) have at x = −1?",
+    "expected_answer": "An infinite discontinuity.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 194,
+        "evidence": "Therefore, the function has an infinite discontinuity at −1."
+      }
+    ],
+    "filter": {
+      "chapter": 2
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "test",
+    "type": "direct",
+    "question": "What does the composite function theorem say?",
+    "expected_answer": "If f is continuous at L and lim g(x) = L as x→a, then lim f(g(x)) = f(lim g(x)) = f(L).",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 195,
+        "evidence": "If f (x) is continuous at L and limx → ag(x) = L, then"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "condition",
+    "question": "If f is continuous on [0, 2] and f(0) > 0 and f(2) > 0, does the Intermediate Value Theorem prove f has no zero there?",
+    "expected_answer": "No. The IVT only guarantees values between f(0) and f(2); it cannot rule out other values, e.g. (x − 1)^2 has a zero at 1.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 198,
+        "evidence": "The Intermediate Value Theorem only allows us to conclude that we can find a value betweenf (0) and f (2); it doesn’t allow us to conclude that we can’t find other values"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "direct",
+    "question": "How is the derivative of a function f at a point a defined?",
+    "expected_answer": "f′(a) = lim (f(x) − f(a))/(x − a) as x→a (or lim (f(a+h) − f(a))/h as h→0), provided the limit exists.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 228,
+        "evidence": "The derivative of the functionf (x) at a, denoted by f ′ (a), is defined by"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "In the thermostat example, how fast is the house temperature changing at midnight?",
+    "expected_answer": "−1.6 °F per hour.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 234,
+        "evidence": "The instantaneous rate of change of the temperature at midnight is −1.6°F per hour."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "type": "filter",
+    "question": "Why is f(x) = |x| not differentiable at 0?",
+    "expected_answer": "The one-sided limits of the slopes differ (−1 and 1), giving a sharp corner at 0, although |x| is continuous.",
+    "gold": [
+      {
+        "source_id": "openstax-calc1",
+        "page": 247,
+        "evidence": "failed to be differentiable at0 because the limit of the slopes of the tangent lines on the left and right were not the same"
+      },
+      {
+        "source_id": "openstax-calc1",
+        "page": 245,
+        "evidence": "This limit does not exist because lim x → 0− |x|x = −1 and limx → 0+ |x|x = 1."
+      }
+    ],
+    "filter": {
+      "section": "3.2"
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "unanswerable",
+    "question": "What is the product rule for the derivative of f(x)g(x)?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Product rule for derivatives is section 3.3, outside the corpus. Checked: 'product rule' and 'rule' on 0 pages. Near-topic trap: page 169 has the product LAW for LIMITS, which is a different statement."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "type": "unanswerable",
+    "question": "In what year did Leibniz first publish his work on calculus?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Page 222 names Leibniz (1646-1716) and the priority dispute but gives no publication year. Checked: 'publish' on 0 pages; 'Leibniz' only on pages 222 and 242 (notation)."
+  }
+]

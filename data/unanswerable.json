@@ -1,0 +1,32 @@
+[
+  {
+    "id": "u01", "split": "dev", "type": "unanswerable",
+    "question": "How does L'Hôpital's rule evaluate a limit of the form 0/0?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "absence_reason": "L'Hôpital's rule is in section 4.8, outside the corpus (2.3, 2.4, 3.1, 3.2). Checked: 'pital' and 'rule' appear on none of the 67 pages. Near-topic trap: 0/0 limits are solved on pages 171-175 by factoring/conjugates."
+  },
+  {
+    "id": "u02", "split": "dev", "type": "unanswerable",
+    "question": "What does the chain rule say about the derivative of a composite function f(g(x))?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chain rule is section 3.6, outside the corpus. Checked: 'chain rule' on 0 pages. Near-topic trap: 'composite' appears on pages 187, 195, 196 but only about continuity of composite functions, not derivatives."
+  },
+  {
+    "id": "u03", "split": "dev", "type": "unanswerable",
+    "question": "What is the formal epsilon-delta definition of a limit?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "absence_reason": "Epsilon-delta definition is section 2.5, outside the corpus. Checked: 'epsilon' on 0 pages; 'ε' only on page 186 inside Coulomb's law (ε0); 'δ' only on page 242 as Δx/Δy."
+  },
+  {
+    "id": "u04", "split": "test", "type": "unanswerable",
+    "question": "What is the product rule for the derivative of f(x)g(x)?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "absence_reason": "Product rule for derivatives is section 3.3, outside the corpus. Checked: 'product rule' and 'rule' on 0 pages. Near-topic trap: page 169 has the product LAW for LIMITS, which is a different statement."
+  },
+  {
+    "id": "u05", "split": "test", "type": "unanswerable",
+    "question": "In what year did Leibniz first publish his work on calculus?",
+    "answerable": false, "expected_behavior": "search_and_abstain",
+    "absence_reason": "Page 222 names Leibniz (1646-1716) and the priority dispute but gives no publication year. Checked: 'publish' on 0 pages; 'Leibniz' only on pages 222 and 242 (notation)."
+  }
+]

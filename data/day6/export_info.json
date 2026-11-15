@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-11-15T03:06:53+00:00",
+  "store": {
+    "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7",
+    "strategy": "C",
+    "chunks": 144,
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "chunks": 144,
+  "questions": {
+    "dev": {
+      "answerable": 18,
+      "unanswerable": 3
+    },
+    "test": {
+      "answerable": 7,
+      "unanswerable": 2
+    }
+  },
+  "gold_problems": [],
+  "license": "OpenStax Calculus Volume 1, CC BY-NC-SA 4.0. Download for free at https://openstax.org/details/books/calculus-volume-1."
+}
