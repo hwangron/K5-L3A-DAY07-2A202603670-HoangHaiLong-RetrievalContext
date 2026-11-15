@@ -1,0 +1,69 @@
+[
+  {
+    "query_id": "q09",
+    "citation_support": [],
+    "note": "Từ chối nhầm. Chunk p183-00 dài hơn 800 ký tự nên bị bỏ, context rỗng sau 3 lượt tìm.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q16",
+    "citation_support": [
+      false,
+      false
+    ],
+    "note": "Nội dung đúng nhưng từ kiến thức ngoài; 2 chunk trích chỉ có phần mở đầu IVT và đề bài.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q23",
+    "citation_support": [],
+    "note": "Từ chối nhầm. Context rỗng vì các chunk về |x| không vừa budget 800 ký tự.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [
+      false
+    ],
+    "note": "Trả lời product rule từ kiến thức ngoài, trích một chunk không liên quan.",
+    "abstention_correct": false
+  },
+  {
+    "query_id": "u05",
+    "citation_support": [],
+    "note": "Từ chối, chỉ nói thiếu thông tin.",
+    "abstention_correct": true
+  }
+]

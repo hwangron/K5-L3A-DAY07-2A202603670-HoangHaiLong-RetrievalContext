@@ -24,15 +24,22 @@ docker compose -p day6_student_starter up -d
 python -m src.export_day6 --day6 <thư mục repo Day 6>
 python -m unittest discover -s tests -v
 python -m src.eval_retrieval --split dev
-python -m src.run_agent --config A0_dense_starter --split dev
+# --agent-version: 1 = bản đầu, 2 = trả lời theo từng ý, 3 = thêm verifier (mặc định)
+python -m src.run_agent --config A0_dense_starter --split dev --agent-version 1
 python -m src.run_agent --config A1_dense_budget --split dev
 python -m src.run_agent --config A2_hybrid_rerank --split dev
 python -m src.run_agent --config A3_hybrid_rrf --split dev
-python -m src.make_reviews --config <config> --split dev
-python starter/agent_metrics.py --cases data/cases.json --traces results/agent/<config>_dev/traces.json \
-  --reviews results/agent/<config>_dev/reviews.json --split dev --output results/agent/<config>_dev/summary.json
+# sau khi viết labels.json bằng tay trong thư mục kết quả:
+python -m src.make_reviews --config <config> --split dev --agent-version <v>
+python starter/agent_metrics.py --cases data/cases.json --traces results/agent/v<v>/<config>_dev/traces.json \
+  --reviews results/agent/v<v>/<config>_dev/reviews.json --split dev --output results/agent/v<v>/<config>_dev/summary.json
+
+# test, chỉ chạy một lần sau khi chốt cấu hình (results/selection_decision.md):
+python -m src.eval_retrieval --split test
+python -m src.run_agent --config A0_dense_starter --split test --agent-version 1   # baseline
+python -m src.run_agent --config A3_hybrid_rrf --split test --agent-version 3      # cấu hình chọn
 ```
 
-Bước test làm giống bước dev, đổi `--split test`. Chỉ chạy sau khi đã chốt cấu hình.
+Model dùng `temperature 0`, nhưng kết quả chạy lại vẫn có thể lệch đôi chút. Kết quả đã chấm nằm trong `results/`.
 
 Nếu Postgres chưa chạy hoặc API lỗi, chương trình báo lỗi. Trong `run_agent`, câu bị lỗi được ghi `status: "error"`, không thay bằng kết quả giả. Embedding của query được cache trong `.cache/` để chạy lại không tốn thêm phí.

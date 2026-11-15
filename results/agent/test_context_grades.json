@@ -1,0 +1,64 @@
+{
+ "rubric": "0 = context cuối không có evidence; 1 = có nhưng thiếu điều kiện hoặc nguồn; 2 = đủ evidence và nguồn",
+ "graded_by": "đọc final_context trong traces.json; chấm tay",
+ "baseline_v1_A0_dense_starter": {
+  "q09": [
+   0,
+   "context rỗng: chunk p183-00 không vừa 800 ký tự"
+  ],
+  "q12": [
+   2,
+   "p194-00 có kết luận"
+  ],
+  "q14": [
+   2,
+   "p195-01 có định lý"
+  ],
+  "q16": [
+   0,
+   "chỉ có p197-01 (đề) và p196-02 (mở đầu IVT), thiếu lời giải p198-00"
+  ],
+  "q19": [
+   2,
+   "p228-01 có định nghĩa"
+  ],
+  "q20": [
+   2,
+   "p234-01 có −1.6°F/h"
+  ],
+  "q23": [
+   0,
+   "context rỗng"
+  ]
+ },
+ "chosen_v3_A3_hybrid_rrf": {
+  "q09": [
+   2,
+   "p183-00 có Archimedes"
+  ],
+  "q12": [
+   2,
+   "p194-00"
+  ],
+  "q14": [
+   2,
+   "p195-01"
+  ],
+  "q16": [
+   0,
+   "có đề p197-01 nhưng thiếu lời giải p198-00 (chunk Day 6 tách đề và lời giải)"
+  ],
+  "q19": [
+   2,
+   "p228-01"
+  ],
+  "q20": [
+   2,
+   "p234-01"
+  ],
+  "q23": [
+   2,
+   "p245-01 có |x| và hai giới hạn một phía"
+  ]
+ }
+}

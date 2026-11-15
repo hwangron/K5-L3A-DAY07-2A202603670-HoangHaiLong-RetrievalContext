@@ -1,0 +1,353 @@
+[
+  {
+    "query_id": "q09",
+    "question": "Which ancient mathematician estimated the area of a circle using polygons drawn inside it?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p183-struct-00",
+        "page": 183,
+        "section": "2.3",
+        "score": 21.19377,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p183-struct-01",
+        "page": 183,
+        "section": "2.3",
+        "score": 17.7224,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p168-struct-00",
+        "page": 168,
+        "section": "2.3",
+        "score": 11.28883,
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p183-struct-00",
+          "openstax-calc1-p183-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 0.3
+  },
+  {
+    "query_id": "q12",
+    "question": "What kind of discontinuity does f(x) = (x + 2)/(x + 1) have at x = −1?",
+    "filter": {
+      "chapter": 2
+    },
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p194-struct-00",
+        "page": 194,
+        "section": "2.4",
+        "score": 10.92411,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p193-struct-02",
+        "page": 193,
+        "section": "2.4",
+        "score": 10.06045,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p200-struct-01",
+        "page": 200,
+        "section": "2.4",
+        "score": 9.84117,
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p194-struct-00"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p194-struct-00",
+          "openstax-calc1-p193-struct-02",
+          "openstax-calc1-p200-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 0.4
+  },
+  {
+    "query_id": "q14",
+    "question": "What does the composite function theorem say?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p196-struct-00",
+        "page": 196,
+        "section": "2.4",
+        "score": 10.18249,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p195-struct-01",
+        "page": 195,
+        "section": "2.4",
+        "score": 9.90219,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p187-struct-00",
+        "page": 187,
+        "section": "2.4",
+        "score": 6.28038,
+        "hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p196-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p196-struct-00",
+          "openstax-calc1-p195-struct-01",
+          "openstax-calc1-p187-struct-00"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 0.3
+  },
+  {
+    "query_id": "q16",
+    "question": "If f is continuous on [0, 2] and f(0) > 0 and f(2) > 0, does the Intermediate Value Theorem prove f has no zero there?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p198-struct-01",
+        "page": 198,
+        "section": "2.4",
+        "score": 30.5601,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p197-struct-01",
+        "page": 197,
+        "section": "2.4",
+        "score": 29.56033,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p197-struct-00",
+        "page": 197,
+        "section": "2.4",
+        "score": 27.82255,
+        "hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p198-struct-01"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p198-struct-01",
+          "openstax-calc1-p197-struct-01",
+          "openstax-calc1-p197-struct-00"
+        ],
+        "evidence": false
+      }
+    },
+    "elapsed_ms": 0.7
+  },
+  {
+    "query_id": "q19",
+    "question": "How is the derivative of a function f at a point a defined?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p240-struct-01",
+        "page": 240,
+        "section": "3.2",
+        "score": 9.61004,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p228-struct-01",
+        "page": 228,
+        "section": "3.1",
+        "score": 7.86697,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p188-struct-01",
+        "page": 188,
+        "section": "2.4",
+        "score": 7.43084,
+        "hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p228-struct-01"
+        ],
+        "evidence": true
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p240-struct-01",
+          "openstax-calc1-p228-struct-01",
+          "openstax-calc1-p188-struct-01"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 0.3
+  },
+  {
+    "query_id": "q20",
+    "question": "In the thermostat example, how fast is the house temperature changing at midnight?",
+    "filter": null,
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p234-struct-00",
+        "page": 234,
+        "section": "3.1",
+        "score": 21.28578,
+        "hit": false
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p234-struct-01",
+        "page": 234,
+        "section": "3.1",
+        "score": 8.88716,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p253-struct-02",
+        "page": 253,
+        "section": "3.2",
+        "score": 3.93557,
+        "hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p234-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p234-struct-00",
+          "openstax-calc1-p234-struct-01",
+          "openstax-calc1-p253-struct-02"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 0.3
+  },
+  {
+    "query_id": "q23",
+    "question": "Why is f(x) = |x| not differentiable at 0?",
+    "filter": {
+      "section": "3.2"
+    },
+    "results": [
+      {
+        "rank": 1,
+        "id": "openstax-calc1-p247-struct-00",
+        "page": 247,
+        "section": "3.2",
+        "score": 10.85209,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "id": "openstax-calc1-p246-struct-00",
+        "page": 246,
+        "section": "3.2",
+        "score": 10.0633,
+        "hit": false
+      },
+      {
+        "rank": 3,
+        "id": "openstax-calc1-p245-struct-00",
+        "page": 245,
+        "section": "3.2",
+        "score": 9.34697,
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context": {
+      "800": {
+        "ids": [
+          "openstax-calc1-p245-struct-00"
+        ],
+        "evidence": false
+      },
+      "3000": {
+        "ids": [
+          "openstax-calc1-p247-struct-00",
+          "openstax-calc1-p246-struct-00",
+          "openstax-calc1-p245-struct-00"
+        ],
+        "evidence": true
+      }
+    },
+    "elapsed_ms": 0.2
+  }
+]

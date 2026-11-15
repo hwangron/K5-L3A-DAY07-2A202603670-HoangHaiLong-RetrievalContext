@@ -1,0 +1,51 @@
+{
+ "q09": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q12": {
+  "grade": 2,
+  "unsupported": [
+   "openstax-calc1-p193-struct-02",
+   "openstax-calc1-p192-struct-02"
+  ],
+  "note": "Đúng nhờ p194-00. 2 citation còn lại chỉ có đề bài/định nghĩa, không nêu kết luận."
+ },
+ "q14": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q16": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p197-struct-01"
+  ],
+  "note": "Hiểu sai câu hỏi (\"không chứng minh f có nghiệm\"). Chunk trích chỉ là đề; lời giải p198-00 không được tìm thấy. Verifier để lọt."
+ },
+ "q19": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q20": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q23": {
+  "grade": 2,
+  "note": "Đúng; p245-01 có giới hạn trái −1, phải 1."
+ },
+ "u04": {
+  "abstention_correct": true,
+  "note": "Verifier bác câu trả lời product rule không có nguồn, sau đó agent từ chối."
+ },
+ "u05": {
+  "abstention_correct": false,
+  "unsupported": [
+   "openstax-calc1-p222-struct-02",
+   "openstax-calc1-p222-struct-01",
+   "openstax-calc1-p196-struct-02",
+   "openstax-calc1-p222-struct-00"
+  ],
+  "note": "Không bịa năm, nhưng gọi answer (status answered) với câu \"tài liệu không nêu năm\" và 4 citation thay vì abstain."
+ }
+}

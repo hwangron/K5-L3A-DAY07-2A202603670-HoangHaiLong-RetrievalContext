@@ -1,0 +1,45 @@
+{
+ "q09": {
+  "grade": 0,
+  "note": "Từ chối nhầm. Chunk p183-00 dài hơn 800 ký tự nên bị bỏ, context rỗng sau 3 lượt tìm."
+ },
+ "q12": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q14": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q16": {
+  "grade": 0,
+  "unsupported": [
+   "openstax-calc1-p196-struct-02",
+   "openstax-calc1-p197-struct-01"
+  ],
+  "note": "Nội dung đúng nhưng từ kiến thức ngoài; 2 chunk trích chỉ có phần mở đầu IVT và đề bài."
+ },
+ "q19": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q20": {
+  "grade": 2,
+  "note": "Đúng, chunk trích nêu rõ ý chính."
+ },
+ "q23": {
+  "grade": 0,
+  "note": "Từ chối nhầm. Context rỗng vì các chunk về |x| không vừa budget 800 ký tự."
+ },
+ "u04": {
+  "abstention_correct": false,
+  "unsupported": [
+   "openstax-calc1-p240-struct-02"
+  ],
+  "note": "Trả lời product rule từ kiến thức ngoài, trích một chunk không liên quan."
+ },
+ "u05": {
+  "abstention_correct": true,
+  "note": "Từ chối, chỉ nói thiếu thông tin."
+ }
+}

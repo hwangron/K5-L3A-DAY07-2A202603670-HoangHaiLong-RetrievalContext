@@ -1,0 +1,77 @@
+[
+  {
+    "query_id": "q09",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q12",
+    "citation_support": [
+      true,
+      false,
+      false
+    ],
+    "note": "Đúng nhờ p194-00. 2 citation còn lại chỉ có đề bài/định nghĩa, không nêu kết luận.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q14",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q16",
+    "citation_support": [
+      false
+    ],
+    "note": "Hiểu sai câu hỏi (\"không chứng minh f có nghiệm\"). Chunk trích chỉ là đề; lời giải p198-00 không được tìm thấy. Verifier để lọt.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng, chunk trích nêu rõ ý chính.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q23",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng; p245-01 có giới hạn trái −1, phải 1.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "note": "Verifier bác câu trả lời product rule không có nguồn, sau đó agent từ chối.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u05",
+    "citation_support": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "note": "Không bịa năm, nhưng gọi answer (status answered) với câu \"tài liệu không nêu năm\" và 4 citation thay vì abstain.",
+    "abstention_correct": false
+  }
+]

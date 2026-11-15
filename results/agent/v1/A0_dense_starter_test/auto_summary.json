@@ -1,0 +1,46 @@
+{
+  "config": "A0_dense_starter",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget_chars": 800,
+  "context_order": "keep_first",
+  "max_searches": 3,
+  "note": "Baseline: dense on Day 6 store, starter defaults (top-3, 800 chars, keep earlier chunks first)",
+  "split": "test",
+  "model": "gpt-4.1-mini",
+  "agent_version": 1,
+  "run_at": "2026-11-15T03:33:32+00:00",
+  "cases": 9,
+  "errors": 0,
+  "status": {
+    "abstain": 3,
+    "answered": 6
+  },
+  "tool_use": {
+    "n": 9,
+    "N": 9
+  },
+  "searches_distribution": {
+    "1": 4,
+    "3": 5
+  },
+  "context_evidence": {
+    "n": 4,
+    "N": 7
+  },
+  "false_abstention_auto": {
+    "n": 2,
+    "N": 7
+  },
+  "unanswerable_abstained_auto": {
+    "n": 1,
+    "N": 2
+  },
+  "avg_context_chars": 422.7,
+  "input_tokens": 18652,
+  "output_tokens": 1930,
+  "llm_cost_usd": 0.01055,
+  "embedding_cost_usd": 4e-06,
+  "median_latency_s": 4.62,
+  "total_latency_s": 42.4
+}

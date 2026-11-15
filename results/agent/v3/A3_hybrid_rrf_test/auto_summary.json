@@ -1,0 +1,47 @@
+{
+  "config": "A3_hybrid_rrf",
+  "retriever": "hybrid_rrf",
+  "top_k": 3,
+  "budget_chars": 3000,
+  "context_order": "rank_interleave",
+  "max_searches": 3,
+  "note": "Improvement 3 (added after dev retrieval run): RRF without rerank had the best dev Hit@3 (18/18); rerank lost q02",
+  "split": "test",
+  "model": "gpt-4.1-mini",
+  "agent_version": 3,
+  "run_at": "2026-11-15T03:34:09+00:00",
+  "cases": 9,
+  "errors": 0,
+  "status": {
+    "answered": 8,
+    "abstain": 1
+  },
+  "tool_use": {
+    "n": 9,
+    "N": 9
+  },
+  "searches_distribution": {
+    "1": 6,
+    "2": 1,
+    "3": 2
+  },
+  "context_evidence": {
+    "n": 6,
+    "N": 7
+  },
+  "false_abstention_auto": {
+    "n": 0,
+    "N": 7
+  },
+  "unanswerable_abstained_auto": {
+    "n": 1,
+    "N": 2
+  },
+  "avg_context_chars": 2246.2,
+  "input_tokens": 25521,
+  "output_tokens": 1939,
+  "llm_cost_usd": 0.01331,
+  "embedding_cost_usd": 1e-06,
+  "median_latency_s": 3.45,
+  "total_latency_s": 35.6
+}
