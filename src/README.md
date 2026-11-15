@@ -40,6 +40,8 @@ python -m src.run_agent --config A0_dense_starter --split test --agent-version 1
 python -m src.run_agent --config A3_hybrid_rrf --split test --agent-version 3      # cấu hình chọn
 ```
 
+Lần chạy đầu tiên của `hybrid_rerank` cần mạng để tải model rerank `cross-encoder/ms-marco-MiniLM-L6-v2` (không phải gói pip, không nằm trong `requirements.txt`) từ HuggingFace vào cache; các lần sau dùng lại.
+
 Model dùng `temperature 0`, nhưng kết quả chạy lại vẫn có thể lệch đôi chút. Kết quả đã chấm nằm trong `results/`.
 
 Nếu Postgres chưa chạy hoặc API lỗi, chương trình báo lỗi. Trong `run_agent`, câu bị lỗi được ghi `status: "error"`, không thay bằng kết quả giả. Embedding của query được cache trong `.cache/` để chạy lại không tốn thêm phí.
